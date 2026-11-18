@@ -1,0 +1,191 @@
+[
+  {
+    "batch": "E2",
+    "index": 0,
+    "project": "robust_design_lab/results/q3d_shape_sweep_2026-10-26/sweep_A_dual_pad_1794062743.aedt",
+    "profile": "robust_design_lab/results/q3d_shape_sweep_2026-10-26/sweep_A_dual_pad_1794062743.aedtresults/Design_q3d.results/DV19_S16_V0.profile",
+    "native_matrix": "robust_design_lab/results/q3d_shape_sweep_2026-10-26/sweep_A_dual_pad_1794062743.aedtresults/Design_q3d.results/DV19_SOL17_MCAP0_V0.sd",
+    "original_export": "[REDACTED: external machine path]/tmpm3t22kdt.txt",
+    "export_snapshot": "recovered_exports/E2_00.txt"
+  },
+  {
+    "batch": "E2",
+    "index": 1,
+    "project": "robust_design_lab/results/q3d_shape_sweep_2026-10-26/sweep_A_dual_pad_1794062845.aedt",
+    "profile": "robust_design_lab/results/q3d_shape_sweep_2026-10-26/sweep_A_dual_pad_1794062845.aedtresults/Design_q3d.results/DV19_S16_V0.profile",
+    "native_matrix": "robust_design_lab/results/q3d_shape_sweep_2026-10-26/sweep_A_dual_pad_1794062845.aedtresults/Design_q3d.results/DV19_SOL17_MCAP0_V0.sd",
+    "original_export": "[REDACTED: external machine path]/tmpysy0pvg1.txt",
+    "export_snapshot": "recovered_exports/E2_01.txt"
+  },
+  {
+    "batch": "E2",
+    "index": 2,
+    "project": "robust_design_lab/results/q3d_shape_sweep_2026-10-26/sweep_A_dual_pad_1794062998.aedt",
+    "profile": "robust_design_lab/results/q3d_shape_sweep_2026-10-26/sweep_A_dual_pad_1794062998.aedtresults/Design_q3d.results/DV19_S16_V0.profile",
+    "native_matrix": "robust_design_lab/results/q3d_shape_sweep_2026-10-26/sweep_A_dual_pad_1794062998.aedtresults/Design_q3d.results/DV19_SOL17_MCAP0_V0.sd",
+    "original_export": "[REDACTED: external machine path]/tmp5hbs2mh_.txt",
+    "export_snapshot": "recovered_exports/E2_02.txt"
+  },
+  {
+    "batch": "E2",
+    "index": 3,
+    "project": "robust_design_lab/results/q3d_shape_sweep_2026-10-26/sweep_A_dual_pad_1794063119.aedt",
+    "profile": "robust_design_lab/results/q3d_shape_sweep_2026-10-26/sweep_A_dual_pad_1794063119.aedtresults/Design_q3d.results/DV19_S16_V0.profile",
+    "native_matrix": "robust_design_lab/results/q3d_shape_sweep_2026-10-26/sweep_A_dual_pad_1794063119.aedtresults/Design_q3d.results/DV19_SOL17_MCAP0_V0.sd",
+    "original_export": "[REDACTED: external machine path]/tmp00tddvp7.txt",
+    "export_snapshot": "recovered_exports/E2_03.txt"
+  },
+  {
+    "batch": "E2",
+    "index": 4,
+    "project": "robust_design_lab/results/q3d_shape_sweep_2026-10-26/sweep_A_dual_pad_1794063240.aedt",
+    "profile": "robust_design_lab/results/q3d_shape_sweep_2026-10-26/sweep_A_dual_pad_1794063240.aedtresults/Design_q3d.results/DV15_S12_V0.profile",
+    "native_matrix": "robust_design_lab/results/q3d_shape_sweep_2026-10-26/sweep_A_dual_pad_1794063240.aedtresults/Design_q3d.results/DV15_SOL13_MCAP0_V0.sd",
+    "original_export": "[REDACTED: external machine path]/tmpmo69ueon.txt",
+    "export_snapshot": "recovered_exports/E2_04.txt"
+  },
+  {
+    "batch": "E2",
+    "index": 5,
+    "project": "robust_design_lab/results/q3d_shape_sweep_2026-10-26/sweep_A_dual_pad_1794063329.aedt",
+    "profile": "robust_design_lab/results/q3d_shape_sweep_2026-10-26/sweep_A_dual_pad_1794063329.aedtresults/Design_q3d.results/DV15_S12_V0.profile",
+    "native_matrix": "robust_design_lab/results/q3d_shape_sweep_2026-10-26/sweep_A_dual_pad_1794063329.aedtresults/Design_q3d.results/DV15_SOL13_MCAP0_V0.sd",
+    "original_export": "[REDACTED: external machine path]/tmpuoljv3v4.txt",
+    "export_snapshot": "recovered_exports/E2_05.txt"
+  },
+  {
+    "batch": "E2",
+    "index": 6,
+    "project": "robust_design_lab/results/q3d_shape_sweep_2026-10-26/sweep_A_dual_pad_1794063460.aedt",
+    "profile": "robust_design_lab/results/q3d_shape_sweep_2026-10-26/sweep_A_dual_pad_1794063460.aedtresults/Design_q3d.results/DV15_S12_V0.profile",
+    "native_matrix": "robust_design_lab/results/q3d_shape_sweep_2026-10-26/sweep_A_dual_pad_1794063460.aedtresults/Design_q3d.results/DV15_SOL13_MCAP0_V0.sd",
+    "original_export": "[REDACTED: external machine path]/tmppvhwn0q8.txt",
+    "export_snapshot": "recovered_exports/E2_06.txt"
+  },
+  {
+    "batch": "E2",
+    "index": 7,
+    "project": "robust_design_lab/results/q3d_shape_sweep_2026-10-26/sweep_A_dual_pad_1794065272.aedt",
+    "profile": "robust_design_lab/results/q3d_shape_sweep_2026-10-26/sweep_A_dual_pad_1794065272.aedtresults/Design_q3d.results/DV15_S12_V0.profile",
+    "native_matrix": "robust_design_lab/results/q3d_shape_sweep_2026-10-26/sweep_A_dual_pad_1794065272.aedtresults/Design_q3d.results/DV15_SOL13_MCAP0_V0.sd",
+    "original_export": "[REDACTED: external machine path]/tmpdzdueede.txt",
+    "export_snapshot": "recovered_exports/E2_07.txt"
+  },
+  {
+    "batch": "B",
+    "index": 0,
+    "project": "robust_design_lab/results/q3d_shape_sweep_2026-10-26/sweep_A_dual_pad_1794067554.aedt",
+    "profile": "robust_design_lab/results/q3d_shape_sweep_2026-10-26/sweep_A_dual_pad_1794067554.aedtresults/Design_q3d.results/DV19_S16_V0.profile",
+    "native_matrix": "robust_design_lab/results/q3d_shape_sweep_2026-10-26/sweep_A_dual_pad_1794067554.aedtresults/Design_q3d.results/DV19_SOL17_MCAP0_V0.sd",
+    "original_export": "[REDACTED: external machine path]/tmp2bazjafs.txt",
+    "export_snapshot": "recovered_exports/B_00.txt"
+  },
+  {
+    "batch": "B",
+    "index": 1,
+    "project": "robust_design_lab/results/q3d_shape_sweep_2026-10-26/sweep_A_dual_pad_1794067728.aedt",
+    "profile": "robust_design_lab/results/q3d_shape_sweep_2026-10-26/sweep_A_dual_pad_1794067728.aedtresults/Design_q3d.results/DV19_S16_V0.profile",
+    "native_matrix": "robust_design_lab/results/q3d_shape_sweep_2026-10-26/sweep_A_dual_pad_1794067728.aedtresults/Design_q3d.results/DV19_SOL17_MCAP0_V0.sd",
+    "original_export": "[REDACTED: external machine path]/tmph3ja4xhi.txt",
+    "export_snapshot": "recovered_exports/B_01.txt"
+  },
+  {
+    "batch": "B",
+    "index": 2,
+    "project": "robust_design_lab/results/q3d_shape_sweep_2026-10-26/sweep_A_dual_pad_1794067923.aedt",
+    "profile": "robust_design_lab/results/q3d_shape_sweep_2026-10-26/sweep_A_dual_pad_1794067923.aedtresults/Design_q3d.results/DV19_S16_V0.profile",
+    "native_matrix": "robust_design_lab/results/q3d_shape_sweep_2026-10-26/sweep_A_dual_pad_1794067923.aedtresults/Design_q3d.results/DV19_SOL17_MCAP0_V0.sd",
+    "original_export": "[REDACTED: external machine path]/tmpevnpi29c.txt",
+    "export_snapshot": "recovered_exports/B_02.txt"
+  },
+  {
+    "batch": "B",
+    "index": 3,
+    "project": "robust_design_lab/results/q3d_shape_sweep_2026-10-26/sweep_A_dual_pad_1794068075.aedt",
+    "profile": "robust_design_lab/results/q3d_shape_sweep_2026-10-26/sweep_A_dual_pad_1794068075.aedtresults/Design_q3d.results/DV19_S16_V0.profile",
+    "native_matrix": "robust_design_lab/results/q3d_shape_sweep_2026-10-26/sweep_A_dual_pad_1794068075.aedtresults/Design_q3d.results/DV19_SOL17_MCAP0_V0.sd",
+    "original_export": "[REDACTED: external machine path]/tmp6ttk851b.txt",
+    "export_snapshot": "recovered_exports/B_03.txt"
+  },
+  {
+    "batch": "B",
+    "index": 4,
+    "project": "robust_design_lab/results/q3d_shape_sweep_2026-10-26/sweep_A_dual_pad_1794068217.aedt",
+    "profile": "robust_design_lab/results/q3d_shape_sweep_2026-10-26/sweep_A_dual_pad_1794068217.aedtresults/Design_q3d.results/DV19_S16_V0.profile",
+    "native_matrix": "robust_design_lab/results/q3d_shape_sweep_2026-10-26/sweep_A_dual_pad_1794068217.aedtresults/Design_q3d.results/DV19_SOL17_MCAP0_V0.sd",
+    "original_export": "[REDACTED: external machine path]/tmp2_adbh3r.txt",
+    "export_snapshot": "recovered_exports/B_04.txt"
+  },
+  {
+    "batch": "B",
+    "index": 5,
+    "project": "robust_design_lab/results/q3d_shape_sweep_2026-10-26/sweep_A_dual_pad_1794068341.aedt",
+    "profile": "robust_design_lab/results/q3d_shape_sweep_2026-10-26/sweep_A_dual_pad_1794068341.aedtresults/Design_q3d.results/DV19_S16_V0.profile",
+    "native_matrix": "robust_design_lab/results/q3d_shape_sweep_2026-10-26/sweep_A_dual_pad_1794068341.aedtresults/Design_q3d.results/DV19_SOL17_MCAP0_V0.sd",
+    "original_export": "[REDACTED: external machine path]/tmpyosqw2zp.txt",
+    "export_snapshot": "recovered_exports/B_05.txt"
+  },
+  {
+    "batch": "B",
+    "index": 6,
+    "project": "robust_design_lab/results/q3d_shape_sweep_2026-10-26/sweep_A_dual_pad_1794068500.aedt",
+    "profile": "robust_design_lab/results/q3d_shape_sweep_2026-10-26/sweep_A_dual_pad_1794068500.aedtresults/Design_q3d.results/DV15_S12_V0.profile",
+    "native_matrix": "robust_design_lab/results/q3d_shape_sweep_2026-10-26/sweep_A_dual_pad_1794068500.aedtresults/Design_q3d.results/DV15_SOL13_MCAP0_V0.sd",
+    "original_export": "[REDACTED: external machine path]/tmp57h0nvfl.txt",
+    "export_snapshot": "recovered_exports/B_06.txt"
+  },
+  {
+    "batch": "B",
+    "index": 7,
+    "project": "robust_design_lab/results/q3d_shape_sweep_2026-10-26/sweep_A_dual_pad_1794071004.aedt",
+    "profile": "robust_design_lab/results/q3d_shape_sweep_2026-10-26/sweep_A_dual_pad_1794071004.aedtresults/Design_q3d.results/DV15_S12_V0.profile",
+    "native_matrix": "robust_design_lab/results/q3d_shape_sweep_2026-10-26/sweep_A_dual_pad_1794071004.aedtresults/Design_q3d.results/DV15_SOL13_MCAP0_V0.sd",
+    "original_export": "[REDACTED: external machine path]/tmp_nq8hg2v.txt",
+    "export_snapshot": "recovered_exports/B_07.txt"
+  },
+  {
+    "batch": "B",
+    "index": 8,
+    "project": "robust_design_lab/results/q3d_shape_sweep_2026-10-26/sweep_A_dual_pad_1794073535.aedt",
+    "profile": "robust_design_lab/results/q3d_shape_sweep_2026-10-26/sweep_A_dual_pad_1794073535.aedtresults/Design_q3d.results/DV15_S12_V0.profile",
+    "native_matrix": "robust_design_lab/results/q3d_shape_sweep_2026-10-26/sweep_A_dual_pad_1794073535.aedtresults/Design_q3d.results/DV15_SOL13_MCAP0_V0.sd",
+    "original_export": "[REDACTED: external machine path]/tmp4ajtr9ys.txt",
+    "export_snapshot": "recovered_exports/B_08.txt"
+  },
+  {
+    "batch": "E_old",
+    "index": 4,
+    "project": "robust_design_lab/results/q3d_shape_sweep_2026-10-26/sweep_A_dual_pad_1794028550.aedt",
+    "profile": "robust_design_lab/results/q3d_shape_sweep_2026-10-26/sweep_A_dual_pad_1794028550.aedtresults/Design_q3d.results/DV15_S12_V0.profile",
+    "native_matrix": "robust_design_lab/results/q3d_shape_sweep_2026-10-26/sweep_A_dual_pad_1794028550.aedtresults/Design_q3d.results/DV15_SOL13_MCAP0_V0.sd",
+    "original_export": "[REDACTED: external machine path]/tmp413eqr4a.txt",
+    "export_snapshot": "recovered_exports/E_old_04.txt"
+  },
+  {
+    "batch": "E_old",
+    "index": 5,
+    "project": "robust_design_lab/results/q3d_shape_sweep_2026-10-26/sweep_A_dual_pad_1794028837.aedt",
+    "profile": "robust_design_lab/results/q3d_shape_sweep_2026-10-26/sweep_A_dual_pad_1794028837.aedtresults/Design_q3d.results/DV15_S12_V0.profile",
+    "native_matrix": "robust_design_lab/results/q3d_shape_sweep_2026-10-26/sweep_A_dual_pad_1794028837.aedtresults/Design_q3d.results/DV15_SOL13_MCAP0_V0.sd",
+    "original_export": "[REDACTED: external machine path]/tmphevylkvo.txt",
+    "export_snapshot": "recovered_exports/E_old_05.txt"
+  },
+  {
+    "batch": "E_old",
+    "index": 8,
+    "project": "robust_design_lab/results/q3d_shape_sweep_2026-10-26/sweep_A_dual_pad_1794032694.aedt",
+    "profile": "robust_design_lab/results/q3d_shape_sweep_2026-10-26/sweep_A_dual_pad_1794032694.aedtresults/Design_q3d.results/DV15_S12_V0.profile",
+    "native_matrix": "robust_design_lab/results/q3d_shape_sweep_2026-10-26/sweep_A_dual_pad_1794032694.aedtresults/Design_q3d.results/DV15_SOL13_MCAP0_V0.sd",
+    "original_export": "[REDACTED: external machine path]/tmp_0zjlvam.txt",
+    "export_snapshot": "recovered_exports/E_old_08.txt"
+  },
+  {
+    "batch": "E_old",
+    "index": 9,
+    "project": "robust_design_lab/results/q3d_shape_sweep_2026-10-26/sweep_A_dual_pad_1794032793.aedt",
+    "profile": "robust_design_lab/results/q3d_shape_sweep_2026-10-26/sweep_A_dual_pad_1794032793.aedtresults/Design_q3d.results/DV15_S12_V0.profile",
+    "native_matrix": "robust_design_lab/results/q3d_shape_sweep_2026-10-26/sweep_A_dual_pad_1794032793.aedtresults/Design_q3d.results/DV15_SOL13_MCAP0_V0.sd",
+    "original_export": "[REDACTED: external machine path]/tmpn2x2u4ig.txt",
+    "export_snapshot": "recovered_exports/E_old_09.txt"
+  }
+]

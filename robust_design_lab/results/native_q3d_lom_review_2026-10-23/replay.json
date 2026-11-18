@@ -1,0 +1,305 @@
+{
+  "scope": "Native LOManalysis replay using rounded matrices stored in tutorials; no Ansys rerun and no physical solver modification",
+  "python": "[REDACTED: external machine path]/python.exe",
+  "PYTHONNOUSERSITE": "1",
+  "source_sha256": {
+    "docs/tut/4-Analysis/4.01-Capacitance-and-LOM.ipynb": "7d8f1b66c48dee2f5eb88edf43ba6a00a567b8db2bf88152792b44b147dd138f",
+    "docs/tut/4-Analysis/4.11-Analyze-and-tune-a-transmon.ipynb": "03d57875e43ca55fbe2235f1f4e90138daf3b3608a5542cbf8456d6f8db75e87",
+    "src/qiskit_metal/analyses/quantization/lumped_oscillator_model.py": "07f38c55e4e5e763aa35d1c3b677fff48ca23da014e6fd242732ee7aaf42b6ec",
+    "src/qiskit_metal/analyses/quantization/lumped_capacitive.py": "28c802fd1d96c2d6b98e7b2e29a5f76a2135b71c89c73ddcac6da855c7689ea2",
+    "src/qiskit_metal/analyses/quantization/constants.py": "794967138b72a9ed3a4e074bb0359098eb91f57ff06c433d6a58c9be019afd4b",
+    "src/qiskit_metal/analyses/simulation/lumped_elements.py": "3c769c395079422c30f371782cb1cf027408952e6e6beaa5d44667c96b6b9cf1",
+    "src/qiskit_metal/renderers/renderer_ansys/q3d_renderer.py": "cfbbb1ade9c923bf146f03511e94285e9cea5b93c09cd7a5b447c08d27ecef35"
+  },
+  "cases": [
+    {
+      "notebook": "docs/tut/4-Analysis/4.01-Capacitance-and-LOM.ipynb",
+      "matrix_cell_zero_based": 20,
+      "lom_cell_zero_based": 23,
+      "matrix_units": "fF",
+      "matrix_nodes": [
+        "bus1_connector_pad_Q1",
+        "bus2_connector_pad_Q1",
+        "ground_main_plane",
+        "pad_bot_Q1",
+        "pad_top_Q1",
+        "readout_connector_pad_Q1"
+      ],
+      "matrix_values": [
+        [
+          49.77794,
+          -0.4256,
+          -33.50861,
+          -1.57029,
+          -13.15538,
+          -0.20494
+        ],
+        [
+          -0.4256,
+          54.01885,
+          -35.77522,
+          -13.99741,
+          -1.82852,
+          -1.01319
+        ],
+        [
+          -33.50861,
+          -35.77522,
+          237.69029,
+          -31.53485,
+          -37.88741,
+          -36.55732
+        ],
+        [
+          -1.57029,
+          -13.99741,
+          -31.53485,
+          98.20667,
+          -30.07382,
+          -18.8649
+        ],
+        [
+          -13.15538,
+          -1.82852,
+          -37.88741,
+          -30.07382,
+          87.85076,
+          -2.20122
+        ],
+        [
+          -0.20494,
+          -1.01319,
+          -36.55732,
+          -18.8649,
+          -2.20122,
+          59.92347
+        ]
+      ],
+      "settings": {
+        "Lj_nH": 12.31,
+        "Cj_fF": 2.0,
+        "readout_GHz": 7.0,
+        "bus_GHz": [
+          6.0,
+          6.2
+        ]
+      },
+      "current_native_LOManalysis": {
+        "comparison": {
+          "fQ": {
+            "current": 5.423769845668858,
+            "notebook": 5.424935,
+            "difference": -0.0011651543311419488
+          },
+          "EC": {
+            "current": 311.97695939305873,
+            "notebook": 311.976959,
+            "difference": 3.9305871268879855e-07
+          },
+          "EJ": {
+            "current": 13.268051282322011,
+            "notebook": 13.273404,
+            "difference": -0.0053527176779883945
+          },
+          "alpha": {
+            "current": -363.80717490726863,
+            "notebook": -363.792421,
+            "difference": -0.014753907268641342
+          },
+          "dispersion": {
+            "current": 46.6983592710495,
+            "notebook": 46.550369,
+            "difference": 0.14799027104949403
+          }
+        },
+        "gbus_MHz": [
+          114.25427177672748,
+          -85.82314898158162,
+          73.75774079763681
+        ],
+        "chi_MHz": [
+          -3.1695009310636504,
+          -9.936352970824855,
+          -4.503325795336122
+        ],
+        "printed_Purcell_T1_us": 35.434806,
+        "T1_in_returned_dictionary": false,
+        "stdout": "[3, 4] [5 0 1]\nPredicted Values\n\nTransmon Properties\nf_Q 5.423770 [GHz]\nEC 311.976959 [MHz]\nEJ 13.268051 [GHz]\nalpha -363.807175 [MHz]\ndispersion 46.698359 [KHz]\nLq 12.310000 [nH]\nCq 62.088650 [fF]\nT1 35.434806 [us]\n\n**Coupling Properties**\n\ntCqbus1 7.383750 [fF]\ngbus1_in_MHz 114.254272 [MHz]\nχ_bus1 -3.169501 [MHz]\n1/T1bus1 2803.879666 [Hz]\nT1bus1 56.762401 [us]\n\ntCqbus2 -6.455281 [fF]\ngbus2_in_MHz -85.823149 [MHz]\nχ_bus2 -9.936353 [MHz]\n1/T1bus2 1200.084384 [Hz]\nT1bus2 132.619793 [us]\n\ntCqbus3 5.372192 [fF]\ngbus3_in_MHz 73.757741 [MHz]\nχ_bus3 -4.503326 [MHz]\n1/T1bus3 487.522173 [Hz]\nT1bus3 326.456830 [us]\nBus-Bus Couplings\ngbus1_2 7.097123 [MHz]\ngbus1_3 9.957495 [MHz]\ngbus2_3 5.377146 [MHz]\n"
+      },
+      "native_extractor_with_pyEPR_Ic": {
+        "comparison": {
+          "fQ": {
+            "current": 5.424935483339135,
+            "notebook": 5.424935,
+            "difference": 4.833391349379212e-07
+          },
+          "EC": {
+            "current": 311.97695939305873,
+            "notebook": 311.976959,
+            "difference": 3.9305871268879855e-07
+          },
+          "EJ": {
+            "current": 13.273403746838005,
+            "notebook": 13.273404,
+            "difference": -2.531619944790009e-07
+          },
+          "alpha": {
+            "current": -363.79242059821013,
+            "notebook": -363.792421,
+            "difference": 4.0178986182581866e-07
+          },
+          "dispersion": {
+            "current": 46.550369110107425,
+            "notebook": 46.550369,
+            "difference": 1.1010742184680566e-07
+          }
+        },
+        "gbus_MHz": [
+          114.26579286281127,
+          -85.83180315154853,
+          73.76517832507331
+        ],
+        "chi_MHz": [
+          -3.1741912468041344,
+          -9.970469520050573,
+          -4.515417370041789
+        ],
+        "printed_Purcell_T1_us": 35.336766,
+        "T1_in_returned_dictionary": false,
+        "stdout": "[3, 4] [5 0 1]\nPredicted Values\n\nTransmon Properties\nf_Q 5.424935 [GHz]\nEC 311.976959 [MHz]\nEJ 13.273404 [GHz]\nalpha -363.792421 [MHz]\ndispersion 46.550369 [KHz]\nLq 12.305036 [nH]\nCq 62.088650 [fF]\nT1 35.336766 [us]\n\n**Coupling Properties**\n\ntCqbus1 7.383750 [fF]\ngbus1_in_MHz 114.265793 [MHz]\nχ_bus1 -3.174191 [MHz]\n1/T1bus1 2809.277762 [Hz]\nT1bus1 56.653331 [us]\n\ntCqbus2 -6.455281 [fF]\ngbus2_in_MHz -85.831803 [MHz]\nχ_bus2 -9.970470 [MHz]\n1/T1bus2 1205.469467 [Hz]\nT1bus2 132.027353 [us]\n\ntCqbus3 5.372192 [fF]\ngbus3_in_MHz 73.765178 [MHz]\nχ_bus3 -4.515417 [MHz]\n1/T1bus3 489.200415 [Hz]\nT1bus3 325.336893 [us]\nBus-Bus Couplings\ngbus1_2 7.097123 [MHz]\ngbus1_3 9.957495 [MHz]\ngbus2_3 5.377146 [MHz]\n"
+      },
+      "notebook_printed_Purcell_T1_us": 35.336766,
+      "matrix_symmetry_error": 0.0
+    },
+    {
+      "notebook": "docs/tut/4-Analysis/4.11-Analyze-and-tune-a-transmon.ipynb",
+      "matrix_cell_zero_based": 54,
+      "lom_cell_zero_based": 56,
+      "matrix_units": "fF",
+      "matrix_nodes": [
+        "ground_main_plane",
+        "pad_bot_Q1",
+        "pad_top_Q1",
+        "readout_connector_pad_Q1"
+      ],
+      "matrix_values": [
+        [
+          177.78538,
+          -44.74611,
+          -38.34722,
+          -37.03041
+        ],
+        [
+          -44.74611,
+          82.84141,
+          -32.48515,
+          -2.3076
+        ],
+        [
+          -38.34722,
+          -32.48515,
+          93.38943,
+          -19.67329
+        ],
+        [
+          -37.03041,
+          -2.3076,
+          -19.67329,
+          60.14998
+        ]
+      ],
+      "settings": {
+        "Lj_nH": 12.31,
+        "Cj_fF": 2.0,
+        "readout_GHz": 7.0,
+        "bus_GHz": []
+      },
+      "current_native_LOManalysis": {
+        "comparison": {
+          "fQ": {
+            "current": 5.491187742221341,
+            "notebook": 5.492369,
+            "difference": -0.0011812577786587397
+          },
+          "EC": {
+            "current": 320.34088689840434,
+            "notebook": 320.340887,
+            "difference": -1.0159567409573356e-07
+          },
+          "EJ": {
+            "current": 13.268051282322011,
+            "notebook": 13.273404,
+            "difference": -0.0053527176779883945
+          },
+          "alpha": {
+            "current": -374.5676525588499,
+            "notebook": -374.552102,
+            "difference": -0.015550558849895424
+          },
+          "dispersion": {
+            "current": 58.95147907924652,
+            "notebook": 58.767574,
+            "difference": 0.18390507924651445
+          }
+        },
+        "gbus_MHz": [
+          -119.09958933291298
+        ],
+        "chi_MHz": [
+          -3.809658803343506
+        ],
+        "printed_Purcell_T1_us": 47.204877,
+        "T1_in_returned_dictionary": false,
+        "stdout": "[1, 2] [3]\nPredicted Values\n\nTransmon Properties\nf_Q 5.491188 [GHz]\nEC 320.340887 [MHz]\nEJ 13.268051 [GHz]\nalpha -374.567653 [MHz]\ndispersion 58.951479 [KHz]\nLq 12.310000 [nH]\nCq 60.467548 [fF]\nT1 47.204877 [us]\n\n**Coupling Properties**\n\ntCqbus1 -7.535751 [fF]\ngbus1_in_MHz -119.099589 [MHz]\nχ_bus1 -3.809659 [MHz]\n1/T1bus1 3371.578417 [Hz]\nT1bus1 47.204877 [us]\nBus-Bus Couplings\n"
+      },
+      "native_extractor_with_pyEPR_Ic": {
+        "comparison": {
+          "fQ": {
+            "current": 5.492369060215853,
+            "notebook": 5.492369,
+            "difference": 6.021585274851304e-08
+          },
+          "EC": {
+            "current": 320.34088689840434,
+            "notebook": 320.340887,
+            "difference": -1.0159567409573356e-07
+          },
+          "EJ": {
+            "current": 13.273403746838005,
+            "notebook": 13.273404,
+            "difference": -2.531619944790009e-07
+          },
+          "alpha": {
+            "current": -374.55210188933967,
+            "notebook": -374.552102,
+            "difference": 1.1066032357121003e-07
+          },
+          "dispersion": {
+            "current": 58.76757406616211,
+            "notebook": 58.767574,
+            "difference": 6.61621086806008e-08
+          }
+        },
+        "gbus_MHz": [
+          -119.11159900747404
+        ],
+        "chi_MHz": [
+          -3.815566069169163
+        ],
+        "printed_Purcell_T1_us": 47.110126,
+        "T1_in_returned_dictionary": false,
+        "stdout": "[1, 2] [3]\nPredicted Values\n\nTransmon Properties\nf_Q 5.492369 [GHz]\nEC 320.340887 [MHz]\nEJ 13.273404 [GHz]\nalpha -374.552102 [MHz]\ndispersion 58.767574 [KHz]\nLq 12.305036 [nH]\nCq 60.467548 [fF]\nT1 47.110126 [us]\n\n**Coupling Properties**\n\ntCqbus1 -7.535751 [fF]\ngbus1_in_MHz -119.111599 [MHz]\nχ_bus1 -3.815566 [MHz]\n1/T1bus1 3378.359561 [Hz]\nT1bus1 47.110126 [us]\nBus-Bus Couplings\n"
+      },
+      "notebook_printed_Purcell_T1_us": 47.110126,
+      "matrix_symmetry_error": 0.0
+    }
+  ],
+  "Ic_conversion_diagnostic": {
+    "native_A": 2.6724067211287386e-08,
+    "pyEPR_A": 2.6734847967136745e-08,
+    "explanation": "Current native helper uses truncated reduced flux quantum from constants.py. Native extractor called with pyEPR converted current as a separate diagnostic; no patch or monkeypatch."
+  },
+  "loss_model": "Native code Purcell estimate: Qreadout=1e4,Qcouplingbus=1e5,all resonator impedances start at50ohm; not interface TLS lifetime",
+  "initial_strict_replay_check": "Direct native 4.01 fQ failed provisional 1e-4 GHz notebook equality check; delta=-0.001165154331 GHz. Difference retained, not treated as matrix or FEM error. Converter diagnostic follows. No G1 threshold changed.",
+  "G1_passed": false
+}

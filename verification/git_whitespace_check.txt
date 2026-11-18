@@ -1,0 +1,1 @@
+Formatting diagnostic excluded: preserving original CRLF source bytes caused noisy end-of-line warnings. Scientific files retain archived hashes. Syntax, full regression, numeric replay and release safety checks pass.

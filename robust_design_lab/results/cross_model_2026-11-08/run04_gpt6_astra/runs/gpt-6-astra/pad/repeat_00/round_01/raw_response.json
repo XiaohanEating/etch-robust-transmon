@@ -1,0 +1,142 @@
+{
+  "id": "resp_0d627e777b99140c016af50344d65487d19922ea92f6b5a5d3",
+  "object": "response",
+  "model": "gpt-6-astra",
+  "usage": {
+    "total_tokens": 3926,
+    "input_tokens": 846,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 3080,
+    "output_tokens_details": {
+      "reasoning_tokens": 2712
+    }
+  },
+  "created_at": 1794442052,
+  "status": "completed",
+  "access_programs": {
+    "cyber": "standard"
+  },
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1794442132,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "image": {
+    "context_compression": "disabled"
+  },
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": 16384,
+  "max_tool_calls": null,
+  "moderation": null,
+  "output": [
+    {
+      "id": "rs_0d627e777b99140c016af5034625a087d199a2a0abeed55cdf",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "[REDACTED: opaque provider reasoning metadata]",
+      "summary": []
+    },
+    {
+      "id": "rs_0d627e777b99140c016af50355303487d1b3917c5ee33ae2db",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "[REDACTED: opaque provider reasoning metadata]",
+      "summary": []
+    },
+    {
+      "id": "rs_0d627e777b99140c016af50365e5bc87d1a6af84ef6102cc17",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "[REDACTED: opaque provider reasoning metadata]",
+      "summary": []
+    },
+    {
+      "id": "rs_0d627e777b99140c016af50370861887d198fe413f99fd23bc",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "[REDACTED: opaque provider reasoning metadata]",
+      "summary": []
+    },
+    {
+      "id": "rs_0d627e777b99140c016af5037cc2f487d1825f1b8cbb27068d",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "[REDACTED: opaque provider reasoning metadata]",
+      "summary": []
+    },
+    {
+      "id": "rs_0d627e777b99140c016af50389cf6487d1a6d623c567f8640c",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "[REDACTED: opaque provider reasoning metadata]",
+      "summary": []
+    },
+    {
+      "id": "msg_0d627e777b99140c016af5038d9d7087d19481abaff6a48524",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "[\n  {\n    \"changes\": {\"w\": 780.0, \"gap\": 45.0},\n    \"reason\": \"将左右蓝色岛的水平宽度增至780、红色结两侧的中央间隙增至45，高度不变。沿用历史加宽、增隙降低D的方向，但相对频率越界的宽度800方案适度回退，限制名义电容增长；目标是降低同步刻蚀的相对电容响应，而非单纯减小电容。\"\n  },\n  {\n    \"changes\": {\"h\": 235.0, \"gap\": 45.0},\n    \"reason\": \"将两岛纵向高度增至235、中央间隙增至45，宽度不变。增隙旨在减弱中央边缘场的刻蚀敏感性，适度增高平衡名义电容变化；相较历史高度250方案减少电容增长，为频率下限保留裕量，评估时计入地口袋同步刻蚀。\"\n  },\n  {\n    \"changes\": {\"w\": 820.0, \"h\": 190.0},\n    \"reason\": \"中央间隙保持40，将两岛水平延长至820、纵向高度减至190。相同间隙的历史结果中，加宽方案的D低于增高方案，因此探索长宽比重分配：利用加宽降低相对刻蚀响应，以减高抵消电容增长。需联合复核地口袋同步刻蚀后的D及名义电容、频率约束。\"\n  }\n]"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "xhigh",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": false,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "user": null,
+  "metadata": {}
+}

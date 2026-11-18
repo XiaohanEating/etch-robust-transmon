@@ -1,0 +1,925 @@
+{
+  "provenance": {
+    "python": "[REDACTED: external machine path]/python.exe",
+    "python_version": "3.11.17 | packaged by Anaconda, Inc. | (main, Oct  1 2026, 20:16:54) [MSC v.1942 64 bit (AMD64)]",
+    "python_no_user_site": "1",
+    "frozen_config": "6e4170071b3dc3ac",
+    "source_sha256": {
+      "__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "analysis/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "configs/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "configs/frozen.py": "cba4ddc6eb55bcdd0857218ae19f58a1c5d304878f2ba8e8a097d5fab9514113",
+      "evaluator/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "evaluator/ansys_calibration.py": "6b5eb1886338b9b6b30e35c60e89440409624516e3068b08ea3b24268f524a44",
+      "evaluator/ansys_native.py": "507a298bbe36ca6f21e7d21855e8378833c1a43845ee9039e31397f3843d9457",
+      "evaluator/corrected.py": "50d401df647036273fc857849189ec31c9ea76412e5ac26d23678e01e563fa02",
+      "evaluator/fast.py": "ffebbc836c1e801f04f28076d9f3e4ebcdcf9d3cfaa88622bd8f7efdc07fec02",
+      "evaluator/fields.py": "f4e7949a758f736e4d9ff67351affcaf911b84740d4507dbe148e64dbe6d78ec",
+      "evaluator/finite_film.py": "2e80d1e4146e0ab4855be34cb4ac1920f58191e0d436735f2dc5c0ef0a7f14a0",
+      "evaluator/lom.py": "b9c20ce5028abff5b4ea0087bf5cf58fc4307c534ff02530d6afa728847afca5",
+      "evaluator/mesh_transport.py": "010b701220fb230e27568560ae768adbb77e3439ec90773848858e2e49ee5846",
+      "evaluator/metal_reference.py": "c783e316bf67a337c1ffc0fac81cbf3e1ea91f747be8725760f907bd2705e352",
+      "evaluator/participation.py": "282f244f0c63dff8b7d7fbed7f3c3d75831ebf3c6a0086d3e1b018fe9a8e16da",
+      "experiments/alignment_report.py": "f1c9ad543e59cb20afe9ba3c32a6522e69f2f9b6cee7619a47f7b78ac190d65e",
+      "experiments/calibration.py": "4b58e5c6ce6e0f295e035d0750d76c39df2eb431b8c31978c746e6c715952a77",
+      "experiments/field_audit.py": "0a9e206511381f8646c015a2ab3ffe59abec2977ad35e45c42d02c11e6377b4a",
+      "experiments/finite_alignment.py": "4c31a28c9feebfb0cb87d3041cf0e579574e1c90f1f6338fae021fe877c67f62",
+      "experiments/finite_diagnostics.py": "7ce370dedd77f62bd27b197794bb02e5a93d6abdb8c904ee6ee4abd2e9ab3e50",
+      "experiments/full_suite_schedule.py": "69c6dc838b3f4bc1e7a5de7dfbed5938bf05b216d23c047e1f9dca6a32b84026",
+      "experiments/g1_step1_hfss_side_probe.py": "1e17c6cb68d5f8c4a7df6a64af077fcb8c4b474d1f9b2708c8a8d8c84610dfc3",
+      "experiments/g1_step1_side_audit.py": "741f52bf3a029a3efb698df79aeb3d4bff44c89369129f98d6560d37b33002ae",
+      "experiments/g1_step2_local_edge.py": "6295c088a1462032ec86edb1227552821b23eb65467dbb60366b098f529fc779",
+      "experiments/g1_step3_fast_rectangle.py": "4e17097612eaeafc54f99884e06485433f7f4d9d75c48abbd2891f1af29a7902",
+      "experiments/g1_step3b_hfss_sheets.py": "e7d372073edd6758ea0c5c2a68d894ce831a62893cca8933bd1c1bd8d1b9d35f",
+      "experiments/g1_step4_matrix.py": "8b662fba3ed16154b3e7fcde740c1525ea5f997fc6189377db645ebaea918dfd",
+      "experiments/g2_cost_test.py": "8a96662b4e88003b8ab6393622c9e686d88e67d1dca8ee1a2869e33c6dce985c",
+      "experiments/hfss_interfaces.py": "df14eafe490e751ae7837ebb1dabd4bb63da5fa99c76e11cc9dcc62f4ccc5b29",
+      "experiments/novel_explore.py": "a34da42d28e46d57ec05ef471f647e206504b30e15fac19c22ab53534575a12c",
+      "experiments/novel_vlm_explore.py": "6e611a81a9e63dfcdaaaf5db855be5bcba22e9d830dc7883d59ac369235a29f4",
+      "experiments/phase0_env_lock.py": "9bfb8f1a077e8fd67dc8e88fcb142728e2be0a774c71e50cb9f3edfdb958dae6",
+      "experiments/phase0_smoke.py": "6c715e226e9e4852794c76fb32a78f3d6d462ef37079939b598d61d0d10612c7",
+      "experiments/phaseA_g0_geometry.py": "ce2abc97af52ac8f30250dfd443d3162271fe9c23ba96621b8addd2f3ae2069a",
+      "experiments/phaseA_g1_physics.py": "28c0b7222f514a639f10765fe85a325d004368400d4255f6ecc27e0051dfb9fd",
+      "experiments/phaseB_library_scan.py": "7731c0b5024b146b5ed3d8c10c347558d6dc12e849f822e1f90459cdea85b6b2",
+      "experiments/phaseB_library_scan2.py": "1b629d9a1e7c7d3c295188964928674ab069cb4d805eb59af3014efd8c930937",
+      "experiments/q3d_shape_sweep.py": "b90a73bbf854d754806dc87f4035b649a83af8b462294975b459184616a856ab",
+      "experiments/reachability.py": "d44f67e3398c01f2d10d99e244aadd7932d60363780b2718eaaf1015423d2111",
+      "experiments/render_shape_library.py": "c17656039f693e5c357cd01ef10dcaaac3257cc1e15641c925750908287f6493",
+      "experiments/rendering.py": "ba2608ad67b1ce0a81be0806854905cd27cad3d7441fa030310ca594df816af7",
+      "experiments/step2_q3d_baseline.py": "d74f7379cba0f0e6e45634caa0601f2e990f9c31e060c58e6fd0c1388dbd0f0c",
+      "experiments/step2a_window_v2.py": "55725ab90d947836bfb2d43c2d14f59a5bd032ce2eab58b55127611df84f193e",
+      "experiments/step2b_separated_sensitivity.py": "57e9af1f42df9252d806d3f99023284944b3b30c656153db83bb8ee42944a0d2",
+      "experiments/step2c_band_decomposition.py": "ad618f780311978e1229747ee618a8ef36310e8753f1408ca69efdfa97c30b7b",
+      "experiments/step2c_hfss_ellipse.py": "3ebe5ee93c5a5193520e3660903cde85bf73f910e768647cfe3ea09c1b24386c",
+      "experiments/step3_image_checks.py": "c78f7587d8e08c9832291b745588cc68fbbac43f2baaa2a457972a5499643f75",
+      "experiments/step3_repost_g1.py": "86b51ecac73983974f3409243ee6af15a9ca9267fae4c11ea679fc06d2018f8d",
+      "experiments/step3b_window_rank.py": "e6eb4d02db0469aea41c73975f94feded25330037ac04d9d7a472a2cf1d15fa3",
+      "experiments/step4_cost_v2.py": "5a9b5af5c3554fb2d10c1afd14a84b7f73b64f6f9fb7a6da140ba75adc29c92a",
+      "experiments/step4_visual_v3.py": "b2ff7134921f57615fa9825af0762a181267f3377feedebe9d754d6409526a65",
+      "experiments/strong_baseline_run.py": "e36ea8cd957b02b508560f5d45e1b6f8fc3ea3e09540bc5d5c6d1a64a734c926",
+      "experiments/transport_summary.py": "88f374724ef3167f4e85f395f14e35027589f219b251bcb0d5676737841a5b8e",
+      "experiments/visual_paired.py": "7c1c9714db9c15dfa9fcfca20d5398fc47a612b60f069af365a136182bdded2e",
+      "experiments/vlm_arm_run.py": "65df87fda9bb641819640bbdfb13c35aacecc9f7f72bf0fe145c75ef04aecf0a",
+      "experiments/vlm_base_d_measure.py": "fcc61dbd29f7eec99035cc76d17c7e1f629cc05caf99005d2528f3b8f9f9fd65",
+      "experiments/vlm_shape_exploration.py": "d56513a229ab9637fec0f5341e4f9ad560ebea34b899dc237236d54de557c7d4",
+      "geometry/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "geometry/checks.py": "83cee86763c008c5d7c8b62debc9ec8d8041755526b31391f91ef3efe7cb2146",
+      "geometry/clean.py": "6ebad9b5b0e8e209bdac2adfc8048d02e0f7237227347163aa99b86eb76be969",
+      "geometry/correct_idc.py": "9da70fdee2e6937c426981493725d1af2446bd24fefbb5aee21d4e3e3d6ce839",
+      "geometry/four_shape_families.py": "42ab2025f56bfcf787b99a1b34c0f7aee62e2a6dc996b7fa4edd6d54256654d6",
+      "geometry/free_pocket.py": "c5be6bd3ab1764cd00f0f8bfb08843f331d3b53589d935cd70a1d77c486efb73",
+      "geometry/library.py": "5d16dd7566e4dd7039d7c03faa3eb4ff60d24b858dd710fbbe11c6a251520a5a",
+      "geometry/novel_structures.py": "6f437613daaee891eb21c079b68f025f0e3445b223bfb861391c78c838b39327",
+      "geometry/operations.py": "3b66fb7d6fe04726d9dbefa28a0eac2fcb9e0f4415564b199ec13f6e9b15dd5a",
+      "geometry/record.py": "bde1d68d79ba34c9d097d475a4346b41d3bbf62a40ddb7dad55d58049d932fca",
+      "geometry/two_pad.py": "51716b46cb3545acac4f380f5a58ad51e1699b261ea5ec6dfc4fac53498a5a9c",
+      "objectives/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "objectives/drift.py": "0e45c16391fde37b870060cfd3bfbf6f3093990dcc0a965e488e0a25c602c66d",
+      "perturbation/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "perturbation/channels.py": "856879733aaf2ee82cc36d2565d5deca53162640ae8b8da06beb8104d497106b",
+      "perturbation/scenarios.py": "1d12fdda27a4f46262b8d5c6c110d777c1d7210b424ee8e911bd70437c2fe421",
+      "results/calibration_v2/ansys/native_probe_script.py": "919b6d8ceae2654b2f0e9a9db10d52c73527a0ce321a1b6d898faf4c9a6f07c0",
+      "results/corrections_followup_review_2026-10-25/replay.py": "b058f54e91d74ee39c3e379c66461d679b88ca6d924e37721f4d4131496b2e60",
+      "results/corrections_v4_review_2026-10-25/replay.py": "10dde44b9d199dcbe9d90ea305d34637fa475591a08a7205cd65d70bd0226deb",
+      "results/separated_sensitivity_review_2026-10-26/inputs/01_g1_step3_fast_rectangle.py": "4e17097612eaeafc54f99884e06485433f7f4d9d75c48abbd2891f1af29a7902",
+      "results/separated_sensitivity_review_2026-10-26/inputs/02_step4_visual_v3.py": "77bbf19101343ed9f641e80f832a5f547b42a84282a2fe09142743309cb984bb",
+      "results/separated_sensitivity_review_2026-10-26/inputs/03_corrected.py": "50d401df647036273fc857849189ec31c9ea76412e5ac26d23678e01e563fa02",
+      "results/separated_sensitivity_review_2026-10-26/inputs/04_step2b_separated_sensitivity.py": "57e9af1f42df9252d806d3f99023284944b3b30c656153db83bb8ee42944a0d2",
+      "results/separated_sensitivity_review_2026-10-26/inputs/05_g1_step2_local_edge.py": "6295c088a1462032ec86edb1227552821b23eb65467dbb60366b098f529fc779",
+      "results/separated_sensitivity_review_2026-10-26/inputs/06_frozen.py": "cba4ddc6eb55bcdd0857218ae19f58a1c5d304878f2ba8e8a097d5fab9514113",
+      "results/separated_sensitivity_review_2026-10-26/inputs/07_test_corrected_v4_guards.py": "ac576debe2ac49fa3f20753eec547abc92393bacf814d568f029ca21ca0e99b7",
+      "results/separated_sensitivity_review_2026-10-26/replay.py": "40dbc0b89a28d733547a271dfd19d02df17896ff88ac5237f30721e4a48c1df6",
+      "runtime/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "runtime/records.py": "163edf61d767477dfeb12b4397d8307e33d1315bc899c2b97a59f478735180f5",
+      "search/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "search/pilot.py": "174ddfb6586fb6b6055af49b710a9c14d6a96dcc13e3ea1394216c85f9834157",
+      "search/strong_baselines.py": "0ed94da1df86eb5dae0456e2220f9ff18fcebd0bd27274f32dcf38fc405a9313",
+      "tests/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tests/test_alignment_report.py": "99a636be662937572050b13947569864ac3ed698b9216aedb4d021951e297acf",
+      "tests/test_aliyun_credentials.py": "9f8fc2417fa5d3bad122a5256285834bca392a26944711a7e60db9e58e5e8f64",
+      "tests/test_ansys_calibration.py": "d5f52a6c208717f8296e12aaccf2f8856ed46aa11bb414f7d74850acea306a54",
+      "tests/test_corrected_v4_guards.py": "ac576debe2ac49fa3f20753eec547abc92393bacf814d568f029ca21ca0e99b7",
+      "tests/test_coupling_definitions.py": "c7ab3ce40e2a71b047cfcfae4b15dd1601708179bc36cf98905f7c59097c5487",
+      "tests/test_fields_and_credentials.py": "48eb264b472d7537d6356ff34207cdd917e134e529d42806ef10bbaed4fe0fd7",
+      "tests/test_finite_film.py": "f7bf78bae628806859feb49efaf8988811773f427b969683637146c54cbc693d",
+      "tests/test_hfss_interfaces.py": "315050795985690911f2cdc4033f2c63a018d557bedb9963d04bd031f9d8b018",
+      "tests/test_mesh_transport.py": "5f88b714f7559475fd4b1ccfd3d24297809e0d484c25448d31f6f091904eed94",
+      "tests/test_physics_and_drift.py": "0232add5fda6465d036b946e47fa230bdf203fe08176da7f17a8d3f41f984235",
+      "tests/test_search_contract.py": "8f4b335bd2e23a0d40d8b66438b8a7be3d6b58e6f265dec0444d830ec8247cb7",
+      "tests/test_strong_baselines.py": "385cc5bcba98dccbff062cbca0e9efb17f74871ae2b545b65ad71aca72dfc2f9",
+      "tests/test_transport_summary.py": "b17a22249a2206a030a66b2da32a5c54981a213c7765d93364e765a2384aa670",
+      "vlm/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "vlm/aliyun.py": "f74be7fdc74815eb859c40ddabfe608910afa48dc5bed4234adf2a2620f52979",
+      "vlm/experiment.py": "c6fbca90faf7fea449f35378fdc439ef26224bf5f7ccfcd23e208d7547979f43"
+    },
+    "command": [
+      "[REDACTED: external machine path]/python.exe",
+      "robust_design_lab/experiments/novel_vlm_explore.py"
+    ],
+    "omp_threads": null,
+    "mkl_threads": null
+  },
+  "model": "qwen3-vl-plus",
+  "results": [
+    {
+      "family": "hoya_perforated",
+      "final_kw": {
+        "pad_w": 420.0,
+        "pad_h": 300.0,
+        "gap": 60.0,
+        "n_holes_x": 3,
+        "n_holes_y": 2,
+        "hole_r": 35.0
+      },
+      "final_metrics": {
+        "label": "hoya(420x300,gap60,3x2孔r35)",
+        "C_sigma_fF": 53.02756,
+        "f01_GHz": 5.864028787614606,
+        "alpha_MHz": -365.28607623392674,
+        "D": 0.011433645155993918,
+        "f01_ep": 5.881021247215555,
+        "f01_em": 5.797363403696891,
+        "C_ep": 52.70127,
+        "C_em": 54.33604,
+        "round": 0,
+        "proposal": 0,
+        "changes": {
+          "pad_w": 420.0
+        },
+        "reason": "增大pad宽度直接提升边缘电容贡献，且镂空区占比降低→C_Σ↑；同时稀释孔缘场扰动，D↓",
+        "kw": {
+          "pad_w": 420.0,
+          "pad_h": 300.0,
+          "gap": 60.0,
+          "n_holes_x": 3,
+          "n_holes_y": 2,
+          "hole_r": 35.0
+        },
+        "eval_s": 784.5
+      },
+      "all_results": [
+        {
+          "label": "hoya(420x300,gap60,3x2孔r35)",
+          "C_sigma_fF": 53.02756,
+          "f01_GHz": 5.864028787614606,
+          "alpha_MHz": -365.28607623392674,
+          "D": 0.011433645155993918,
+          "f01_ep": 5.881021247215555,
+          "f01_em": 5.797363403696891,
+          "C_ep": 52.70127,
+          "C_em": 54.33604,
+          "round": 0,
+          "proposal": 0,
+          "changes": {
+            "pad_w": 420.0
+          },
+          "reason": "增大pad宽度直接提升边缘电容贡献，且镂空区占比降低→C_Σ↑；同时稀释孔缘场扰动，D↓",
+          "kw": {
+            "pad_w": 420.0,
+            "pad_h": 300.0,
+            "gap": 60.0,
+            "n_holes_x": 3,
+            "n_holes_y": 2,
+            "hole_r": 35.0
+          },
+          "eval_s": 784.5
+        },
+        {
+          "label": "hoya(350x300,gap50,3x2孔r35)",
+          "C_sigma_fF": 51.60896,
+          "f01_GHz": 5.93902168503738,
+          "alpha_MHz": -375.3268681379962,
+          "D": 0.013559669247891874,
+          "f01_ep": 5.959196571835179,
+          "f01_em": 5.859034043882289,
+          "C_ep": 51.23661,
+          "C_em": 53.12402,
+          "round": 0,
+          "proposal": 1,
+          "changes": {
+            "gap": 50.0
+          },
+          "reason": "减小gap显著提升C_Σ（∝1/gap），且仍在可制造范围；当前f01偏高（6.03 GHz），降gap可协同降低f01至目标区间",
+          "kw": {
+            "pad_w": 350.0,
+            "pad_h": 300.0,
+            "gap": 50.0,
+            "n_holes_x": 3,
+            "n_holes_y": 2,
+            "hole_r": 35.0
+          },
+          "eval_s": 724.2
+        },
+        {
+          "label": "hoya(350x300,gap60,3x2孔r25)",
+          "C_sigma_fF": 49.88072,
+          "f01_GHz": 6.034474180700645,
+          "alpha_MHz": -388.330988900303,
+          "D": 0.011799004102153043,
+          "f01_ep": 6.053714764662692,
+          "f01_em": 5.963691797076649,
+          "C_ep": 49.54241,
+          "C_em": 51.15417,
+          "round": 0,
+          "proposal": 2,
+          "changes": {
+            "hole_r": 25.0
+          },
+          "reason": "缩小孔径减少低场区金属缺失，提升有效面积与C_Σ；小孔更易实现圆滑边缘，抑制表面损耗，D↓；避免大孔导致的场局域化",
+          "kw": {
+            "pad_w": 350.0,
+            "pad_h": 300.0,
+            "gap": 60.0,
+            "n_holes_x": 3,
+            "n_holes_y": 2,
+            "hole_r": 25.0
+          },
+          "eval_s": 742.1
+        },
+        {
+          "label": "hoya(450x300,gap60,3x2孔r35)",
+          "C_sigma_fF": 54.32846,
+          "f01_GHz": 5.797742948755242,
+          "alpha_MHz": -356.5392673500983,
+          "D": 0.011875036189437834,
+          "f01_ep": 5.814662496490055,
+          "f01_em": 5.729301716751765,
+          "C_ep": 53.99209,
+          "C_em": 55.72024,
+          "round": 1,
+          "proposal": 0,
+          "changes": {
+            "pad_w": 450.0
+          },
+          "reason": "增大pad宽度直接提升几何电容，C_Σ∝pad_w；当前C_Σ=53fF→目标70fF需+32%，pad_w从420→450（+7.1%）配合其他优化可协同达标；历史显示pad_w增大未显著恶化D（原420时D=0.01143）",
+          "kw": {
+            "pad_w": 450.0,
+            "pad_h": 300.0,
+            "gap": 60.0,
+            "n_holes_x": 3,
+            "n_holes_y": 2,
+            "hole_r": 35.0
+          },
+          "eval_s": 735.2
+        },
+        {
+          "label": "hoya(420x300,gap40,3x2孔r35)",
+          "C_sigma_fF": 57.15856,
+          "f01_GHz": 5.661103269902915,
+          "alpha_MHz": -338.88588733969374,
+          "D": 0.014022819227360098,
+          "f01_ep": 5.6877088548757015,
+          "f01_em": 5.582272647667585,
+          "C_ep": 56.59117,
+          "C_em": 58.88849,
+          "round": 1,
+          "proposal": 1,
+          "changes": {
+            "gap": 40.0
+          },
+          "reason": "减小gap显著提升C_Σ（C∝1/gap），且实测gap=50时D=0.01356 > gap=60时D=0.01143，说明更小gap在本结构中未加剧漂移（可能因镂空稀释边缘场）；取下限40可快速补足C_Σ缺口",
+          "kw": {
+            "pad_w": 420.0,
+            "pad_h": 300.0,
+            "gap": 40.0,
+            "n_holes_x": 3,
+            "n_holes_y": 2,
+            "hole_r": 35.0
+          },
+          "eval_s": 758.2
+        },
+        {
+          "label": "hoya(420x300,gap60,3x2孔r20)",
+          "C_sigma_fF": 53.02756,
+          "f01_GHz": 5.864028787614606,
+          "alpha_MHz": -365.28607623392674,
+          "D": 0.011433645155993918,
+          "f01_ep": 5.881021247215555,
+          "f01_em": 5.797363403696891,
+          "C_ep": 52.70127,
+          "C_em": 54.33604,
+          "round": 1,
+          "proposal": 2,
+          "changes": {
+            "hole_r": 20.0
+          },
+          "reason": "减小孔径增加金属占比，提升C_Σ；同时小孔使孔缘扰动δ/r更大但被大面积稀释（Hoya机制），实测hole_r=25时D=0.01180≈原值，20更优；避免大孔导致低场区金属过少",
+          "kw": {
+            "pad_w": 420.0,
+            "pad_h": 300.0,
+            "gap": 60.0,
+            "n_holes_x": 3,
+            "n_holes_y": 2,
+            "hole_r": 20.0
+          },
+          "eval_s": 754.5
+        },
+        {
+          "label": "hoya(450x300,gap60,3x2孔r35)",
+          "C_sigma_fF": 54.32846,
+          "f01_GHz": 5.797742948755242,
+          "alpha_MHz": -356.5392673500983,
+          "D": 0.011875036189437834,
+          "f01_ep": 5.814662496490055,
+          "f01_em": 5.729301716751765,
+          "C_ep": 53.99209,
+          "C_em": 55.72024,
+          "round": 2,
+          "proposal": 0,
+          "changes": {
+            "pad_w": 450.0
+          },
+          "reason": "增大pad_w可提升C_Σ（电容正比于面积），当前420→450实测D仅微增至0.01188，且C_Σ有望从53→≈65–68fF；结合hole_r微调可达标",
+          "kw": {
+            "pad_w": 450.0,
+            "pad_h": 300.0,
+            "gap": 60.0,
+            "n_holes_x": 3,
+            "n_holes_y": 2,
+            "hole_r": 35.0
+          },
+          "eval_s": 743.7
+        },
+        {
+          "label": "hoya(420x300,gap60,3x2孔r20)",
+          "C_sigma_fF": 53.02756,
+          "f01_GHz": 5.864028787614606,
+          "alpha_MHz": -365.28607623392674,
+          "D": 0.011433645155993918,
+          "f01_ep": 5.881021247215555,
+          "f01_em": 5.797363403696891,
+          "C_ep": 52.70127,
+          "C_em": 54.33604,
+          "round": 2,
+          "proposal": 1,
+          "changes": {
+            "hole_r": 20.0
+          },
+          "reason": "减小hole_r降低镂空率，增加有效金属面积→提升C_Σ；实测D=0.01143与原值持平，优于hole_r=25时的0.01180，利于兼顾C_Σ↑与D稳定",
+          "kw": {
+            "pad_w": 420.0,
+            "pad_h": 300.0,
+            "gap": 60.0,
+            "n_holes_x": 3,
+            "n_holes_y": 2,
+            "hole_r": 20.0
+          },
+          "eval_s": 769.9
+        },
+        {
+          "label": "hoya(420x300,gap50,3x2孔r35)",
+          "C_sigma_fF": 54.82707,
+          "f01_GHz": 5.772937254406503,
+          "alpha_MHz": -353.2968171499794,
+          "D": 0.013232770356131438,
+          "f01_ep": 5.792061230334555,
+          "f01_em": 5.697048517928993,
+          "C_ep": 54.44209,
+          "C_em": 56.39391,
+          "round": 2,
+          "proposal": 2,
+          "changes": {
+            "gap": 50.0
+          },
+          "reason": "gap=50介于40/60间，虽单测D=0.01356略高，但可显著提升C_Σ（间隙减小→边缘电容增）；配合pad_w=450+hole_r=20可协同推C_Σ≥70，且f01随C_Σ↑而↓入目标带",
+          "kw": {
+            "pad_w": 420.0,
+            "pad_h": 300.0,
+            "gap": 50.0,
+            "n_holes_x": 3,
+            "n_holes_y": 2,
+            "hole_r": 35.0
+          },
+          "eval_s": 768.2
+        }
+      ],
+      "complete": true
+    },
+    {
+      "family": "floating_bridge",
+      "final_kw": {
+        "pad_w": 420.0,
+        "pad_h": 250.0,
+        "gap": 60.0,
+        "n_isl": 3,
+        "isl_w": 80.0,
+        "isl_h": 60.0,
+        "bridge_gap": 25.0
+      },
+      "final_metrics": {
+        "label": "fbridge(3岛,isl80x60,bg25)",
+        "C_sigma_fF": 48.718602279161544,
+        "f01_GHz": 6.1013633622090815,
+        "alpha_MHz": -397.5941102264416,
+        "D": 0.006606378279124995,
+        "f01_ep": 6.131120757125673,
+        "f01_em": 6.061188299767252,
+        "C_ep": 48.214026716501856,
+        "C_em": 49.41188683301675,
+        "round": 0,
+        "proposal": 0,
+        "changes": {
+          "pad_w": 420.0
+        },
+        "reason": "增大pad_w显著提升边缘电容贡献（∝周长），且稀释漂移；当前C_Σ仅45.6fF，需+24fF以上，pad_w从350→420可增C~18–22fF，同时保持gap=60避免D剧增",
+        "kw": {
+          "pad_w": 420.0,
+          "pad_h": 250.0,
+          "gap": 60.0,
+          "n_isl": 3,
+          "isl_w": 80.0,
+          "isl_h": 60.0,
+          "bridge_gap": 25.0
+        },
+        "eval_s": 763.2
+      },
+      "all_results": [
+        {
+          "label": "fbridge(3岛,isl80x60,bg25)",
+          "C_sigma_fF": 48.718602279161544,
+          "f01_GHz": 6.1013633622090815,
+          "alpha_MHz": -397.5941102264416,
+          "D": 0.006606378279124995,
+          "f01_ep": 6.131120757125673,
+          "f01_em": 6.061188299767252,
+          "C_ep": 48.214026716501856,
+          "C_em": 49.41188683301675,
+          "round": 0,
+          "proposal": 0,
+          "changes": {
+            "pad_w": 420.0
+          },
+          "reason": "增大pad_w显著提升边缘电容贡献（∝周长），且稀释漂移；当前C_Σ仅45.6fF，需+24fF以上，pad_w从350→420可增C~18–22fF，同时保持gap=60避免D剧增",
+          "kw": {
+            "pad_w": 420.0,
+            "pad_h": 250.0,
+            "gap": 60.0,
+            "n_isl": 3,
+            "isl_w": 80.0,
+            "isl_h": 60.0,
+            "bridge_gap": 25.0
+          },
+          "eval_s": 763.2
+        },
+        {
+          "label": "fbridge(5岛,isl80x60,bg25)",
+          "C_sigma_fF": 45.43737398543387,
+          "f01_GHz": 6.303220184238494,
+          "alpha_MHz": -426.3060917840179,
+          "D": 0.008921091151325498,
+          "f01_ep": 6.324251278262504,
+          "f01_em": 6.247238661837767,
+          "C_ep": 45.1138238925296,
+          "C_em": 46.31492951334698,
+          "round": 0,
+          "proposal": 1,
+          "changes": {
+            "n_isl": 5
+          },
+          "reason": "串联岛数增加直接提升总电容（近似线性），且刻蚀误差被更多间隙稀释；n_isl=3→5可增C~12–15fF，bridge_gap=25维持低D，协同pad_w提升可达目标C_Σ",
+          "kw": {
+            "pad_w": 350.0,
+            "pad_h": 250.0,
+            "gap": 60.0,
+            "n_isl": 5,
+            "isl_w": 80.0,
+            "isl_h": 60.0,
+            "bridge_gap": 25.0
+          },
+          "eval_s": 785.9
+        },
+        {
+          "label": "fbridge(3岛,isl80x60,bg18)",
+          "C_sigma_fF": 45.610352328530716,
+          "f01_GHz": 6.292063894146416,
+          "alpha_MHz": -424.68931581882197,
+          "D": 0.008160034750414403,
+          "f01_ep": 6.31395808165551,
+          "f01_em": 6.240929347693827,
+          "C_ep": 45.27176589882455,
+          "C_em": 46.4153471828887,
+          "round": 0,
+          "proposal": 2,
+          "changes": {
+            "bridge_gap": 18.0
+          },
+          "reason": "减小bridge_gap显著提升岛间电容（C∝1/gap），对总C_Σ贡献强；从25→18可增C~10–13fF，且因串联结构稀释效应，D增幅可控（参考D族交指最优0.00039）",
+          "kw": {
+            "pad_w": 350.0,
+            "pad_h": 250.0,
+            "gap": 60.0,
+            "n_isl": 3,
+            "isl_w": 80.0,
+            "isl_h": 60.0,
+            "bridge_gap": 18.0
+          },
+          "eval_s": 788.8
+        },
+        {
+          "label": "fbridge(3岛,isl80x60,bg25)",
+          "C_sigma_fF": 49.80573544194512,
+          "f01_GHz": 6.038722611260043,
+          "alpha_MHz": -388.9156369799533,
+          "D": 0.009200332690874351,
+          "f01_ep": 6.056878093749283,
+          "f01_em": 5.983419149433837,
+          "C_ep": 49.48710321177871,
+          "C_em": 50.7946180148561,
+          "round": 1,
+          "proposal": 0,
+          "changes": {
+            "pad_w": 450.0
+          },
+          "reason": "增大pad_w可显著提升C_Σ（电容正比于面积），当前C_Σ=48.7fF距目标70fF缺口大；在gap=60不变下，pad_w从420→450可增~7%面积，且历史显示pad_w增大未恶化D（原D=0.00661），优先尝试",
+          "kw": {
+            "pad_w": 450.0,
+            "pad_h": 250.0,
+            "gap": 60.0,
+            "n_isl": 3,
+            "isl_w": 80.0,
+            "isl_h": 60.0,
+            "bridge_gap": 25.0
+          },
+          "eval_s": 778.7
+        },
+        {
+          "label": "fbridge(2岛,isl80x60,bg25)",
+          "C_sigma_fF": 48.024643245431974,
+          "f01_GHz": 6.142404857913334,
+          "alpha_MHz": -403.3393694496957,
+          "D": 0.008492813558990434,
+          "f01_ep": 6.161742532263822,
+          "f01_em": 6.090459452199857,
+          "C_ep": 47.70255946862444,
+          "C_em": 48.90538377600933,
+          "round": 1,
+          "proposal": 1,
+          "changes": {
+            "n_isl": 2
+          },
+          "reason": "当前n_isl=3时D=0.00661；n_isl=5时D升至0.00892，表明岛数增多加剧刻蚀误差累积；减至2可降低串联桥总间隙数，稀释效应减弱但D下降更关键；同时2岛结构电容略降，需配合pad_w增大补偿",
+          "kw": {
+            "pad_w": 420.0,
+            "pad_h": 250.0,
+            "gap": 60.0,
+            "n_isl": 2,
+            "isl_w": 80.0,
+            "isl_h": 60.0,
+            "bridge_gap": 25.0
+          },
+          "eval_s": 735.3
+        },
+        {
+          "label": "fbridge(3岛,isl80x60,bg35)",
+          "C_sigma_fF": 48.64724036880364,
+          "f01_GHz": 6.105545119587122,
+          "alpha_MHz": -398.1773514347343,
+          "D": 0.00985818378223779,
+          "f01_ep": 6.11520727342401,
+          "f01_em": 6.0456512411964995,
+          "C_ep": 48.48292593612625,
+          "C_em": 49.68379117568792,
+          "round": 1,
+          "proposal": 2,
+          "changes": {
+            "bridge_gap": 35.0
+          },
+          "reason": "当前bridge_gap=25.0偏小，导致单间隙电容大但对刻蚀误差敏感（D较高）；增大至35.0可降低单间隙电容贡献、提升误差稀释能力（参考D族交指结构低D源于较大gap）；实测bridge_gap=18.0时D=0.00816，反向验证gap过小不利D",
+          "kw": {
+            "pad_w": 420.0,
+            "pad_h": 250.0,
+            "gap": 60.0,
+            "n_isl": 3,
+            "isl_w": 80.0,
+            "isl_h": 60.0,
+            "bridge_gap": 35.0
+          },
+          "eval_s": 728.0
+        },
+        {
+          "label": "fbridge(3岛,isl80x60,bg25)",
+          "C_sigma_fF": 46.88204065075309,
+          "f01_GHz": 6.211860534517652,
+          "alpha_MHz": -413.16950064007005,
+          "D": 0.010092281932516819,
+          "f01_ep": 6.232638874657556,
+          "f01_em": 6.149483977021669,
+          "C_ep": 46.54776997128798,
+          "C_em": 47.90637537070904,
+          "round": 2,
+          "proposal": 0,
+          "changes": {
+            "pad_w": 380.0
+          },
+          "reason": "当前pad_w=420偏大导致C_Σ不足（仅48.7fF），减小至380可适度增密电场、提升边缘贡献；历史显示pad_w=450时D恶化至0.0092，故反向调整至380有望在C_Σ↑同时D↓（避免过宽稀释效应）",
+          "kw": {
+            "pad_w": 380.0,
+            "pad_h": 250.0,
+            "gap": 60.0,
+            "n_isl": 3,
+            "isl_w": 80.0,
+            "isl_h": 60.0,
+            "bridge_gap": 25.0
+          },
+          "eval_s": 715.9
+        },
+        {
+          "label": "fbridge(4岛,isl80x60,bg25)",
+          "C_sigma_fF": 48.30941043125912,
+          "f01_GHz": 6.125461444949822,
+          "alpha_MHz": -400.9618240367804,
+          "D": 0.007125221373194092,
+          "f01_ep": 6.14168135992585,
+          "f01_em": 6.081971298596731,
+          "C_ep": 48.0367539266275,
+          "C_em": 49.05149377325527,
+          "round": 2,
+          "proposal": 1,
+          "changes": {
+            "n_isl": 4
+          },
+          "reason": "n_isl=3时C_Σ偏低；n_isl=2/5均使D升高（0.00849/0.00892），而串联电容桥中n=4为对称最优点——间隙误差稀释更强、总电容更易达70fF；理论C_Σ∝n·C_gap，4岛可补足~15–20fF缺口",
+          "kw": {
+            "pad_w": 420.0,
+            "pad_h": 250.0,
+            "gap": 60.0,
+            "n_isl": 4,
+            "isl_w": 80.0,
+            "isl_h": 60.0,
+            "bridge_gap": 25.0
+          },
+          "eval_s": 744.2
+        },
+        {
+          "label": "fbridge(3岛,isl80x60,bg30)",
+          "C_sigma_fF": 48.616358415092535,
+          "f01_GHz": 6.107357501135445,
+          "alpha_MHz": -398.43028059143563,
+          "D": 0.008879795518648186,
+          "f01_ep": 6.127143688061804,
+          "f01_em": 6.053365489154598,
+          "C_ep": 48.28102924840077,
+          "C_em": 49.54852205964196,
+          "round": 2,
+          "proposal": 2,
+          "changes": {
+            "bridge_gap": 30.0
+          },
+          "reason": "当前bridge_gap=25过小致D=0.00661偏高；增大至30可显著降表面电场梯度、抑制边界扰动敏感性（δ=0.5μm相对扰动↓），且历史bridge_gap=35时D=0.00986过犹不及，30为平衡点；同时略增C_Σ（gap↑→C↓，但此处因岛间距主导，适度gap↑反利于电容叠加稳定性）",
+          "kw": {
+            "pad_w": 420.0,
+            "pad_h": 250.0,
+            "gap": 60.0,
+            "n_isl": 3,
+            "isl_w": 80.0,
+            "isl_h": 60.0,
+            "bridge_gap": 30.0
+          },
+          "eval_s": 760.0
+        }
+      ],
+      "complete": true
+    },
+    {
+      "family": "koch",
+      "final_kw": {
+        "order": 2,
+        "r": 280.0,
+        "gap": 50.0
+      },
+      "final_metrics": {
+        "label": "koch(阶2,r280,gap50)",
+        "C_sigma_fF": 63.90811,
+        "f01_GHz": 5.371215765963104,
+        "alpha_MHz": -303.09501133203787,
+        "D": 0.006710759190245367,
+        "f01_ep": 5.398265647506629,
+        "f01_em": 5.3352915047504474,
+        "C_ep": 63.23113,
+        "C_em": 64.82344,
+        "round": 1,
+        "proposal": 1,
+        "changes": {
+          "gap": 50.0
+        },
+        "reason": "适度减小gap可显著提升C_Σ（电容∝1/gap），从62.9→≈68–71 fF；历史gap=45时D↑至0.00965，故取50平衡C_Σ与D；r=280、order=2不变",
+        "kw": {
+          "order": 2,
+          "r": 280.0,
+          "gap": 50.0
+        },
+        "eval_s": 107.2
+      },
+      "all_results": [
+        {
+          "label": "koch(阶2,r280,gap60)",
+          "C_sigma_fF": 62.9244,
+          "f01_GHz": 5.410659243300486,
+          "alpha_MHz": -307.8333575633478,
+          "D": 0.007922364877142834,
+          "f01_ep": 5.426159056622789,
+          "f01_em": 5.367963375981901,
+          "C_ep": 62.5438,
+          "C_em": 63.99021,
+          "round": 0,
+          "proposal": 0,
+          "changes": {
+            "r": 280.0
+          },
+          "reason": "增大r显著提升C_Σ（∝r²），当前44.6→目标70+需约+57%面积；gap=60保持稀释效应，f01将从6.36GHz降至~5.1GHz进入目标带",
+          "kw": {
+            "order": 2,
+            "r": 280.0,
+            "gap": 60.0
+          },
+          "eval_s": 744.1
+        },
+        {
+          "label": "koch(阶2,r200,gap45)",
+          "C_sigma_fF": 45.66138,
+          "f01_GHz": 6.288784380134773,
+          "alpha_MHz": -424.2147154698154,
+          "D": 0.009645152289668104,
+          "f01_ep": 6.3070149206820325,
+          "f01_em": 6.228419678413405,
+          "C_ep": 45.37875,
+          "C_em": 46.61537,
+          "round": 0,
+          "proposal": 1,
+          "changes": {
+            "gap": 45.0
+          },
+          "reason": "减小gap可快速提升C_Σ（电容∝1/gap），同时适度增加D但被koch分形边缘平滑补偿；结合r=260可协同达C_Σ≈72fF、f01≈5.0GHz",
+          "kw": {
+            "order": 2,
+            "r": 200.0,
+            "gap": 45.0
+          },
+          "eval_s": 775.9
+        },
+        {
+          "label": "koch(阶3,r200,gap60)",
+          "C_sigma_fF": 47.20743,
+          "f01_GHz": 6.191836569399108,
+          "alpha_MHz": -410.32162362278825,
+          "D": 0.010538871332316863,
+          "f01_ep": 6.2242110819509735,
+          "f01_em": 6.126924252565593,
+          "C_ep": 46.68294,
+          "C_em": 48.28473,
+          "round": 0,
+          "proposal": 2,
+          "changes": {
+            "order": 3
+          },
+          "reason": "升阶至3增强分形边缘长度与多尺度扰动稀释，提升C_Σ约15–20%（实测趋势），且δ=0.5μm扰动相对影响下降；配合r=240、gap=50可稳控f01≈5.2GHz、D<0.005",
+          "kw": {
+            "order": 3,
+            "r": 200.0,
+            "gap": 60.0
+          },
+          "eval_s": 785.6
+        },
+        {
+          "label": "koch(阶2,r300,gap60)",
+          "C_sigma_fF": 67.40559,
+          "f01_GHz": 5.237769937588889,
+          "alpha_MHz": -287.36829281754103,
+          "D": 0.007629996474798118,
+          "f01_ep": 5.252112268460845,
+          "f01_em": 5.197957847626655,
+          "C_ep": 67.01664,
+          "C_em": 68.50247,
+          "round": 1,
+          "proposal": 0,
+          "changes": {
+            "r": 300.0
+          },
+          "reason": "增大半径直接提升C_Σ（几何面积主导），当前62.9→目标70+ fF；gap=60保持，避免D剧增；order=2维持分形稀释优势",
+          "kw": {
+            "order": 2,
+            "r": 300.0,
+            "gap": 60.0
+          },
+          "eval_s": 133.3
+        },
+        {
+          "label": "koch(阶2,r280,gap50)",
+          "C_sigma_fF": 63.90811,
+          "f01_GHz": 5.371215765963104,
+          "alpha_MHz": -303.09501133203787,
+          "D": 0.006710759190245367,
+          "f01_ep": 5.398265647506629,
+          "f01_em": 5.3352915047504474,
+          "C_ep": 63.23113,
+          "C_em": 64.82344,
+          "round": 1,
+          "proposal": 1,
+          "changes": {
+            "gap": 50.0
+          },
+          "reason": "适度减小gap可显著提升C_Σ（电容∝1/gap），从62.9→≈68–71 fF；历史gap=45时D↑至0.00965，故取50平衡C_Σ与D；r=280、order=2不变",
+          "kw": {
+            "order": 2,
+            "r": 280.0,
+            "gap": 50.0
+          },
+          "eval_s": 107.2
+        },
+        {
+          "label": "koch(阶1,r280,gap60)",
+          "C_sigma_fF": 55.28859,
+          "f01_GHz": 5.750263520288159,
+          "alpha_MHz": -350.3476815860039,
+          "D": 0.008606595352559508,
+          "f01_ep": 5.763938208048789,
+          "f01_em": 5.7009856903508505,
+          "C_ep": 55.00958,
+          "C_em": 56.31105,
+          "round": 1,
+          "proposal": 2,
+          "changes": {
+            "order": 1
+          },
+          "reason": "降阶至order=1简化边界，减少高曲率尖角（δ=0.5μm扰动影响更大），降低表面损耗与D；同时边缘长度缩短但面积略增（r可微调补偿），实测order=3 D更高，故降阶更优",
+          "kw": {
+            "order": 1,
+            "r": 280.0,
+            "gap": 60.0
+          },
+          "eval_s": 114.7
+        },
+        {
+          "label": "koch(阶2,r300,gap50)",
+          "C_sigma_fF": 68.1308,
+          "f01_GHz": 5.211344293040389,
+          "alpha_MHz": -284.3094360356714,
+          "D": 0.007989651318119085,
+          "f01_ep": 5.225758423344186,
+          "f01_em": 5.169873358997968,
+          "C_ep": 67.73384,
+          "C_em": 69.29179,
+          "round": 2,
+          "proposal": 0,
+          "changes": {
+            "r": 300.0
+          },
+          "reason": "增大半径直接提升C_Σ（当前63.9→目标≥70），历史实测D=0.00763略高于当前0.00671但仍在可接受范围；结合gap微调可进一步优化",
+          "kw": {
+            "order": 2,
+            "r": 300.0,
+            "gap": 50.0
+          },
+          "eval_s": 100.5
+        },
+        {
+          "label": "koch(阶2,r280,gap45)",
+          "C_sigma_fF": 64.49428,
+          "f01_GHz": 5.348125560136974,
+          "alpha_MHz": -300.3402677672984,
+          "D": 0.006849243593688585,
+          "f01_ep": 5.37316969284062,
+          "f01_em": 5.311620105493936,
+          "C_ep": 63.85886,
+          "C_em": 65.43692999999999,
+          "round": 2,
+          "proposal": 1,
+          "changes": {
+            "gap": 45.0
+          },
+          "reason": "减小gap显著增C_Σ，虽历史D=0.00965偏高，但配合order=1（边界更平滑、扰动稀释更强）可抑制D；order=1时边缘尺度单一，δ=0.5μm扰动影响更可控",
+          "kw": {
+            "order": 2,
+            "r": 280.0,
+            "gap": 45.0
+          },
+          "eval_s": 85.1
+        },
+        {
+          "label": "koch(阶1,r280,gap50)",
+          "C_sigma_fF": 55.79197,
+          "f01_GHz": 5.725840938728775,
+          "alpha_MHz": -347.18668877724025,
+          "D": 0.010641936614436322,
+          "f01_ep": 5.740319442873434,
+          "f01_em": 5.665229983385856,
+          "C_ep": 55.49276,
+          "C_em": 57.07002,
+          "round": 2,
+          "proposal": 2,
+          "changes": {
+            "order": 1
+          },
+          "reason": "order=1科赫边界最平滑（近圆），减少尖角场集中与表面损耗；历史D=0.00861优于order=3的0.01054；配合r=290–300可补足C_Σ至70+，f01仍落在目标带内",
+          "kw": {
+            "order": 1,
+            "r": 280.0,
+            "gap": 50.0
+          },
+          "eval_s": 92.7
+        }
+      ],
+      "complete": true
+    }
+  ]
+}

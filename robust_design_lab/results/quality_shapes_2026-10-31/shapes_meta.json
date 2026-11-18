@@ -1,0 +1,82 @@
+{
+  "q_circle": {
+    "label": "q_circle(r265,gap28)",
+    "area_left_um2": 219989,
+    "area_right_um2": 219989,
+    "junction_len_um": 28.0,
+    "n_islands": 0,
+    "rationale": "双圆盘：曲率处处均匀，无任何电荷聚集点（匀曲率基准形）"
+  },
+  "q_ellipse": {
+    "label": "q_ellipse(340x400,gap28)",
+    "area_left_um2": 213476,
+    "area_right_um2": 213476,
+    "junction_len_um": 28.0,
+    "n_islands": 0,
+    "rationale": "椭圆对：正曲率均匀，长轴对置增大结区面对长度"
+  },
+  "q_stadium": {
+    "label": "q_stadium(620x280,gap28)",
+    "area_left_um2": 173598,
+    "area_right_um2": 173598,
+    "junction_len_um": 28.0,
+    "n_islands": 0,
+    "rationale": "胶囊对：直线面对段供结区电容，两端半圆消角，切向连续"
+  },
+  "q_squircle": {
+    "label": "q_squircle(580x400,n4)",
+    "area_left_um2": 214998,
+    "area_right_um2": 214998,
+    "junction_len_um": 28.0,
+    "n_islands": 0,
+    "rationale": "超椭圆：面积效率近矩形且曲率有界无角点"
+  },
+  "q_rounded_hex": {
+    "label": "q_rounded_hex(r275,f95)",
+    "area_left_um2": 196478,
+    "area_right_um2": 196478,
+    "junction_len_um": 30.0,
+    "n_islands": 0,
+    "rationale": "圆角六边形：面积/跨度比优于圆，全凸边界"
+  },
+  "q_ellipse_idc": {
+    "label": "q_ellipse_idc(230x320,4指,D140)",
+    "area_left_um2": 127381,
+    "area_right_um2": 127549,
+    "junction_len_um": 40.0,
+    "n_islands": 0,
+    "rationale": "椭圆垫交指：圆化垫身 + 交指工作边（实测最强机制）"
+  },
+  "q_crescent": {
+    "label": "q_crescent(R230,g40,220°)",
+    "area_left_um2": 63433,
+    "area_right_um2": 121830,
+    "junction_len_um": 40.0,
+    "n_islands": 0,
+    "rationale": "等间隙曲面对：全部边界都是工作边，双侧同步刻蚀抵消"
+  },
+  "q_arc_idc": {
+    "label": "q_arc_idc(R280,5指,D170)",
+    "area_left_um2": 35794,
+    "area_right_um2": 21807,
+    "junction_len_um": 28.0,
+    "n_islands": 0,
+    "rationale": "同心弧交指：交指工作边环形化，消除直线端部效应"
+  },
+  "q_disk_arcs": {
+    "label": "q_disk_arcs(r245,Rf460,3弧)",
+    "area_left_um2": 188036,
+    "area_right_um2": 188036,
+    "junction_len_um": 30.0,
+    "n_islands": 3,
+    "rationale": "圆盘浮弧桥：漂浮桥圆化版——串联稀释且无角点"
+  },
+  "q_annulus": {
+    "label": "q_annulus(250/115,gap28)",
+    "area_left_um2": 154790,
+    "area_right_um2": 154790,
+    "junction_len_um": 28.0,
+    "n_islands": 0,
+    "rationale": "环形垫对：外缘匀曲率，内缘为额外工作边"
+  }
+}

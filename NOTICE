@@ -1,0 +1,7 @@
+This artifact includes Quantum Metal / Qiskit Metal, copyright IBM and its contributors, under the Apache License, Version 2.0. Original file notices are retained.
+
+Research implementation and simulation records are distributed under Apache-2.0 unless an individual file states otherwise. The recorded local library is included to preserve the implementation used for these results.
+
+Public-copy change: the interpreter path in the historical full_suite_schedule.py is replaced with sys.executable. Provenance identifies original and published hashes.
+
+No manuscript, fabricated-device measurements, Ansys software, model weights, or credentials are included.

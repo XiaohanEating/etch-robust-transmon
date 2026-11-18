@@ -1,0 +1,10 @@
+{
+  "round": 1,
+  "index": 2,
+  "input_identity": "5a005917f4835f036ca03e27865ab379731028c0f69ccd9bc96728d9f907cdab",
+  "error": "response_parse_failure",
+  "detail": "Expecting ',' delimiter: line 12 column 153 (char 575)",
+  "metrics": null,
+  "feasible": false,
+  "duplicate": false
+}

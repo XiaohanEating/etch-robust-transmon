@@ -1,0 +1,25 @@
+{
+  "round": 1,
+  "index": 2,
+  "input_identity": "78529ea24f241a0267bd1dc8ebfd71edb5ea4b855ed7a1c1a7806a71597f175a",
+  "candidate": {
+    "a": 177.0,
+    "b": 132.0,
+    "D": 130.0,
+    "f_w": 16.0,
+    "f_gap": 32.0,
+    "f_len": 88.0
+  },
+  "raw": {
+    "changes": {
+      "D": 130.0,
+      "f_w": 16.0
+    },
+    "reason": "减小D（两岛中心距）增强电容岛间耦合，使总CΣ更多由岛间电容主导（对刻蚀误差不敏感），而地口袋刻蚀影响被稀释；增大f_w（叉指宽度）提升叉指电容占比，其几何更规则、边缘效应弱于岛-地界面，从而降低整体CΣ对±0.5μm均匀刻蚀的响应。历史中D=140,f_w=14时D=0.0145；D=132,f_w=16时D=0.0181（因b同步增大引入负面效应），现固定b=132仅调D↓与f_w↑，预期抵消不利项，实现D下降；CΣ预计略增但仍在约束内（≈88–92fF），f01≈4.55GHz合规。"
+  },
+  "metrics": null,
+  "feasible": false,
+  "duplicate": false,
+  "error": "ValueError: Rejected scene em: convergence/save status",
+  "wall_s": 7116.728510999994
+}

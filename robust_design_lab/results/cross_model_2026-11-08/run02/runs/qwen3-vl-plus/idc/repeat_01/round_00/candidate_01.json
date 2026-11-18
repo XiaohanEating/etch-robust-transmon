@@ -1,0 +1,25 @@
+{
+  "round": 0,
+  "index": 1,
+  "input_identity": "b3dae75f5d4270d6eaac988fc0cbc1c95ff6898b06e87dc91340de0c962495f0",
+  "candidate": {
+    "a": 170.0,
+    "b": 140.0,
+    "D": 140.0,
+    "f_w": 18.0,
+    "f_gap": 32.0,
+    "f_len": 88.0
+  },
+  "raw": {
+    "changes": {
+      "a": 170.0,
+      "f_w": 18.0
+    },
+    "reason": "减小a（电容岛纵向长度）并增宽f_w（叉指宽度），使叉指区域电场更均匀、边缘占比降低；二者协同使CΣ对±0.5μm刻蚀的相对变化率下降，且保持CΣ=91.6 fF、f01=4.54 GHz在约束内。图像显示叉指是主要刻蚀敏感区，此修改直接针对该区域鲁棒性。"
+  },
+  "metrics": null,
+  "feasible": false,
+  "duplicate": false,
+  "error": "ValueError: Rejected scene ep: convergence/save status",
+  "wall_s": 5779.064878100005
+}

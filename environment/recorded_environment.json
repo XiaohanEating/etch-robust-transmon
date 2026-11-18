@@ -1,0 +1,31 @@
+{
+  "python": "3.11.17 | packaged by Anaconda, Inc. | (main, Oct  1 2026, 20:16:54) [MSC v.1942 64 bit (AMD64)]",
+  "platform": "win32",
+  "packages": {
+    "quantum-metal": "0.9.0",
+    "numpy": "2.2.6",
+    "scipy": "1.17.1",
+    "shapely": "2.2.0",
+    "pandas": "3.0.6",
+    "matplotlib": "3.11.2",
+    "qutip": "5.3.1",
+    "scqubits": "4.3.1",
+    "pyEPR-quantum": "1.0.2",
+    "pyaedt": "0.23.0",
+    "cma": "4.5.0",
+    "scikit-optimize": "0.10.2",
+    "pytest": "9.1.1",
+    "zhipuai": "2.1.5.20250825",
+    "addict": "2.4.0",
+    "gdstk": "1.0.2",
+    "geopandas": "1.2.0",
+    "pint": "0.25.3",
+    "pygments": "2.21.0",
+    "pyyaml": "6.0.3",
+    "scikit-fem": "12.0.2",
+    "gmsh": "4.15.2",
+    "pywin32": "312",
+    "setuptools": "84.0.0"
+  },
+  "solver": "Ansys Electronics Desktop 2022 R1 (external commercial installation)"
+}

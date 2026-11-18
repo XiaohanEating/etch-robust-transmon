@@ -1,0 +1,1 @@
+Initial all-test collection exposed a missing archived fixture. Required fixtures were added without changing test logic. Final complete suite: 152 passed, 1 skipped, 24 subtests passed.

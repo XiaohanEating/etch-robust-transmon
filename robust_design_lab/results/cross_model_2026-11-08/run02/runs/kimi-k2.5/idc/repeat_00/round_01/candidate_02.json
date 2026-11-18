@@ -1,0 +1,25 @@
+{
+  "round": 1,
+  "index": 2,
+  "input_identity": "27b744842d992f45c0d5ae0079e8cce3f95ec363bfe9054f0003765cc9b47225",
+  "candidate": {
+    "a": 177.0,
+    "b": 140.0,
+    "D": 135.0,
+    "f_w": 16.0,
+    "f_gap": 32.0,
+    "f_len": 90.0
+  },
+  "raw": {
+    "changes": {
+      "D": 135.0,
+      "f_len": 90.0
+    },
+    "reason": "适度减小两岛间距D并增加叉指长度f_len，将更多电容耦合转移到叉指区域。叉指结构的电容对均匀刻蚀的响应比岛间间隙更可控，因为叉指边缘场分布更均匀，且增长叉指补偿间距减小带来的电容变化，优化整体刻蚀稳定性。"
+  },
+  "metrics": null,
+  "feasible": false,
+  "duplicate": false,
+  "error": "ValueError: Rejected scene nom: convergence/save status",
+  "wall_s": 2664.880044599995
+}

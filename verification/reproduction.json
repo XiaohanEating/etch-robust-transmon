@@ -1,0 +1,37 @@
+{
+  "cross_model_searches": 30,
+  "attempts": 270,
+  "recomputed_final_scenes": 90,
+  "median_reduction_percent": {
+    "kimi-k2.5/idc": 48.17691080353585,
+    "kimi-k2.5/pad": 22.12905016286545,
+    "qwen3-vl-plus/idc": 25.818622969908322,
+    "qwen3-vl-plus/pad": 25.113770708125948,
+    "gpt-6-astra/idc": 54.62559800536175,
+    "gpt-6-astra/pad": 32.71207265562344
+  },
+  "valid_new": {
+    "kimi-k2.5": 58,
+    "qwen3-vl-plus": 79,
+    "gpt-6-astra": 87
+  },
+  "structural_reduction_percent": {
+    "idc_01": 85.62187814980551,
+    "pad_01": 40.616796502950756
+  },
+  "stricter_edited_vs_pad_percent": 35.44751183055691,
+  "held_out_max_MHz": {
+    "champion_exact": 6.863030638116108,
+    "pad_ref": 8.171388834607995,
+    "idc_ref": 28.836411478109447
+  },
+  "historical_qualified_counts": {
+    "coordinate_descent": 5,
+    "nelder_mead": 5,
+    "bayesian_opt": 4,
+    "vlm": 5,
+    "cma_es": 4,
+    "sobol_best": 1
+  },
+  "scope": "Archived electromagnetic simulations and analytic predictions; no fabricated-device measurement claims."
+}

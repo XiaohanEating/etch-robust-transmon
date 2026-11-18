@@ -1,0 +1,222 @@
+[
+  {
+    "model": "kimi-k2.5",
+    "task": "idc",
+    "repeat": "repeat_00",
+    "D": 0.00903627185898401,
+    "complete": true,
+    "valid_new": 8,
+    "n_invalid": 0,
+    "n_failed_solves": 1,
+    "result": "robust_design_lab/results/cross_model_2026-11-08/run02/runs/kimi-k2.5/idc/repeat_00/result.json"
+  },
+  {
+    "model": "kimi-k2.5",
+    "task": "idc",
+    "repeat": "repeat_01",
+    "D": 0.012201527288800128,
+    "complete": true,
+    "valid_new": 3,
+    "n_invalid": 6,
+    "n_failed_solves": 0,
+    "result": "robust_design_lab/results/cross_model_2026-11-08/run02/runs/kimi-k2.5/idc/repeat_01/result.json"
+  },
+  {
+    "model": "kimi-k2.5",
+    "task": "idc",
+    "repeat": "repeat_02",
+    "D": 0.007881474014046838,
+    "complete": true,
+    "valid_new": 8,
+    "n_invalid": 0,
+    "n_failed_solves": 0,
+    "result": "robust_design_lab/results/cross_model_2026-11-08/run02/runs/kimi-k2.5/idc/repeat_02/result.json"
+  },
+  {
+    "model": "kimi-k2.5",
+    "task": "idc",
+    "repeat": "repeat_03",
+    "D": 0.010813269065400479,
+    "complete": true,
+    "valid_new": 3,
+    "n_invalid": 6,
+    "n_failed_solves": 0,
+    "result": "robust_design_lab/results/cross_model_2026-11-08/run02/runs/kimi-k2.5/idc/repeat_03/result.json"
+  },
+  {
+    "model": "kimi-k2.5",
+    "task": "idc",
+    "repeat": "repeat_04",
+    "D": 0.008010776670922811,
+    "complete": true,
+    "valid_new": 3,
+    "n_invalid": 6,
+    "n_failed_solves": 0,
+    "result": "robust_design_lab/results/cross_model_2026-11-08/run02/runs/kimi-k2.5/idc/repeat_04/result.json"
+  },
+  {
+    "model": "kimi-k2.5",
+    "task": "pad",
+    "repeat": "repeat_00",
+    "D": 0.003029820651931831,
+    "complete": true,
+    "valid_new": 9,
+    "n_invalid": 0,
+    "n_failed_solves": 0,
+    "result": "robust_design_lab/results/cross_model_2026-11-08/run02/runs/kimi-k2.5/pad/repeat_00/result.json"
+  },
+  {
+    "model": "kimi-k2.5",
+    "task": "pad",
+    "repeat": "repeat_01",
+    "D": 0.00329597409835453,
+    "complete": true,
+    "valid_new": 6,
+    "n_invalid": 3,
+    "n_failed_solves": 0,
+    "result": "robust_design_lab/results/cross_model_2026-11-08/run02/runs/kimi-k2.5/pad/repeat_01/result.json"
+  },
+  {
+    "model": "kimi-k2.5",
+    "task": "pad",
+    "repeat": "repeat_02",
+    "D": 0.0032876072747693957,
+    "complete": true,
+    "valid_new": 6,
+    "n_invalid": 3,
+    "n_failed_solves": 0,
+    "result": "robust_design_lab/results/cross_model_2026-11-08/run02/runs/kimi-k2.5/pad/repeat_02/result.json"
+  },
+  {
+    "model": "kimi-k2.5",
+    "task": "pad",
+    "repeat": "repeat_03",
+    "D": 0.003425545674752296,
+    "complete": true,
+    "valid_new": 6,
+    "n_invalid": 3,
+    "n_failed_solves": 0,
+    "result": "robust_design_lab/results/cross_model_2026-11-08/run02/runs/kimi-k2.5/pad/repeat_03/result.json"
+  },
+  {
+    "model": "kimi-k2.5",
+    "task": "pad",
+    "repeat": "repeat_04",
+    "D": 0.0031954163249282397,
+    "complete": true,
+    "valid_new": 6,
+    "n_invalid": 3,
+    "n_failed_solves": 0,
+    "result": "robust_design_lab/results/cross_model_2026-11-08/run02/runs/kimi-k2.5/pad/repeat_04/result.json"
+  },
+  {
+    "model": "qwen3-vl-plus",
+    "task": "idc",
+    "repeat": "repeat_00",
+    "D": 0.012719923380230928,
+    "complete": true,
+    "valid_new": 7,
+    "n_invalid": 0,
+    "n_failed_solves": 2,
+    "result": "robust_design_lab/results/cross_model_2026-11-08/run02/runs/qwen3-vl-plus/idc/repeat_00/result.json"
+  },
+  {
+    "model": "qwen3-vl-plus",
+    "task": "idc",
+    "repeat": "repeat_01",
+    "D": 0.012934834648248562,
+    "complete": true,
+    "valid_new": 6,
+    "n_invalid": 0,
+    "n_failed_solves": 3,
+    "result": "robust_design_lab/results/cross_model_2026-11-08/run02/runs/qwen3-vl-plus/idc/repeat_01/result.json"
+  },
+  {
+    "model": "qwen3-vl-plus",
+    "task": "idc",
+    "repeat": "repeat_02",
+    "D": 0.014534448505485527,
+    "complete": true,
+    "valid_new": 7,
+    "n_invalid": 0,
+    "n_failed_solves": 2,
+    "result": "robust_design_lab/results/cross_model_2026-11-08/run02/runs/qwen3-vl-plus/idc/repeat_02/result.json"
+  },
+  {
+    "model": "qwen3-vl-plus",
+    "task": "idc",
+    "repeat": "repeat_03",
+    "D": 0.014534448505485527,
+    "complete": true,
+    "valid_new": 8,
+    "n_invalid": 0,
+    "n_failed_solves": 1,
+    "result": "robust_design_lab/results/cross_model_2026-11-08/run02/runs/qwen3-vl-plus/idc/repeat_03/result.json"
+  },
+  {
+    "model": "qwen3-vl-plus",
+    "task": "idc",
+    "repeat": "repeat_04",
+    "D": 0.012837564412026686,
+    "complete": true,
+    "valid_new": 7,
+    "n_invalid": 0,
+    "n_failed_solves": 2,
+    "result": "robust_design_lab/results/cross_model_2026-11-08/run02/runs/qwen3-vl-plus/idc/repeat_04/result.json"
+  },
+  {
+    "model": "qwen3-vl-plus",
+    "task": "pad",
+    "repeat": "repeat_00",
+    "D": 0.0032887269078596556,
+    "complete": true,
+    "valid_new": 9,
+    "n_invalid": 0,
+    "n_failed_solves": 0,
+    "result": "robust_design_lab/results/cross_model_2026-11-08/run02/runs/qwen3-vl-plus/pad/repeat_00/result.json"
+  },
+  {
+    "model": "qwen3-vl-plus",
+    "task": "pad",
+    "repeat": "repeat_01",
+    "D": 0.0031615963682853354,
+    "complete": true,
+    "valid_new": 9,
+    "n_invalid": 0,
+    "n_failed_solves": 0,
+    "result": "robust_design_lab/results/cross_model_2026-11-08/run02/runs/qwen3-vl-plus/pad/repeat_01/result.json"
+  },
+  {
+    "model": "qwen3-vl-plus",
+    "task": "pad",
+    "repeat": "repeat_02",
+    "D": 0.002720247357478871,
+    "complete": true,
+    "valid_new": 9,
+    "n_invalid": 0,
+    "n_failed_solves": 0,
+    "result": "robust_design_lab/results/cross_model_2026-11-08/run02/runs/qwen3-vl-plus/pad/repeat_02/result.json"
+  },
+  {
+    "model": "qwen3-vl-plus",
+    "task": "pad",
+    "repeat": "repeat_03",
+    "D": 0.0032975043533127225,
+    "complete": true,
+    "valid_new": 8,
+    "n_invalid": 1,
+    "n_failed_solves": 0,
+    "result": "robust_design_lab/results/cross_model_2026-11-08/run02/runs/qwen3-vl-plus/pad/repeat_03/result.json"
+  },
+  {
+    "model": "qwen3-vl-plus",
+    "task": "pad",
+    "repeat": "repeat_04",
+    "D": 0.0027447636281198494,
+    "complete": true,
+    "valid_new": 9,
+    "n_invalid": 0,
+    "n_failed_solves": 0,
+    "result": "robust_design_lab/results/cross_model_2026-11-08/run02/runs/qwen3-vl-plus/pad/repeat_04/result.json"
+  }
+]

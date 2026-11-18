@@ -1,0 +1,830 @@
+{
+  "provenance": {
+    "python": "[REDACTED: external machine path]/python.exe",
+    "python_version": "3.11.17 | packaged by Anaconda, Inc. | (main, Oct  1 2026, 20:16:54) [MSC v.1942 64 bit (AMD64)]",
+    "python_no_user_site": "1",
+    "frozen_config": "6e4170071b3dc3ac",
+    "source_sha256": {
+      "__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "analysis/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "configs/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "configs/frozen.py": "cba4ddc6eb55bcdd0857218ae19f58a1c5d304878f2ba8e8a097d5fab9514113",
+      "evaluator/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "evaluator/ansys_calibration.py": "6b5eb1886338b9b6b30e35c60e89440409624516e3068b08ea3b24268f524a44",
+      "evaluator/ansys_native.py": "507a298bbe36ca6f21e7d21855e8378833c1a43845ee9039e31397f3843d9457",
+      "evaluator/corrected.py": "50d401df647036273fc857849189ec31c9ea76412e5ac26d23678e01e563fa02",
+      "evaluator/fast.py": "ffebbc836c1e801f04f28076d9f3e4ebcdcf9d3cfaa88622bd8f7efdc07fec02",
+      "evaluator/fields.py": "f4e7949a758f736e4d9ff67351affcaf911b84740d4507dbe148e64dbe6d78ec",
+      "evaluator/finite_film.py": "2e80d1e4146e0ab4855be34cb4ac1920f58191e0d436735f2dc5c0ef0a7f14a0",
+      "evaluator/lom.py": "b9c20ce5028abff5b4ea0087bf5cf58fc4307c534ff02530d6afa728847afca5",
+      "evaluator/mesh_transport.py": "010b701220fb230e27568560ae768adbb77e3439ec90773848858e2e49ee5846",
+      "evaluator/metal_reference.py": "c783e316bf67a337c1ffc0fac81cbf3e1ea91f747be8725760f907bd2705e352",
+      "evaluator/participation.py": "282f244f0c63dff8b7d7fbed7f3c3d75831ebf3c6a0086d3e1b018fe9a8e16da",
+      "experiments/alignment_report.py": "f1c9ad543e59cb20afe9ba3c32a6522e69f2f9b6cee7619a47f7b78ac190d65e",
+      "experiments/calibration.py": "4b58e5c6ce6e0f295e035d0750d76c39df2eb431b8c31978c746e6c715952a77",
+      "experiments/field_audit.py": "0a9e206511381f8646c015a2ab3ffe59abec2977ad35e45c42d02c11e6377b4a",
+      "experiments/finite_alignment.py": "4c31a28c9feebfb0cb87d3041cf0e579574e1c90f1f6338fae021fe877c67f62",
+      "experiments/finite_diagnostics.py": "7ce370dedd77f62bd27b197794bb02e5a93d6abdb8c904ee6ee4abd2e9ab3e50",
+      "experiments/g1_step1_hfss_side_probe.py": "1e17c6cb68d5f8c4a7df6a64af077fcb8c4b474d1f9b2708c8a8d8c84610dfc3",
+      "experiments/g1_step1_side_audit.py": "741f52bf3a029a3efb698df79aeb3d4bff44c89369129f98d6560d37b33002ae",
+      "experiments/g1_step2_local_edge.py": "6295c088a1462032ec86edb1227552821b23eb65467dbb60366b098f529fc779",
+      "experiments/g1_step3_fast_rectangle.py": "4e17097612eaeafc54f99884e06485433f7f4d9d75c48abbd2891f1af29a7902",
+      "experiments/g1_step3b_hfss_sheets.py": "e7d372073edd6758ea0c5c2a68d894ce831a62893cca8933bd1c1bd8d1b9d35f",
+      "experiments/g1_step4_matrix.py": "8b662fba3ed16154b3e7fcde740c1525ea5f997fc6189377db645ebaea918dfd",
+      "experiments/g2_cost_test.py": "8a96662b4e88003b8ab6393622c9e686d88e67d1dca8ee1a2869e33c6dce985c",
+      "experiments/hfss_interfaces.py": "df14eafe490e751ae7837ebb1dabd4bb63da5fa99c76e11cc9dcc62f4ccc5b29",
+      "experiments/phase0_env_lock.py": "9bfb8f1a077e8fd67dc8e88fcb142728e2be0a774c71e50cb9f3edfdb958dae6",
+      "experiments/phase0_smoke.py": "6c715e226e9e4852794c76fb32a78f3d6d462ef37079939b598d61d0d10612c7",
+      "experiments/phaseA_g0_geometry.py": "ce2abc97af52ac8f30250dfd443d3162271fe9c23ba96621b8addd2f3ae2069a",
+      "experiments/phaseA_g1_physics.py": "28c0b7222f514a639f10765fe85a325d004368400d4255f6ecc27e0051dfb9fd",
+      "experiments/phaseB_library_scan.py": "7731c0b5024b146b5ed3d8c10c347558d6dc12e849f822e1f90459cdea85b6b2",
+      "experiments/phaseB_library_scan2.py": "1b629d9a1e7c7d3c295188964928674ab069cb4d805eb59af3014efd8c930937",
+      "experiments/q3d_shape_sweep.py": "5a11cfc1866cf1ab4296fc86a2cb1afc287a0fef7a1f74db4f2ec8b5eff7617b",
+      "experiments/reachability.py": "d44f67e3398c01f2d10d99e244aadd7932d60363780b2718eaaf1015423d2111",
+      "experiments/render_shape_library.py": "c17656039f693e5c357cd01ef10dcaaac3257cc1e15641c925750908287f6493",
+      "experiments/rendering.py": "ba2608ad67b1ce0a81be0806854905cd27cad3d7441fa030310ca594df816af7",
+      "experiments/step2_q3d_baseline.py": "d74f7379cba0f0e6e45634caa0601f2e990f9c31e060c58e6fd0c1388dbd0f0c",
+      "experiments/step2a_window_v2.py": "55725ab90d947836bfb2d43c2d14f59a5bd032ce2eab58b55127611df84f193e",
+      "experiments/step2b_separated_sensitivity.py": "57e9af1f42df9252d806d3f99023284944b3b30c656153db83bb8ee42944a0d2",
+      "experiments/step2c_band_decomposition.py": "ad618f780311978e1229747ee618a8ef36310e8753f1408ca69efdfa97c30b7b",
+      "experiments/step2c_hfss_ellipse.py": "3ebe5ee93c5a5193520e3660903cde85bf73f910e768647cfe3ea09c1b24386c",
+      "experiments/step3_image_checks.py": "c78f7587d8e08c9832291b745588cc68fbbac43f2baaa2a457972a5499643f75",
+      "experiments/step3_repost_g1.py": "86b51ecac73983974f3409243ee6af15a9ca9267fae4c11ea679fc06d2018f8d",
+      "experiments/step3b_window_rank.py": "e6eb4d02db0469aea41c73975f94feded25330037ac04d9d7a472a2cf1d15fa3",
+      "experiments/step4_cost_v2.py": "5a9b5af5c3554fb2d10c1afd14a84b7f73b64f6f9fb7a6da140ba75adc29c92a",
+      "experiments/step4_visual_v3.py": "b2ff7134921f57615fa9825af0762a181267f3377feedebe9d754d6409526a65",
+      "experiments/transport_summary.py": "88f374724ef3167f4e85f395f14e35027589f219b251bcb0d5676737841a5b8e",
+      "experiments/visual_paired.py": "7c1c9714db9c15dfa9fcfca20d5398fc47a612b60f069af365a136182bdded2e",
+      "experiments/vlm_shape_exploration.py": "d56513a229ab9637fec0f5341e4f9ad560ebea34b899dc237236d54de557c7d4",
+      "geometry/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "geometry/checks.py": "83cee86763c008c5d7c8b62debc9ec8d8041755526b31391f91ef3efe7cb2146",
+      "geometry/clean.py": "6ebad9b5b0e8e209bdac2adfc8048d02e0f7237227347163aa99b86eb76be969",
+      "geometry/correct_idc.py": "9da70fdee2e6937c426981493725d1af2446bd24fefbb5aee21d4e3e3d6ce839",
+      "geometry/four_shape_families.py": "58d408a28cf3d6041f614a944e729894fdedfddc80ddb6bad66dc6feaa629853",
+      "geometry/free_pocket.py": "c5be6bd3ab1764cd00f0f8bfb08843f331d3b53589d935cd70a1d77c486efb73",
+      "geometry/library.py": "5d16dd7566e4dd7039d7c03faa3eb4ff60d24b858dd710fbbe11c6a251520a5a",
+      "geometry/operations.py": "3b66fb7d6fe04726d9dbefa28a0eac2fcb9e0f4415564b199ec13f6e9b15dd5a",
+      "geometry/record.py": "bde1d68d79ba34c9d097d475a4346b41d3bbf62a40ddb7dad55d58049d932fca",
+      "geometry/two_pad.py": "51716b46cb3545acac4f380f5a58ad51e1699b261ea5ec6dfc4fac53498a5a9c",
+      "objectives/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "objectives/drift.py": "0e45c16391fde37b870060cfd3bfbf6f3093990dcc0a965e488e0a25c602c66d",
+      "perturbation/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "perturbation/channels.py": "856879733aaf2ee82cc36d2565d5deca53162640ae8b8da06beb8104d497106b",
+      "perturbation/scenarios.py": "1d12fdda27a4f46262b8d5c6c110d777c1d7210b424ee8e911bd70437c2fe421",
+      "results/calibration_v2/ansys/native_probe_script.py": "919b6d8ceae2654b2f0e9a9db10d52c73527a0ce321a1b6d898faf4c9a6f07c0",
+      "results/corrections_followup_review_2026-10-25/replay.py": "b058f54e91d74ee39c3e379c66461d679b88ca6d924e37721f4d4131496b2e60",
+      "results/corrections_v4_review_2026-10-25/replay.py": "10dde44b9d199dcbe9d90ea305d34637fa475591a08a7205cd65d70bd0226deb",
+      "results/separated_sensitivity_review_2026-10-26/inputs/01_g1_step3_fast_rectangle.py": "4e17097612eaeafc54f99884e06485433f7f4d9d75c48abbd2891f1af29a7902",
+      "results/separated_sensitivity_review_2026-10-26/inputs/02_step4_visual_v3.py": "77bbf19101343ed9f641e80f832a5f547b42a84282a2fe09142743309cb984bb",
+      "results/separated_sensitivity_review_2026-10-26/inputs/03_corrected.py": "50d401df647036273fc857849189ec31c9ea76412e5ac26d23678e01e563fa02",
+      "results/separated_sensitivity_review_2026-10-26/inputs/04_step2b_separated_sensitivity.py": "57e9af1f42df9252d806d3f99023284944b3b30c656153db83bb8ee42944a0d2",
+      "results/separated_sensitivity_review_2026-10-26/inputs/05_g1_step2_local_edge.py": "6295c088a1462032ec86edb1227552821b23eb65467dbb60366b098f529fc779",
+      "results/separated_sensitivity_review_2026-10-26/inputs/06_frozen.py": "cba4ddc6eb55bcdd0857218ae19f58a1c5d304878f2ba8e8a097d5fab9514113",
+      "results/separated_sensitivity_review_2026-10-26/inputs/07_test_corrected_v4_guards.py": "ac576debe2ac49fa3f20753eec547abc92393bacf814d568f029ca21ca0e99b7",
+      "results/separated_sensitivity_review_2026-10-26/replay.py": "40dbc0b89a28d733547a271dfd19d02df17896ff88ac5237f30721e4a48c1df6",
+      "runtime/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "runtime/records.py": "163edf61d767477dfeb12b4397d8307e33d1315bc899c2b97a59f478735180f5",
+      "search/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "search/pilot.py": "174ddfb6586fb6b6055af49b710a9c14d6a96dcc13e3ea1394216c85f9834157",
+      "tests/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tests/test_alignment_report.py": "99a636be662937572050b13947569864ac3ed698b9216aedb4d021951e297acf",
+      "tests/test_aliyun_credentials.py": "9f8fc2417fa5d3bad122a5256285834bca392a26944711a7e60db9e58e5e8f64",
+      "tests/test_ansys_calibration.py": "d5f52a6c208717f8296e12aaccf2f8856ed46aa11bb414f7d74850acea306a54",
+      "tests/test_corrected_v4_guards.py": "ac576debe2ac49fa3f20753eec547abc92393bacf814d568f029ca21ca0e99b7",
+      "tests/test_coupling_definitions.py": "c7ab3ce40e2a71b047cfcfae4b15dd1601708179bc36cf98905f7c59097c5487",
+      "tests/test_fields_and_credentials.py": "48eb264b472d7537d6356ff34207cdd917e134e529d42806ef10bbaed4fe0fd7",
+      "tests/test_finite_film.py": "f7bf78bae628806859feb49efaf8988811773f427b969683637146c54cbc693d",
+      "tests/test_hfss_interfaces.py": "315050795985690911f2cdc4033f2c63a018d557bedb9963d04bd031f9d8b018",
+      "tests/test_mesh_transport.py": "5f88b714f7559475fd4b1ccfd3d24297809e0d484c25448d31f6f091904eed94",
+      "tests/test_physics_and_drift.py": "0232add5fda6465d036b946e47fa230bdf203fe08176da7f17a8d3f41f984235",
+      "tests/test_search_contract.py": "8f4b335bd2e23a0d40d8b66438b8a7be3d6b58e6f265dec0444d830ec8247cb7",
+      "tests/test_transport_summary.py": "b17a22249a2206a030a66b2da32a5c54981a213c7765d93364e765a2384aa670",
+      "vlm/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "vlm/aliyun.py": "f74be7fdc74815eb859c40ddabfe608910afa48dc5bed4234adf2a2620f52979",
+      "vlm/experiment.py": "c6fbca90faf7fea449f35378fdc439ef26224bf5f7ccfcd23e208d7547979f43"
+    },
+    "command": [
+      "[REDACTED: external machine path]/python.exe",
+      "-c"
+    ],
+    "omp_threads": null,
+    "mkl_threads": null
+  },
+  "results": [
+    {
+      "arm": "vlm",
+      "family": "A_dual_pad",
+      "final_variant": {
+        "pad_width": "560um",
+        "pad_height": "178um",
+        "pad_gap": "50um",
+        "pocket_width": "800um",
+        "pocket_height": "800um",
+        "connection_pads": {
+          "readout": {
+            "loc_W": 1,
+            "loc_H": -1,
+            "pad_width": "200um"
+          },
+          "bus1": {
+            "loc_W": -1,
+            "loc_H": 1,
+            "pad_height": "30um"
+          },
+          "bus2": {
+            "loc_W": -1,
+            "loc_H": -1,
+            "pad_height": "50um"
+          }
+        }
+      },
+      "final_metrics": {
+        "C_sigma_fF": 78.77785293312692,
+        "f01_GHz": 4.864917552817405,
+        "alpha_MHz": -245.8841997268211,
+        "D": 0.0020248884676191525
+      },
+      "all_results": [
+        {
+          "C_sigma_fF": 79.1667768068316,
+          "f01_GHz": 4.8535560972981635,
+          "alpha_MHz": -244.6762405386648,
+          "D": 0.0030114706097315756,
+          "f01_ep": 4.861060138834974,
+          "f01_em": 4.8389617420240825,
+          "changes": {
+            "pad_gap": "42um"
+          },
+          "ok": true,
+          "round": 0,
+          "proposal_idx": 0,
+          "reason": "增大间隙可降低电场集中，减小D（当前D=0.020→目标<0.01），同时C_Σ仍>70 fF（实测82.7 fF，gap+8μm预计降~5–6 fF，仍≈77 fF）"
+        },
+        {
+          "C_sigma_fF": 93.37839660886938,
+          "f01_GHz": 4.486830185413125,
+          "alpha_MHz": -207.43801594489224,
+          "D": 0.0038147456896842034,
+          "f01_ep": 4.502305848115546,
+          "f01_em": 4.469746674644514,
+          "changes": {
+            "pad_width": "620um"
+          },
+          "ok": true,
+          "round": 0,
+          "proposal_idx": 1,
+          "reason": "加宽pad臂至≥50μm宽（当前有效臂宽≈pad_width−gap=511μm已满足，但进一步增宽可提升均匀性、降低边缘场扰动，实测D偏高主因是局部曲率不均；增宽后C_Σ略升，f01微降但仍处目标带内）"
+        },
+        {
+          "C_sigma_fF": 83.1876919104536,
+          "f01_GHz": 4.740643946618534,
+          "alpha_MHz": -232.84970264002484,
+          "D": 0.00371787566524309,
+          "f01_ep": 4.758301876038424,
+          "f01_em": 4.724398569947127,
+          "changes": {
+            "pocket_width": "900um"
+          },
+          "ok": true,
+          "round": 0,
+          "proposal_idx": 2,
+          "reason": "扩大pocket尺寸使pad边界更远离衬底边缘，改善场均匀性（减少边缘散射），降低D；C_Σ变化小（主要由pad主导），f01/α基本不变，符合圆弧边界优于尖角原则"
+        },
+        {
+          "C_sigma_fF": 76.8235552202386,
+          "f01_GHz": 4.923260601363987,
+          "alpha_MHz": -252.13919440630335,
+          "D": 0.0027337413015759483,
+          "f01_ep": 4.9364644967403875,
+          "f01_em": 4.909820060371109,
+          "changes": {
+            "pad_gap": "50um"
+          },
+          "ok": true,
+          "round": 1,
+          "proposal_idx": 0,
+          "reason": "增大间隙可降低D（场集中减弱），当前C_Σ=79.2fF已超70fF阈值，允许小幅降容以优化鲁棒性；实测显示gap↑→D↓趋势明确"
+        },
+        {
+          "C_sigma_fF": 84.11317704316156,
+          "f01_GHz": 4.715768962196144,
+          "alpha_MHz": -230.28769100850326,
+          "D": 0.0044819762457840905,
+          "f01_ep": 4.730563691048262,
+          "f01_em": 4.694680292487935,
+          "changes": {
+            "pad_width": "580um"
+          },
+          "ok": true,
+          "round": 1,
+          "proposal_idx": 1,
+          "reason": "在620um导致f01过低（4.49GHz）前提下，适度增宽至580um可微升C_Σ（≈85fF），补偿因gap增大导致的C_Σ下降，同时维持f01≈4.7–4.8GHz区间"
+        },
+        {
+          "C_sigma_fF": 79.08370148999234,
+          "f01_GHz": 4.855976147048606,
+          "alpha_MHz": -244.93326639636777,
+          "D": 0.00306307890827205,
+          "f01_ep": 4.86405502646816,
+          "f01_em": 4.841124666174362,
+          "changes": {
+            "pocket_height": "850um"
+          },
+          "ok": true,
+          "round": 1,
+          "proposal_idx": 2,
+          "reason": "增大pocket尺寸可改善边缘曲率均匀性（趋近同心圆），降低D；当前pocket为正方形800×800，仅增height不改变对称性，且实测pocket_width↑→D↑说明需更均衡扩展；此调整对C_Σ影响小但提升几何鲁棒性"
+        },
+        {
+          "C_sigma_fF": 75.12228435359475,
+          "f01_GHz": 4.975825228413432,
+          "alpha_MHz": -257.84931184314047,
+          "D": 0.0029481012964550197,
+          "f01_ep": 4.986383622008584,
+          "f01_em": 4.961177593571162,
+          "changes": {
+            "pad_gap": "58um"
+          },
+          "ok": true,
+          "round": 2,
+          "proposal_idx": 0,
+          "reason": "增大间隙可降低D（场集中减弱），当前D=0.0027偏高；实测显示gap↑→D↓（42um→D=0.0030，50um→D=0.0027），58um有望降至≈0.0022，C_Σ略降但仍>70fF"
+        },
+        {
+          "C_sigma_fF": 78.77785293312692,
+          "f01_GHz": 4.864917552817405,
+          "alpha_MHz": -245.8841997268211,
+          "D": 0.0020248884676191525,
+          "f01_ep": 4.873207252455953,
+          "f01_em": 4.855076604142994,
+          "changes": {
+            "pad_width": "560um"
+          },
+          "ok": true,
+          "round": 2,
+          "proposal_idx": 1,
+          "reason": "小幅增宽臂宽（+15um）提升几何鲁棒性（规则4），避免过宽导致f01过低；当前545um→560um预计C_Σ≈78–80fF，f01≈4.88GHz，D微升但仍在0.0028内"
+        },
+        {
+          "C_sigma_fF": 76.97056678317666,
+          "f01_GHz": 4.918797385539267,
+          "alpha_MHz": -251.65761581598284,
+          "D": 0.0027183961452585284,
+          "f01_ep": 4.926434285292503,
+          "f01_em": 4.905444303393539,
+          "changes": {
+            "pocket_height": "780um"
+          },
+          "ok": true,
+          "round": 2,
+          "proposal_idx": 2,
+          "reason": "微缩口袋高度（-20um）减少边缘场扰动，改善曲率均匀性（规则2）；实测pocket↑→D↑（850um→D=0.0031），反向调整可降D；C_Σ降幅小（≈75.5fF>70fF），f01微升至≈4.95GHz"
+        }
+      ]
+    },
+    {
+      "arm": "random",
+      "family": "A_dual_pad",
+      "final_variant": {
+        "pad_width": "471um",
+        "pad_height": "177um",
+        "pad_gap": "38um",
+        "pocket_width": "800um",
+        "pocket_height": "800um",
+        "connection_pads": {
+          "readout": {
+            "loc_W": 1,
+            "loc_H": -1,
+            "pad_width": "200um"
+          },
+          "bus1": {
+            "loc_W": -1,
+            "loc_H": 1,
+            "pad_height": "30um"
+          },
+          "bus2": {
+            "loc_W": -1,
+            "loc_H": -1,
+            "pad_height": "50um"
+          }
+        }
+      },
+      "final_metrics": {
+        "C_sigma_fF": 71.31210143263445,
+        "f01_GHz": 5.1000459001434475,
+        "alpha_MHz": -271.62611864631924,
+        "D": 0.003230534088269674
+      },
+      "all_results": [
+        {
+          "C_sigma_fF": 73.10658347203824,
+          "f01_GHz": 5.040376840809318,
+          "alpha_MHz": -264.95875480308604,
+          "D": 0.0038395224061904066,
+          "f01_ep": 5.05976668066724,
+          "f01_em": 5.021252009887209,
+          "changes": {
+            "pad_width": "555um",
+            "pad_height": "124um",
+            "pad_gap": "37um"
+          },
+          "ok": true,
+          "round": 0,
+          "proposal_idx": 0
+        },
+        {
+          "C_sigma_fF": 62.63064719486841,
+          "f01_GHz": 5.422610295995576,
+          "alpha_MHz": -309.27717007922286,
+          "D": 0.0040195239127016075,
+          "f01_ep": 5.443735712023972,
+          "f01_em": 5.4008577310063615,
+          "changes": {
+            "pad_width": "539um",
+            "pad_height": "89um",
+            "pad_gap": "40um"
+          },
+          "ok": true,
+          "round": 0,
+          "proposal_idx": 1
+        },
+        {
+          "C_sigma_fF": 86.48335899673987,
+          "f01_GHz": 4.653833071242457,
+          "alpha_MHz": -223.97637591052995,
+          "D": 0.0058232187722724454,
+          "f01_ep": 4.674659614842785,
+          "f01_em": 4.626811535653659,
+          "changes": {
+            "pad_width": "552um",
+            "pad_height": "159um",
+            "pad_gap": "23um"
+          },
+          "ok": true,
+          "round": 0,
+          "proposal_idx": 2
+        },
+        {
+          "C_sigma_fF": 63.22108854058778,
+          "f01_GHz": 5.398670006959565,
+          "alpha_MHz": -306.38873470556393,
+          "D": 0.0037943868982838053,
+          "f01_ep": 5.411917532879504,
+          "f01_em": 5.3782241784394405,
+          "changes": {
+            "pad_width": "490um",
+            "pad_height": "117um",
+            "pad_gap": "39um"
+          },
+          "ok": true,
+          "round": 1,
+          "proposal_idx": 0
+        },
+        {
+          "C_sigma_fF": 80.6184830986581,
+          "f01_GHz": 4.811851259234552,
+          "alpha_MHz": -240.27032735104314,
+          "D": 0.004149834737117129,
+          "f01_ep": 4.82986679963472,
+          "f01_em": 4.79192424722958,
+          "changes": {
+            "pad_width": "529um",
+            "pad_height": "162um",
+            "pad_gap": "29um"
+          },
+          "ok": true,
+          "round": 1,
+          "proposal_idx": 1
+        },
+        {
+          "C_sigma_fF": 69.06836894573875,
+          "f01_GHz": 5.177775812355192,
+          "alpha_MHz": -280.45007606704434,
+          "D": 0.005702607729647757,
+          "f01_ep": 5.20738698693605,
+          "f01_em": 5.1553403971457,
+          "changes": {
+            "pad_width": "445um",
+            "pad_height": "135um",
+            "pad_gap": "21um"
+          },
+          "ok": true,
+          "round": 1,
+          "proposal_idx": 2
+        },
+        {
+          "C_sigma_fF": 79.16442888429437,
+          "f01_GHz": 4.853624443677244,
+          "alpha_MHz": -244.68349734412135,
+          "D": 0.00369528403020282,
+          "f01_ep": 4.8715931438509,
+          "f01_em": 4.835915766551354,
+          "changes": {
+            "pad_width": "566um",
+            "pad_height": "143um",
+            "pad_gap": "35um"
+          },
+          "ok": true,
+          "round": 2,
+          "proposal_idx": 0
+        },
+        {
+          "C_sigma_fF": 71.31210143263445,
+          "f01_GHz": 5.1000459001434475,
+          "alpha_MHz": -271.62611864631924,
+          "D": 0.003230534088269674,
+          "f01_ep": 5.1164152925454305,
+          "f01_em": 5.083596612309707,
+          "changes": {
+            "pad_width": "471um",
+            "pad_height": "177um",
+            "pad_gap": "38um"
+          },
+          "ok": true,
+          "round": 2,
+          "proposal_idx": 1
+        },
+        {
+          "C_sigma_fF": 72.08524235037139,
+          "f01_GHz": 5.074074947732937,
+          "alpha_MHz": -268.71282793931437,
+          "D": 0.005311935606219919,
+          "f01_ep": 5.094694804741475,
+          "f01_em": 5.047193248486422,
+          "changes": {
+            "pad_width": "556um",
+            "pad_height": "99um",
+            "pad_gap": "29um"
+          },
+          "ok": true,
+          "round": 2,
+          "proposal_idx": 2
+        }
+      ]
+    },
+    {
+      "arm": "vlm",
+      "family": "D_interdigit",
+      "final_variant": {
+        "pad_width": "380um",
+        "pad_height": "84um",
+        "finger_width": "16um",
+        "finger_height": "51um",
+        "finger_gap": "20um",
+        "n_fingers": 3,
+        "junction_gap": "24um",
+        "conn_w": "100um",
+        "conn_h": "30um",
+        "jj_width": "20um",
+        "pocket_margin": "60um"
+      },
+      "final_metrics": {
+        "C_sigma_fF": 44.445163235722696,
+        "f01_GHz": 6.368404802647539,
+        "alpha_MHz": -435.82311132317653,
+        "D": 0.0008908732432694385
+      },
+      "all_results": [
+        {
+          "C_sigma_fF": 40.34707082654111,
+          "f01_GHz": 6.661338519363563,
+          "alpha_MHz": -480.0901014087247,
+          "D": 0.002458370210658441,
+          "f01_ep": 6.677734701227568,
+          "f01_em": 6.647107321287789,
+          "changes": {
+            "n_fingers": "5"
+          },
+          "ok": true,
+          "round": 0,
+          "proposal_idx": 0,
+          "reason": "增加手指数量可显著提升C_Σ（近似线性），同时交指结构冗余度提高、D降低；当前C_Σ=37fF→目标≥70fF，n_fingers从3→5预计+~24fF，兼顾鲁棒性"
+        },
+        {
+          "C_sigma_fF": 37.60762243253399,
+          "f01_GHz": 6.881896968083527,
+          "alpha_MHz": -515.0612581108591,
+          "D": 0.0017852637854493874,
+          "f01_ep": 6.894193942921723,
+          "f01_em": 6.872423683365048,
+          "changes": {
+            "finger_gap": "12um"
+          },
+          "ok": true,
+          "round": 0,
+          "proposal_idx": 1,
+          "reason": "减小间隙可增大C_Σ（电容∝1/gap），但需避免过小导致场集中；当前gap=16um→12um可提升C_Σ约15–20fF，且仍保持均匀曲率分布，D进一步降低"
+        },
+        {
+          "C_sigma_fF": 44.300197051039106,
+          "f01_GHz": 6.378102480738626,
+          "alpha_MHz": -437.2492813596813,
+          "D": 0.0016619596098240226,
+          "f01_ep": 6.388711442840263,
+          "f01_em": 6.372053250444367,
+          "changes": {
+            "pad_width": "380um"
+          },
+          "ok": true,
+          "round": 0,
+          "proposal_idx": 2,
+          "reason": "增大pad宽度扩展交指区域横向覆盖，提升边缘电容贡献；当前pad_width=291um→380um可增C_Σ~10–15fF，同时维持宽臂规则（>50μm有效臂宽），不恶化D"
+        },
+        {
+          "C_sigma_fF": 45.15305573590304,
+          "f01_GHz": 6.321689714176939,
+          "alpha_MHz": -428.99044170906603,
+          "D": 0.0010489664713347197,
+          "f01_ep": 6.328324433920205,
+          "f01_em": 6.316149416305731,
+          "changes": {
+            "finger_width": "16um"
+          },
+          "ok": true,
+          "round": 1,
+          "proposal_idx": 0,
+          "reason": "增大指宽可显著提升C_Σ（电容∝宽度），同时维持交指结构鲁棒性；当前11μm偏窄，16μm仍满足工艺裕度且避免边缘场畸变"
+        },
+        {
+          "C_sigma_fF": 45.82679400197584,
+          "f01_GHz": 6.278189205369255,
+          "alpha_MHz": -422.6834921907033,
+          "D": 0.001818322444255439,
+          "f01_ep": 6.289615362781709,
+          "f01_em": 6.269509969326378,
+          "changes": {
+            "n_fingers": "4"
+          },
+          "ok": true,
+          "round": 1,
+          "proposal_idx": 1,
+          "reason": "3指→4指可增加交叠面积提升C_Σ（实测5指反降因间隙压缩导致边缘效应恶化），4指为最优折中点，兼顾C_Σ增益与D稳定性"
+        },
+        {
+          "C_sigma_fF": 47.71023674920059,
+          "f01_GHz": 6.1612794241268345,
+          "alpha_MHz": -405.9973423834179,
+          "D": 0.002228917241565905,
+          "f01_ep": 6.1750277222829,
+          "f01_em": 6.157140512597212,
+          "changes": {
+            "pad_width": "420um"
+          },
+          "ok": true,
+          "round": 1,
+          "proposal_idx": 2,
+          "reason": "增大pad宽度扩展电容极板有效面积，直接提升C_Σ；当前380μm受限于横向空间，+40μm在pocket_margin=60μm下仍留足隔离，且不改变场分布均匀性"
+        },
+        {
+          "C_sigma_fF": 45.24962466475011,
+          "f01_GHz": 6.315397951020012,
+          "alpha_MHz": -428.07491704453224,
+          "D": 0.0016029252321040142,
+          "f01_ep": 6.325529179378025,
+          "f01_em": 6.308532009086721,
+          "changes": {
+            "finger_height": "65um"
+          },
+          "ok": true,
+          "round": 2,
+          "proposal_idx": 0,
+          "reason": "增大手指高度可显著提升交指电容C_Σ（≈线性增），同时保持D低；当前C_Σ=45.2fF→目标≥70fF，此调整预计+15–20fF，且不恶化场分布"
+        },
+        {
+          "C_sigma_fF": 44.445163235722696,
+          "f01_GHz": 6.368404802647539,
+          "alpha_MHz": -435.82311132317653,
+          "D": 0.0008908732432694385,
+          "f01_ep": 6.3740807719977415,
+          "f01_em": 6.363821395766241,
+          "changes": {
+            "finger_gap": "20um"
+          },
+          "ok": true,
+          "round": 2,
+          "proposal_idx": 1,
+          "reason": "适度增大间隙可降低D（实测gap↑→D↓），虽C_Σ略降，但结合finger_height↑可补偿；当前gap=16um偏小致边缘场集中，20um更接近最优平衡点"
+        },
+        {
+          "C_sigma_fF": 47.04616588297529,
+          "f01_GHz": 6.201735782891823,
+          "alpha_MHz": -411.72811771402337,
+          "D": 0.0017019723421733254,
+          "f01_ep": 6.209189985167708,
+          "f01_em": 6.191189577336734,
+          "changes": {
+            "n_fingers": "4"
+          },
+          "ok": true,
+          "round": 2,
+          "proposal_idx": 2,
+          "reason": "n=3时C_Σ不足，n=5反致C_Σ↓（因布局拥挤/边缘效应）；n=4在上一轮实测中C_Σ=46fF、D=0.0018，优于n=5，是当前最稳健的冗余度选择"
+        }
+      ]
+    },
+    {
+      "arm": "random",
+      "family": "D_interdigit",
+      "final_variant": {
+        "pad_width": "368um",
+        "pad_height": "100um",
+        "finger_width": "21um",
+        "finger_height": "71um",
+        "finger_gap": "17um",
+        "n_fingers": 5,
+        "junction_gap": "17um",
+        "conn_w": "100um",
+        "conn_h": "30um",
+        "jj_width": "20um",
+        "pocket_margin": "60um"
+      },
+      "final_metrics": {
+        "C_sigma_fF": 54.08013055720619,
+        "f01_GHz": 5.8102194410519,
+        "alpha_MHz": -358.17645270233237,
+        "D": 0.001987510328180321
+      },
+      "all_results": [
+        {
+          "C_sigma_fF": 53.68929362006338,
+          "f01_GHz": 5.830023093237325,
+          "alpha_MHz": -360.7838363777723,
+          "D": 0.0021661032620339375,
+          "f01_ep": 5.842665212402029,
+          "f01_em": 5.8180410950945305,
+          "changes": {
+            "pad_width": "366um",
+            "pad_height": "86um",
+            "finger_width": "23um",
+            "finger_height": "68um",
+            "finger_gap": "11um",
+            "n_fingers": 5,
+            "junction_gap": "26um"
+          },
+          "ok": true,
+          "round": 0,
+          "proposal_idx": 0
+        },
+        {
+          "C_sigma_fF": 9.951859075290105,
+          "f01_GHz": 12.432948394569562,
+          "alpha_MHz": -1946.3930485866993,
+          "D": 0.0047289541335645965,
+          "f01_ep": 12.471709220551828,
+          "f01_em": 12.374292352044463,
+          "changes": {
+            "pad_width": "368um",
+            "pad_height": "68um",
+            "finger_width": "17um",
+            "finger_height": "55um",
+            "finger_gap": "24um",
+            "n_fingers": 7,
+            "junction_gap": "25um"
+          },
+          "ok": true,
+          "round": 0,
+          "proposal_idx": 1
+        },
+        {
+          "C_sigma_fF": 53.792935112948584,
+          "f01_GHz": 5.824751495128373,
+          "alpha_MHz": -360.08872324939347,
+          "D": 0.0031525947813015637,
+          "f01_ep": 5.8431435524132045,
+          "f01_em": 5.808526485916589,
+          "changes": {
+            "pad_width": "373um",
+            "pad_height": "87um",
+            "finger_width": "13um",
+            "finger_height": "62um",
+            "n_fingers": 7,
+            "junction_gap": "24um"
+          },
+          "ok": true,
+          "round": 0,
+          "proposal_idx": 2
+        },
+        {
+          "C_sigma_fF": 13.161899865982427,
+          "f01_GHz": 11.031816740833559,
+          "alpha_MHz": -1471.6894613916966,
+          "D": 0.0025912405063590197,
+          "f01_ep": 11.053750557487199,
+          "f01_em": 11.003267655184025,
+          "changes": {
+            "pad_width": "364um",
+            "pad_height": "81um",
+            "finger_width": "25um",
+            "finger_height": "76um",
+            "finger_gap": "22um",
+            "n_fingers": 7,
+            "junction_gap": "18um"
+          },
+          "ok": true,
+          "round": 1,
+          "proposal_idx": 0
+        },
+        {
+          "C_sigma_fF": 37.81310096402894,
+          "f01_GHz": 6.864570717717594,
+          "alpha_MHz": -512.2623860731693,
+          "D": 0.0021527888164339956,
+          "f01_ep": 6.879364607134639,
+          "f01_em": 6.850695970205381,
+          "changes": {
+            "pad_width": "320um",
+            "pad_height": "63um",
+            "finger_width": "12um",
+            "finger_height": "67um",
+            "finger_gap": "21um",
+            "n_fingers": 4,
+            "junction_gap": "20um"
+          },
+          "ok": true,
+          "round": 1,
+          "proposal_idx": 1
+        },
+        {
+          "C_sigma_fF": 8.759181364435326,
+          "f01_GHz": 13.115657174770675,
+          "alpha_MHz": -2211.4200538542964,
+          "D": 0.00840549092331719,
+          "f01_ep": 13.226365338524777,
+          "f01_em": 13.072868813972445,
+          "changes": {
+            "pad_width": "306um",
+            "pad_height": "88um",
+            "finger_width": "13um",
+            "finger_height": "45um",
+            "finger_gap": "17um",
+            "n_fingers": 7,
+            "junction_gap": "18um"
+          },
+          "ok": true,
+          "round": 1,
+          "proposal_idx": 2
+        },
+        {
+          "C_sigma_fF": 52.93493610513733,
+          "f01_GHz": 5.868837169639138,
+          "alpha_MHz": -365.9252423803198,
+          "D": 0.622010115847533,
+          "f01_ep": 5.88629573575848,
+          "f01_em": 10.931697896523113,
+          "changes": {
+            "pad_width": "350um",
+            "pad_height": "86um",
+            "finger_width": "22um",
+            "finger_height": "68um",
+            "finger_gap": "15um",
+            "n_fingers": 6,
+            "junction_gap": "27um"
+          },
+          "ok": true,
+          "round": 2,
+          "proposal_idx": 0
+        },
+        {
+          "C_sigma_fF": 9.824915958040293,
+          "f01_GHz": 12.500396180736493,
+          "alpha_MHz": -1971.5414775438712,
+          "D": 0.004809641378479389,
+          "f01_ep": 12.44041811014423,
+          "f01_em": 12.472015782777474,
+          "changes": {
+            "pad_width": "308um",
+            "pad_height": "77um",
+            "finger_width": "20um",
+            "finger_height": "46um",
+            "finger_gap": "13um",
+            "n_fingers": 7,
+            "junction_gap": "15um"
+          },
+          "ok": true,
+          "round": 2,
+          "proposal_idx": 1
+        },
+        {
+          "C_sigma_fF": 54.08013055720619,
+          "f01_GHz": 5.8102194410519,
+          "alpha_MHz": -358.17645270233237,
+          "D": 0.001987510328180321,
+          "f01_ep": 5.821077273520993,
+          "f01_em": 5.7986830380614505,
+          "changes": {
+            "pad_width": "368um",
+            "pad_height": "100um",
+            "finger_width": "21um",
+            "finger_height": "71um",
+            "finger_gap": "17um",
+            "n_fingers": 5,
+            "junction_gap": "17um"
+          },
+          "ok": true,
+          "round": 2,
+          "proposal_idx": 2
+        }
+      ]
+    }
+  ]
+}

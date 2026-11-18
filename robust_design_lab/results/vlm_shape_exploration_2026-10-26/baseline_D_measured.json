@@ -1,0 +1,48 @@
+[
+  {
+    "C_sigma_fF": 82.6560349027624,
+    "f01_GHz": 4.75511573959024,
+    "alpha_MHz": -234.34742965164617,
+    "D": 0.003400725195500541,
+    "f01_ep": 4.771314108983763,
+    "f01_em": 4.739087782184582,
+    "changes": {},
+    "ok": true,
+    "family": "A_dual_pad",
+    "reconstructed_base": {
+      "pad_width": "545um",
+      "pad_height": "178um",
+      "pad_gap": "34um",
+      "pocket_width": "800um",
+      "pocket_height": "800um"
+    },
+    "anchor_C_sigma_fF": 82.7,
+    "anchor_match": true
+  },
+  {
+    "C_sigma_fF": 37.03209485902335,
+    "f01_GHz": 6.931149871167016,
+    "alpha_MHz": -523.0659890670298,
+    "D": 0.001986192194451528,
+    "f01_ep": 6.944930147548176,
+    "f01_em": 6.923313942209596,
+    "changes": {},
+    "ok": true,
+    "family": "D_interdigit",
+    "reconstructed_base": {
+      "pad_width": "291um",
+      "pad_height": "84um",
+      "finger_width": "11um",
+      "finger_height": "51um",
+      "finger_gap": "16um",
+      "n_fingers": "3",
+      "junction_gap": "24um",
+      "conn_w": "100um",
+      "conn_h": "30um",
+      "jj_width": "20um",
+      "pocket_margin": "60um"
+    },
+    "anchor_C_sigma_fF": 37.0,
+    "anchor_match": true
+  }
+]

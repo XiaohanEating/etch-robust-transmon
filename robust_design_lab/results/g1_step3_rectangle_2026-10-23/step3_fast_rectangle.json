@@ -1,0 +1,455 @@
+{
+  "provenance": {
+    "python": "[REDACTED: external machine path]/python.exe",
+    "python_version": "3.11.17 | packaged by Anaconda, Inc. | (main, Oct  1 2026, 20:16:54) [MSC v.1942 64 bit (AMD64)]",
+    "python_no_user_site": "1",
+    "frozen_config": "6e4170071b3dc3ac",
+    "source_sha256": {
+      "__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "analysis/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "configs/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "configs/frozen.py": "cba4ddc6eb55bcdd0857218ae19f58a1c5d304878f2ba8e8a097d5fab9514113",
+      "evaluator/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "evaluator/ansys_calibration.py": "6b5eb1886338b9b6b30e35c60e89440409624516e3068b08ea3b24268f524a44",
+      "evaluator/ansys_native.py": "507a298bbe36ca6f21e7d21855e8378833c1a43845ee9039e31397f3843d9457",
+      "evaluator/corrected.py": "b2d57415557d39fdc5f64863ec7e501483268ed61f36a1bb2f71f5b6a95638da",
+      "evaluator/fast.py": "ffebbc836c1e801f04f28076d9f3e4ebcdcf9d3cfaa88622bd8f7efdc07fec02",
+      "evaluator/fields.py": "f4e7949a758f736e4d9ff67351affcaf911b84740d4507dbe148e64dbe6d78ec",
+      "evaluator/finite_film.py": "2e80d1e4146e0ab4855be34cb4ac1920f58191e0d436735f2dc5c0ef0a7f14a0",
+      "evaluator/lom.py": "b9c20ce5028abff5b4ea0087bf5cf58fc4307c534ff02530d6afa728847afca5",
+      "evaluator/mesh_transport.py": "010b701220fb230e27568560ae768adbb77e3439ec90773848858e2e49ee5846",
+      "evaluator/metal_reference.py": "c783e316bf67a337c1ffc0fac81cbf3e1ea91f747be8725760f907bd2705e352",
+      "evaluator/participation.py": "282f244f0c63dff8b7d7fbed7f3c3d75831ebf3c6a0086d3e1b018fe9a8e16da",
+      "experiments/alignment_report.py": "f1c9ad543e59cb20afe9ba3c32a6522e69f2f9b6cee7619a47f7b78ac190d65e",
+      "experiments/calibration.py": "4b58e5c6ce6e0f295e035d0750d76c39df2eb431b8c31978c746e6c715952a77",
+      "experiments/field_audit.py": "0a9e206511381f8646c015a2ab3ffe59abec2977ad35e45c42d02c11e6377b4a",
+      "experiments/finite_alignment.py": "4c31a28c9feebfb0cb87d3041cf0e579574e1c90f1f6338fae021fe877c67f62",
+      "experiments/finite_diagnostics.py": "7ce370dedd77f62bd27b197794bb02e5a93d6abdb8c904ee6ee4abd2e9ab3e50",
+      "experiments/g1_step1_hfss_side_probe.py": "1e17c6cb68d5f8c4a7df6a64af077fcb8c4b474d1f9b2708c8a8d8c84610dfc3",
+      "experiments/g1_step1_side_audit.py": "741f52bf3a029a3efb698df79aeb3d4bff44c89369129f98d6560d37b33002ae",
+      "experiments/g1_step2_local_edge.py": "6295c088a1462032ec86edb1227552821b23eb65467dbb60366b098f529fc779",
+      "experiments/g1_step3_fast_rectangle.py": "4e17097612eaeafc54f99884e06485433f7f4d9d75c48abbd2891f1af29a7902",
+      "experiments/g1_step3b_hfss_sheets.py": "e7d372073edd6758ea0c5c2a68d894ce831a62893cca8933bd1c1bd8d1b9d35f",
+      "experiments/g1_step4_matrix.py": "8b662fba3ed16154b3e7fcde740c1525ea5f997fc6189377db645ebaea918dfd",
+      "experiments/g2_cost_test.py": "8a96662b4e88003b8ab6393622c9e686d88e67d1dca8ee1a2869e33c6dce985c",
+      "experiments/hfss_interfaces.py": "df14eafe490e751ae7837ebb1dabd4bb63da5fa99c76e11cc9dcc62f4ccc5b29",
+      "experiments/phase0_env_lock.py": "9bfb8f1a077e8fd67dc8e88fcb142728e2be0a774c71e50cb9f3edfdb958dae6",
+      "experiments/phase0_smoke.py": "6c715e226e9e4852794c76fb32a78f3d6d462ef37079939b598d61d0d10612c7",
+      "experiments/phaseA_g0_geometry.py": "ce2abc97af52ac8f30250dfd443d3162271fe9c23ba96621b8addd2f3ae2069a",
+      "experiments/phaseA_g1_physics.py": "28c0b7222f514a639f10765fe85a325d004368400d4255f6ecc27e0051dfb9fd",
+      "experiments/phaseB_library_scan.py": "7731c0b5024b146b5ed3d8c10c347558d6dc12e849f822e1f90459cdea85b6b2",
+      "experiments/phaseB_library_scan2.py": "1b629d9a1e7c7d3c295188964928674ab069cb4d805eb59af3014efd8c930937",
+      "experiments/reachability.py": "d44f67e3398c01f2d10d99e244aadd7932d60363780b2718eaaf1015423d2111",
+      "experiments/rendering.py": "ba2608ad67b1ce0a81be0806854905cd27cad3d7441fa030310ca594df816af7",
+      "experiments/step2_q3d_baseline.py": "d74f7379cba0f0e6e45634caa0601f2e990f9c31e060c58e6fd0c1388dbd0f0c",
+      "experiments/step2a_window_v2.py": "55725ab90d947836bfb2d43c2d14f59a5bd032ce2eab58b55127611df84f193e",
+      "experiments/step2b_separated_sensitivity.py": "57e9af1f42df9252d806d3f99023284944b3b30c656153db83bb8ee42944a0d2",
+      "experiments/step2c_hfss_ellipse.py": "3ebe5ee93c5a5193520e3660903cde85bf73f910e768647cfe3ea09c1b24386c",
+      "experiments/step3_image_checks.py": "c78f7587d8e08c9832291b745588cc68fbbac43f2baaa2a457972a5499643f75",
+      "experiments/step3_repost_g1.py": "86b51ecac73983974f3409243ee6af15a9ca9267fae4c11ea679fc06d2018f8d",
+      "experiments/step3b_window_rank.py": "e6eb4d02db0469aea41c73975f94feded25330037ac04d9d7a472a2cf1d15fa3",
+      "experiments/step4_cost_v2.py": "5a9b5af5c3554fb2d10c1afd14a84b7f73b64f6f9fb7a6da140ba75adc29c92a",
+      "experiments/step4_visual_v3.py": "a16583ec3b04f8ea3e40a3dedc14102ec002e19575d53155593eeb38d41ed67f",
+      "experiments/transport_summary.py": "88f374724ef3167f4e85f395f14e35027589f219b251bcb0d5676737841a5b8e",
+      "experiments/visual_paired.py": "7c1c9714db9c15dfa9fcfca20d5398fc47a612b60f069af365a136182bdded2e",
+      "geometry/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "geometry/checks.py": "83cee86763c008c5d7c8b62debc9ec8d8041755526b31391f91ef3efe7cb2146",
+      "geometry/clean.py": "6ebad9b5b0e8e209bdac2adfc8048d02e0f7237227347163aa99b86eb76be969",
+      "geometry/library.py": "5d16dd7566e4dd7039d7c03faa3eb4ff60d24b858dd710fbbe11c6a251520a5a",
+      "geometry/operations.py": "3b66fb7d6fe04726d9dbefa28a0eac2fcb9e0f4415564b199ec13f6e9b15dd5a",
+      "geometry/record.py": "bde1d68d79ba34c9d097d475a4346b41d3bbf62a40ddb7dad55d58049d932fca",
+      "geometry/two_pad.py": "51716b46cb3545acac4f380f5a58ad51e1699b261ea5ec6dfc4fac53498a5a9c",
+      "objectives/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "objectives/drift.py": "0e45c16391fde37b870060cfd3bfbf6f3093990dcc0a965e488e0a25c602c66d",
+      "perturbation/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "perturbation/channels.py": "856879733aaf2ee82cc36d2565d5deca53162640ae8b8da06beb8104d497106b",
+      "perturbation/scenarios.py": "1d12fdda27a4f46262b8d5c6c110d777c1d7210b424ee8e911bd70437c2fe421",
+      "results/calibration_v2/ansys/native_probe_script.py": "919b6d8ceae2654b2f0e9a9db10d52c73527a0ce321a1b6d898faf4c9a6f07c0",
+      "results/corrections_followup_review_2026-10-25/replay.py": "b058f54e91d74ee39c3e379c66461d679b88ca6d924e37721f4d4131496b2e60",
+      "runtime/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "runtime/records.py": "163edf61d767477dfeb12b4397d8307e33d1315bc899c2b97a59f478735180f5",
+      "search/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "search/pilot.py": "174ddfb6586fb6b6055af49b710a9c14d6a96dcc13e3ea1394216c85f9834157",
+      "tests/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tests/test_alignment_report.py": "99a636be662937572050b13947569864ac3ed698b9216aedb4d021951e297acf",
+      "tests/test_aliyun_credentials.py": "9f8fc2417fa5d3bad122a5256285834bca392a26944711a7e60db9e58e5e8f64",
+      "tests/test_ansys_calibration.py": "d5f52a6c208717f8296e12aaccf2f8856ed46aa11bb414f7d74850acea306a54",
+      "tests/test_corrected_v4_guards.py": "8950142e34e0d0e275c7b23847834039dc9f50d899d6da0adeffdc59b1865992",
+      "tests/test_coupling_definitions.py": "3f7f0b2c672f93b3ccdd7aa1069a1b0d157d4890bbaf5764dbef0c29435b0a41",
+      "tests/test_fields_and_credentials.py": "48eb264b472d7537d6356ff34207cdd917e134e529d42806ef10bbaed4fe0fd7",
+      "tests/test_finite_film.py": "f7bf78bae628806859feb49efaf8988811773f427b969683637146c54cbc693d",
+      "tests/test_hfss_interfaces.py": "315050795985690911f2cdc4033f2c63a018d557bedb9963d04bd031f9d8b018",
+      "tests/test_mesh_transport.py": "5f88b714f7559475fd4b1ccfd3d24297809e0d484c25448d31f6f091904eed94",
+      "tests/test_physics_and_drift.py": "0232add5fda6465d036b946e47fa230bdf203fe08176da7f17a8d3f41f984235",
+      "tests/test_search_contract.py": "8f4b335bd2e23a0d40d8b66438b8a7be3d6b58e6f265dec0444d830ec8247cb7",
+      "tests/test_transport_summary.py": "b17a22249a2206a030a66b2da32a5c54981a213c7765d93364e765a2384aa670",
+      "vlm/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "vlm/aliyun.py": "f74be7fdc74815eb859c40ddabfe608910afa48dc5bed4234adf2a2620f52979",
+      "vlm/experiment.py": "c6fbca90faf7fea449f35378fdc439ef26224bf5f7ccfcd23e208d7547979f43"
+    },
+    "command": [
+      "[REDACTED: external machine path]/python.exe",
+      "robust_design_lab/experiments/g1_step3_fast_rectangle.py"
+    ],
+    "omp_threads": null,
+    "mkl_threads": null
+  },
+  "frozen_config": "6e4170071b3dc3ac",
+  "window_um": 20.0,
+  "band_um": [
+    20.0,
+    40.0
+  ],
+  "local_2d_h_nm": 2.5,
+  "scenarios": {
+    "h0p01": {
+      "nominal": {
+        "folder": "robust_design_lab/results/finite_alignment_v1/rect_reference/h0p01/nominal",
+        "C_q_fF": 58.182804458765695,
+        "p_SM_corrected": 7.591411132970443e-05,
+        "p_SA_corrected": 9.23731823826157e-05,
+        "p_MA_corrected": 4.559743335459405e-07,
+        "near_fraction_SM": 0.8168878345439701,
+        "near_fraction_SA": 0.9518059565029793,
+        "amp_excess_SM": {
+          "outer": 3048553821.624136,
+          "gap": 3718328290.2205634
+        },
+        "amp_excess_SA": {
+          "outer": 9681561162.619337,
+          "gap": 4651232930.43652
+        },
+        "f01_GHz": 5.10009839288282,
+        "alpha_MHz": -384.78274577421877,
+        "lj_nH": 14.19769287109375,
+        "T1_us_corrected": 92.46665035746281
+      },
+      "etch_plus": {
+        "folder": "robust_design_lab/results/finite_alignment_v1/rect_reference/h0p01/etch_plus",
+        "C_q_fF": 58.5381378502354,
+        "p_SM_corrected": 7.265279374780569e-05,
+        "p_SA_corrected": 9.868486501761187e-05,
+        "p_MA_corrected": 4.62280677974112e-07,
+        "near_fraction_SM": 0.8086521507531443,
+        "near_fraction_SA": 0.9548562247335001,
+        "amp_excess_SM": {
+          "outer": 3053356632.4707394,
+          "gap": 3724049360.559396
+        },
+        "amp_excess_SA": {
+          "outer": 10074512116.641596,
+          "gap": 4547997778.157818
+        },
+        "f01_GHz": 5.086196363135471,
+        "alpha_MHz": -382.17591812160026,
+        "lj_nH": 14.19769287109375,
+        "T1_us_corrected": 91.069721101633,
+        "signed_log_drift_T1": -0.015222663719770812
+      },
+      "etch_minus": {
+        "folder": "robust_design_lab/results/finite_alignment_v1/rect_reference/h0p01/etch_minus",
+        "C_q_fF": 57.89408687890388,
+        "p_SM_corrected": 7.176043522643428e-05,
+        "p_SA_corrected": 9.542463078137173e-05,
+        "p_MA_corrected": 4.805815544326653e-07,
+        "near_fraction_SM": 0.8078386997263253,
+        "near_fraction_SA": 0.953246624793608,
+        "amp_excess_SM": {
+          "outer": 3062586114.2215753,
+          "gap": 3654220996.5379486
+        },
+        "amp_excess_SA": {
+          "outer": 10101592714.493258,
+          "gap": 4482281330.941535
+        },
+        "f01_GHz": 5.11148002097977,
+        "alpha_MHz": -386.9286259360365,
+        "lj_nH": 14.19769287109375,
+        "T1_us_corrected": 92.85373500116914,
+        "signed_log_drift_T1": 0.004177470340170886
+      }
+    },
+    "h0p005": {
+      "nominal": {
+        "folder": "robust_design_lab/results/finite_alignment_v1/rect_reference/h0p005/nominal",
+        "C_q_fF": 57.41548950660522,
+        "p_SM_corrected": 7.600256804339048e-05,
+        "p_SA_corrected": 9.441173052697135e-05,
+        "p_MA_corrected": 5.85705109562442e-07,
+        "near_fraction_SM": 0.8166406822619378,
+        "near_fraction_SA": 0.9540011728410601,
+        "amp_excess_SM": {
+          "outer": 3152412488.4634757,
+          "gap": 3679237554.9416823
+        },
+        "amp_excess_SA": {
+          "outer": 9339015413.197226,
+          "gap": 5037383218.519187
+        },
+        "f01_GHz": 5.130519083177626,
+        "alpha_MHz": -390.54198266669005,
+        "lj_nH": 14.19769287109375,
+        "T1_us_corrected": 90.70530936903867
+      },
+      "etch_plus": {
+        "folder": "robust_design_lab/results/finite_alignment_v1/rect_reference/h0p005/etch_plus",
+        "C_q_fF": 57.73110807807361,
+        "p_SM_corrected": 7.242199427659578e-05,
+        "p_SA_corrected": 0.00010051550141888402,
+        "p_MA_corrected": 5.837474263532771e-07,
+        "near_fraction_SM": 0.80769502826096,
+        "near_fraction_SA": 0.9571444671559661,
+        "amp_excess_SM": {
+          "outer": 3156018684.500648,
+          "gap": 3652072904.146787
+        },
+        "amp_excess_SA": {
+          "outer": 9602138048.503355,
+          "gap": 4928651596.200228
+        },
+        "f01_GHz": 5.1179392198857085,
+        "alpha_MHz": -388.1511465076866,
+        "lj_nH": 14.19769287109375,
+        "T1_us_corrected": 89.60708750299874,
+        "signed_log_drift_T1": -0.012181474655466679
+      },
+      "etch_minus": {
+        "folder": "robust_design_lab/results/finite_alignment_v1/rect_reference/h0p005/etch_minus",
+        "C_q_fF": 57.12151856195951,
+        "p_SM_corrected": 7.191177306488837e-05,
+        "p_SA_corrected": 9.853950053445741e-05,
+        "p_MA_corrected": 5.731830295387997e-07,
+        "near_fraction_SM": 0.80675819745517,
+        "near_fraction_SA": 0.9555494093559564,
+        "amp_excess_SM": {
+          "outer": 3199132514.8167624,
+          "gap": 3595407444.4949546
+        },
+        "amp_excess_SA": {
+          "outer": 9840874836.527206,
+          "gap": 4912757377.16403
+        },
+        "f01_GHz": 5.142321489401263,
+        "alpha_MHz": -392.79701666152357,
+        "lj_nH": 14.19769287109375,
+        "T1_us_corrected": 90.48418774219665,
+        "signed_log_drift_T1": -0.0024407787442789
+      }
+    }
+  },
+  "notes": [
+    "MA 沿用存档值（权重0.34%）",
+    "amp=有效缘长(米)，由标定带积分比给出"
+  ],
+  "two_d_reference": {
+    "outer": {
+      "thin": {
+        "SM_band_raw": 68432.21203257464,
+        "SM_win_excess_d2": 444523.97151910415,
+        "SM_bg": 3421660069.9086866,
+        "SA_band_raw": 16381.803826534362,
+        "SA_win_excess_d2": 437387.3758111964,
+        "SA_bg": 818743573.1617112
+      },
+      "solid": {
+        "SM_band_raw": 89719.97508086142,
+        "SM_win_excess_d2": 565683.6599308135,
+        "SM_bg": 4486063610.821961,
+        "SA_band_raw": 16379.81841586463,
+        "SA_win_excess_d2": 445083.75470774143,
+        "SA_bg": 818644344.6369932,
+        "U_solid_SM_window": 6.16566729288861e-15,
+        "U_solid_SM_window_excess": 5.256773300334622e-15,
+        "U_solid_SA_window": 4.7933517277404446e-15,
+        "U_solid_SA_window_excess": 4.575905041095157e-15
+      }
+    },
+    "gap_by_um": {
+      "29.5": {
+        "thin": {
+          "SM_band_raw": 67058.94479579161,
+          "SM_win_excess_d2": 928135.3387929385,
+          "SM_bg": 1676500681.1433122,
+          "SA_band_raw": 1002436.7788464365,
+          "SA_win_excess_d2": 1002436.7788464365,
+          "SA_bg": 0.0,
+          "support_audit": {
+            "SM_bg_len_um": 39.999354339695145,
+            "SM_band_len_um": 39.999354339695145,
+            "SM_band_nonzero": true,
+            "SA_bg_len_um": 0.0,
+            "SA_band_len_um": 29.50000004570471,
+            "SA_band_nonzero": true
+          }
+        },
+        "solid": {
+          "SM_band_raw": 87919.33273303803,
+          "SM_win_excess_d2": 1182900.838415588,
+          "SM_bg": 2198018797.663125,
+          "SA_band_raw": 1033973.473572185,
+          "SA_win_excess_d2": 1033973.473572185,
+          "SA_bg": 0.0,
+          "support_audit": {
+            "SM_bg_len_um": 39.999354339695145,
+            "SM_band_len_um": 39.999354339695145,
+            "SM_band_nonzero": true,
+            "SA_bg_len_um": 0.0,
+            "SA_band_len_um": 29.50000004570471,
+            "SA_band_nonzero": true
+          },
+          "U_solid_SM_window": 1.1704067080995236e-14,
+          "U_solid_SM_window_excess": 1.0813399004340251e-14,
+          "U_solid_SA_window": 1.118254225141213e-14,
+          "U_solid_SA_window_excess": 1.118254225141213e-14
+        }
+      },
+      "30.0": {
+        "thin": {
+          "SM_band_raw": 67074.86803879678,
+          "SM_win_excess_d2": 914150.3455852,
+          "SM_bg": 1676902408.6466918,
+          "SA_band_raw": 987776.4893627666,
+          "SA_win_excess_d2": 987776.4893627666,
+          "SA_bg": 0.0,
+          "support_audit": {
+            "SM_bg_len_um": 39.99926751427837,
+            "SM_band_len_um": 39.99926751427837,
+            "SM_band_nonzero": true,
+            "SA_bg_len_um": 0.0,
+            "SA_band_len_um": 30.00000005980798,
+            "SA_band_nonzero": true
+          }
+        },
+        "solid": {
+          "SM_band_raw": 87940.35916207488,
+          "SM_win_excess_d2": 1176849.538853115,
+          "SM_bg": 2198549239.200022,
+          "SA_band_raw": 1033074.8563182855,
+          "SA_win_excess_d2": 1033074.8563182855,
+          "SA_bg": 0.0,
+          "support_audit": {
+            "SM_bg_len_um": 39.99926751427837,
+            "SM_band_len_um": 39.99926751427837,
+            "SM_band_nonzero": true,
+            "SA_bg_len_um": 0.0,
+            "SA_band_len_um": 30.00000005980798,
+            "SA_band_nonzero": true
+          },
+          "U_solid_SM_window": 1.2637221880444965e-14,
+          "U_solid_SM_window_excess": 1.1746350402354981e-14,
+          "U_solid_SA_window": 9.92529235937594e-15,
+          "U_solid_SA_window_excess": 9.92529235937594e-15
+        }
+      },
+      "30.5": {
+        "thin": {
+          "SM_band_raw": 67129.73924713966,
+          "SM_win_excess_d2": 900227.2683181886,
+          "SM_bg": 1677633558.8961873,
+          "SA_band_raw": 973872.7054495903,
+          "SA_win_excess_d2": 973872.7054495903,
+          "SA_bg": 0.0,
+          "support_audit": {
+            "SM_bg_len_um": 40.01454244352874,
+            "SM_band_len_um": 40.01454244352874,
+            "SM_band_nonzero": true,
+            "SA_bg_len_um": 0.0,
+            "SA_band_len_um": 30.499999871363443,
+            "SA_band_nonzero": true
+          }
+        },
+        "solid": {
+          "SM_band_raw": 88012.44112177576,
+          "SM_win_excess_d2": 1163344.1240391086,
+          "SM_bg": 2199511371.2966967,
+          "SA_band_raw": 1019966.2789210997,
+          "SA_win_excess_d2": 1019966.2789210997,
+          "SA_bg": 0.0,
+          "support_audit": {
+            "SM_bg_len_um": 40.01454244352874,
+            "SM_band_len_um": 40.01454244352874,
+            "SM_band_nonzero": true,
+            "SA_bg_len_um": 0.0,
+            "SA_band_len_um": 30.499999871363443,
+            "SA_band_nonzero": true
+          },
+          "U_solid_SM_window": 1.1675113074047481e-14,
+          "U_solid_SM_window_excess": 1.0783703297513641e-14,
+          "U_solid_SA_window": 1.0572598230285999e-14,
+          "U_solid_SA_window_excess": 1.0572598230285999e-14
+        }
+      }
+    },
+    "gap": {
+      "thin": {
+        "SM_band_raw": 67074.86803879678,
+        "SM_win_excess_d2": 914150.3455852,
+        "SM_bg": 1676902408.6466918,
+        "SA_band_raw": 987776.4893627666,
+        "SA_win_excess_d2": 987776.4893627666,
+        "SA_bg": 0.0,
+        "support_audit": {
+          "SM_bg_len_um": 39.99926751427837,
+          "SM_band_len_um": 39.99926751427837,
+          "SM_band_nonzero": true,
+          "SA_bg_len_um": 0.0,
+          "SA_band_len_um": 30.00000005980798,
+          "SA_band_nonzero": true
+        }
+      },
+      "solid": {
+        "SM_band_raw": 87940.35916207488,
+        "SM_win_excess_d2": 1176849.538853115,
+        "SM_bg": 2198549239.200022,
+        "SA_band_raw": 1033074.8563182855,
+        "SA_win_excess_d2": 1033074.8563182855,
+        "SA_bg": 0.0,
+        "support_audit": {
+          "SM_bg_len_um": 39.99926751427837,
+          "SM_band_len_um": 39.99926751427837,
+          "SM_band_nonzero": true,
+          "SA_bg_len_um": 0.0,
+          "SA_band_len_um": 30.00000005980798,
+          "SA_band_nonzero": true
+        },
+        "U_solid_SM_window": 1.2637221880444965e-14,
+        "U_solid_SM_window_excess": 1.1746350402354981e-14,
+        "U_solid_SA_window": 9.92529235937594e-15,
+        "U_solid_SA_window_excess": 9.92529235937594e-15
+      }
+    }
+  },
+  "lj_pinned_nH": 14.19769287109375,
+  "criteria": {
+    "per_scene": {
+      "nominal": {
+        "C_rel_change": 0.01318800218205829,
+        "p_SM_rel_change": 0.0011652209600645502,
+        "p_SA_rel_change": 0.022068614415727827,
+        "p_MA_rel_change": 0.2845133299666982
+      },
+      "etch_plus": {
+        "C_rel_change": 0.013786392970451256,
+        "p_SM_rel_change": 0.0031767459901276274,
+        "p_SA_rel_change": 0.01855032583715288,
+        "p_MA_rel_change": 0.26275540849225654
+      },
+      "etch_minus": {
+        "C_rel_change": 0.013344511652119695,
+        "p_SM_rel_change": 0.002108931446368034,
+        "p_SA_rel_change": 0.03264219863970119,
+        "p_MA_rel_change": 0.1926862865459995
+      }
+    },
+    "drift_level_diff": {
+      "etch_plus": 0.003041189064304133,
+      "etch_minus": 0.006618249084449786
+    },
+    "thresholds": {
+      "C": 0.02,
+      "p_each": 0.05,
+      "drift": 0.005
+    }
+  },
+  "criteria_passed": false
+}

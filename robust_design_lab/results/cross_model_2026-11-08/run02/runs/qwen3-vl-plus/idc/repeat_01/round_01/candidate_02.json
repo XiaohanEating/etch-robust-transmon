@@ -1,0 +1,25 @@
+{
+  "round": 1,
+  "index": 2,
+  "input_identity": "3cdea9de81dfd96abf5c44330a14827479c3d3a784f985afc7ed440980c2b3b3",
+  "candidate": {
+    "a": 177.0,
+    "b": 145.0,
+    "D": 130.0,
+    "f_w": 18.0,
+    "f_gap": 34.0,
+    "f_len": 88.0
+  },
+  "raw": {
+    "changes": {
+      "D": 130.0,
+      "f_w": 18.0
+    },
+    "reason": "减小D（两岛中心距）显著增强岛间边缘电容贡献，该部分电容对均匀刻蚀不敏感（因刻蚀沿等势面同步收缩）；增大f_w（叉指宽度）提高叉指电容的几何冗余度，使±0.5μm刻蚀引起的ΔC/C更小。二者组合可有效抑制D指标：D↓→边缘电容↑→总CΣ对刻蚀响应平缓；f_w↑→叉指电容梯度降低。约束检查：D=130∈[120,160]，f_w=18∈[12,20]；预期CΣ≈90–94 fF，f01≈4.6 GHz，满足要求。"
+  },
+  "metrics": null,
+  "feasible": false,
+  "duplicate": false,
+  "error": "ValueError: Rejected scene nom: convergence/save status",
+  "wall_s": 2597.6607383000082
+}

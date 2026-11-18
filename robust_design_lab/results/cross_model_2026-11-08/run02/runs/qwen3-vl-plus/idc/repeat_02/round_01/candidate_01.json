@@ -1,0 +1,25 @@
+{
+  "round": 1,
+  "index": 1,
+  "input_identity": "aa221acc13d6d792279868a6a30cfcdd2c3b73162387403c2686842fbd7dbd44",
+  "candidate": {
+    "a": 170.0,
+    "b": 132.0,
+    "D": 135.0,
+    "f_w": 14.0,
+    "f_gap": 32.0,
+    "f_len": 88.0
+  },
+  "raw": {
+    "changes": {
+      "a": 170.0,
+      "D": 135.0
+    },
+    "reason": "减小a（电容岛横向尺寸）与D（两岛中心距）同步收缩，可增强电容结构对称性并提升边缘场局域化程度，降低刻蚀误差在x方向的非对称影响；该组合使电容分布更紧凑，ΔC响应更平缓；验证：a=170∈[150,210]、D=135∈[120,160]，预估CΣ≈85.9fF、f01≈4.68GHz，仍在允许区间；避免仅降CΣ，而是通过几何对称优化刻蚀鲁棒性。"
+  },
+  "metrics": null,
+  "feasible": false,
+  "duplicate": false,
+  "error": "ValueError: Rejected scene em: convergence/save status",
+  "wall_s": 7658.078458499978
+}

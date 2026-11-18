@@ -1,0 +1,2080 @@
+{
+  "snapshot": "2026-11-13T13:05:30+08:00",
+  "cross": [
+    {
+      "model": "kimi-k2.5",
+      "task": "idc",
+      "repeat": "repeat_00",
+      "source": "robust_design_lab/results/cross_model_2026-11-08/run02/runs/kimi-k2.5/idc/repeat_00/result.json",
+      "parameters": {
+        "a": 177.0,
+        "b": 140.0,
+        "D": 150.0,
+        "f_w": 16.0,
+        "f_gap": 36.0,
+        "f_len": 75.0
+      },
+      "metrics": {
+        "D": 0.00903627185898401,
+        "C_sigma_fF": 75.6495653168885,
+        "f01_GHz": 4.959351079674376,
+        "alpha_MHz": -256.05209023368684
+      },
+      "reduction": 48.17691080353585
+    },
+    {
+      "model": "kimi-k2.5",
+      "task": "idc",
+      "repeat": "repeat_01",
+      "source": "robust_design_lab/results/cross_model_2026-11-08/run02/runs/kimi-k2.5/idc/repeat_01/result.json",
+      "parameters": {
+        "a": 177.0,
+        "b": 140.0,
+        "D": 150.0,
+        "f_w": 14.0,
+        "f_gap": 32.0,
+        "f_len": 88.0
+      },
+      "metrics": {
+        "D": 0.012201527288800128,
+        "C_sigma_fF": 84.14240173810335,
+        "f01_GHz": 4.71498992943467,
+        "alpha_MHz": -230.20770651341462
+      },
+      "reduction": 30.024146363866123
+    },
+    {
+      "model": "kimi-k2.5",
+      "task": "idc",
+      "repeat": "repeat_02",
+      "source": "robust_design_lab/results/cross_model_2026-11-08/run02/runs/kimi-k2.5/idc/repeat_02/result.json",
+      "parameters": {
+        "a": 165.0,
+        "b": 150.0,
+        "D": 160.0,
+        "f_w": 16.0,
+        "f_gap": 32.0,
+        "f_len": 75.0
+      },
+      "metrics": {
+        "D": 0.007881474014046838,
+        "C_sigma_fF": 71.1987297100879,
+        "f01_GHz": 5.103888412732115,
+        "alpha_MHz": -272.0586364887718
+      },
+      "reduction": 54.79968540084552
+    },
+    {
+      "model": "kimi-k2.5",
+      "task": "idc",
+      "repeat": "repeat_03",
+      "source": "robust_design_lab/results/cross_model_2026-11-08/run02/runs/kimi-k2.5/idc/repeat_03/result.json",
+      "parameters": {
+        "a": 177.0,
+        "b": 140.0,
+        "D": 140.0,
+        "f_w": 16.0,
+        "f_gap": 36.0,
+        "f_len": 75.0
+      },
+      "metrics": {
+        "D": 0.010813269065400479,
+        "C_sigma_fF": 78.88350505815814,
+        "f01_GHz": 4.861823169457199,
+        "alpha_MHz": -245.55487627455332
+      },
+      "reduction": 37.98581804237335
+    },
+    {
+      "model": "kimi-k2.5",
+      "task": "idc",
+      "repeat": "repeat_04",
+      "source": "robust_design_lab/results/cross_model_2026-11-08/run02/runs/kimi-k2.5/idc/repeat_04/result.json",
+      "parameters": {
+        "a": 177.0,
+        "b": 140.0,
+        "D": 160.0,
+        "f_w": 16.0,
+        "f_gap": 32.0,
+        "f_len": 75.0
+      },
+      "metrics": {
+        "D": 0.008010776670922811,
+        "C_sigma_fF": 72.02638984480308,
+        "f01_GHz": 5.0760377241300745,
+        "alpha_MHz": -268.93239223007845
+      },
+      "reduction": 54.05813366079233
+    },
+    {
+      "model": "kimi-k2.5",
+      "task": "pad",
+      "repeat": "repeat_00",
+      "source": "robust_design_lab/results/cross_model_2026-11-08/run02/runs/kimi-k2.5/pad/repeat_00/result.json",
+      "parameters": {
+        "w": 734.0,
+        "h": 180.0,
+        "gap": 45.0
+      },
+      "metrics": {
+        "D": 0.003029820651931831,
+        "C_sigma_fF": 80.60948493399428,
+        "f01_GHz": 4.812106406438828,
+        "alpha_MHz": -240.2971479165275
+      },
+      "reduction": 28.23503773921804
+    },
+    {
+      "model": "kimi-k2.5",
+      "task": "pad",
+      "repeat": "repeat_01",
+      "source": "robust_design_lab/results/cross_model_2026-11-08/run02/runs/kimi-k2.5/pad/repeat_01/result.json",
+      "parameters": {
+        "w": 780.0,
+        "h": 200.0,
+        "gap": 30.0
+      },
+      "metrics": {
+        "D": 0.00329597409835453,
+        "C_sigma_fF": 91.31765972471884,
+        "f01_GHz": 4.534820535764576,
+        "alpha_MHz": -212.11920435818814
+      },
+      "reduction": 21.930871838862366
+    },
+    {
+      "model": "kimi-k2.5",
+      "task": "pad",
+      "repeat": "repeat_02",
+      "source": "robust_design_lab/results/cross_model_2026-11-08/run02/runs/kimi-k2.5/pad/repeat_02/result.json",
+      "parameters": {
+        "w": 650.0,
+        "h": 195.0,
+        "gap": 35.0
+      },
+      "metrics": {
+        "D": 0.0032876072747693957,
+        "C_sigma_fF": 79.15380529710981,
+        "f01_GHz": 4.853933725515105,
+        "alpha_MHz": -244.71633741361515
+      },
+      "reduction": 22.12905016286545
+    },
+    {
+      "model": "kimi-k2.5",
+      "task": "pad",
+      "repeat": "repeat_03",
+      "source": "robust_design_lab/results/cross_model_2026-11-08/run02/runs/kimi-k2.5/pad/repeat_03/result.json",
+      "parameters": {
+        "w": 734.0,
+        "h": 180.0,
+        "gap": 30.0
+      },
+      "metrics": {
+        "D": 0.003425545674752296,
+        "C_sigma_fF": 83.14388912914512,
+        "f01_GHz": 4.741831197071725,
+        "alpha_MHz": -232.97237509027124
+      },
+      "reduction": 18.861812525293164
+    },
+    {
+      "model": "kimi-k2.5",
+      "task": "pad",
+      "repeat": "repeat_04",
+      "source": "robust_design_lab/results/cross_model_2026-11-08/run02/runs/kimi-k2.5/pad/repeat_04/result.json",
+      "parameters": {
+        "w": 750.0,
+        "h": 200.0,
+        "gap": 35.0
+      },
+      "metrics": {
+        "D": 0.0031954163249282397,
+        "C_sigma_fF": 87.71039988204873,
+        "f01_GHz": 4.622726748496522,
+        "alpha_MHz": -220.84301691370507
+      },
+      "reduction": 24.31270417945477
+    },
+    {
+      "model": "qwen3-vl-plus",
+      "task": "idc",
+      "repeat": "repeat_00",
+      "source": "robust_design_lab/results/cross_model_2026-11-08/run02/runs/qwen3-vl-plus/idc/repeat_00/result.json",
+      "parameters": {
+        "a": 177.0,
+        "b": 140.0,
+        "D": 140.0,
+        "f_w": 14.0,
+        "f_gap": 32.0,
+        "f_len": 82.0
+      },
+      "metrics": {
+        "D": 0.012719923380230928,
+        "C_sigma_fF": 82.32525603982839,
+        "f01_GHz": 4.764187804345985,
+        "alpha_MHz": -235.289026192496
+      },
+      "reduction": 27.051140758838066
+    },
+    {
+      "model": "qwen3-vl-plus",
+      "task": "idc",
+      "repeat": "repeat_01",
+      "source": "robust_design_lab/results/cross_model_2026-11-08/run02/runs/qwen3-vl-plus/idc/repeat_01/result.json",
+      "parameters": {
+        "a": 177.0,
+        "b": 150.0,
+        "D": 140.0,
+        "f_w": 16.0,
+        "f_gap": 34.0,
+        "f_len": 82.0
+      },
+      "metrics": {
+        "D": 0.012934834648248562,
+        "C_sigma_fF": 87.0085684525463,
+        "f01_GHz": 4.640440824754596,
+        "alpha_MHz": -222.6243882546289
+      },
+      "reduction": 25.818622969908322
+    },
+    {
+      "model": "qwen3-vl-plus",
+      "task": "idc",
+      "repeat": "repeat_02",
+      "source": "robust_design_lab/results/cross_model_2026-11-08/run02/runs/qwen3-vl-plus/idc/repeat_02/result.json",
+      "parameters": {
+        "a": 177.0,
+        "b": 132.0,
+        "D": 140.0,
+        "f_w": 14.0,
+        "f_gap": 32.0,
+        "f_len": 88.0
+      },
+      "metrics": {
+        "D": 0.014534448505485527,
+        "C_sigma_fF": 86.6243945760872,
+        "f01_GHz": 4.650225267389125,
+        "alpha_MHz": -223.61171376089834
+      },
+      "reduction": 16.644825092072914
+    },
+    {
+      "model": "qwen3-vl-plus",
+      "task": "idc",
+      "repeat": "repeat_03",
+      "source": "robust_design_lab/results/cross_model_2026-11-08/run02/runs/qwen3-vl-plus/idc/repeat_03/result.json",
+      "parameters": {
+        "a": 177.0,
+        "b": 132.0,
+        "D": 140.0,
+        "f_w": 14.0,
+        "f_gap": 32.0,
+        "f_len": 88.0
+      },
+      "metrics": {
+        "D": 0.014534448505485527,
+        "C_sigma_fF": 86.6243945760872,
+        "f01_GHz": 4.650225267389125,
+        "alpha_MHz": -223.61171376089834
+      },
+      "reduction": 16.644825092072914
+    },
+    {
+      "model": "qwen3-vl-plus",
+      "task": "idc",
+      "repeat": "repeat_04",
+      "source": "robust_design_lab/results/cross_model_2026-11-08/run02/runs/qwen3-vl-plus/idc/repeat_04/result.json",
+      "parameters": {
+        "a": 177.0,
+        "b": 132.0,
+        "D": 140.0,
+        "f_w": 12.0,
+        "f_gap": 34.0,
+        "f_len": 88.0
+      },
+      "metrics": {
+        "D": 0.012837564412026686,
+        "C_sigma_fF": 82.30302265086934,
+        "f01_GHz": 4.764799478492151,
+        "alpha_MHz": -235.35258731417346
+      },
+      "reduction": 26.37646852906729
+    },
+    {
+      "model": "qwen3-vl-plus",
+      "task": "pad",
+      "repeat": "repeat_00",
+      "source": "robust_design_lab/results/cross_model_2026-11-08/run02/runs/qwen3-vl-plus/pad/repeat_00/result.json",
+      "parameters": {
+        "w": 780.0,
+        "h": 190.0,
+        "gap": 30.0
+      },
+      "metrics": {
+        "D": 0.0032887269078596556,
+        "C_sigma_fF": 88.96180706602311,
+        "f01_GHz": 4.591645905810958,
+        "alpha_MHz": -217.73646425913407
+      },
+      "reduction": 22.102530300570233
+    },
+    {
+      "model": "qwen3-vl-plus",
+      "task": "pad",
+      "repeat": "repeat_01",
+      "source": "robust_design_lab/results/cross_model_2026-11-08/run02/runs/qwen3-vl-plus/pad/repeat_01/result.json",
+      "parameters": {
+        "w": 800.0,
+        "h": 190.0,
+        "gap": 30.0
+      },
+      "metrics": {
+        "D": 0.0031615963682853354,
+        "C_sigma_fF": 90.30522715747313,
+        "f01_GHz": 4.558977766514742,
+        "alpha_MHz": -214.4973212999238
+      },
+      "reduction": 25.113770708125948
+    },
+    {
+      "model": "qwen3-vl-plus",
+      "task": "pad",
+      "repeat": "repeat_02",
+      "source": "robust_design_lab/results/cross_model_2026-11-08/run02/runs/qwen3-vl-plus/pad/repeat_02/result.json",
+      "parameters": {
+        "w": 760.0,
+        "h": 200.0,
+        "gap": 30.0
+      },
+      "metrics": {
+        "D": 0.002720247357478871,
+        "C_sigma_fF": 89.4860624456519,
+        "f01_GHz": 4.578812905998786,
+        "alpha_MHz": -216.46085206199973
+      },
+      "reduction": 35.56765519272878
+    },
+    {
+      "model": "qwen3-vl-plus",
+      "task": "pad",
+      "repeat": "repeat_03",
+      "source": "robust_design_lab/results/cross_model_2026-11-08/run02/runs/qwen3-vl-plus/pad/repeat_03/result.json",
+      "parameters": {
+        "w": 660.0,
+        "h": 220.0,
+        "gap": 30.0
+      },
+      "metrics": {
+        "D": 0.0032975043533127225,
+        "C_sigma_fF": 86.29709758664877,
+        "f01_GHz": 4.658610877562596,
+        "alpha_MHz": -224.45980069271687
+      },
+      "reduction": 21.894625901580877
+    },
+    {
+      "model": "qwen3-vl-plus",
+      "task": "pad",
+      "repeat": "repeat_04",
+      "source": "robust_design_lab/results/cross_model_2026-11-08/run02/runs/qwen3-vl-plus/pad/repeat_04/result.json",
+      "parameters": {
+        "w": 760.0,
+        "h": 195.0,
+        "gap": 30.0
+      },
+      "metrics": {
+        "D": 0.0027447636281198494,
+        "C_sigma_fF": 88.34175747844938,
+        "f01_GHz": 4.6069661038833765,
+        "alpha_MHz": -219.2647042298701
+      },
+      "reduction": 34.986957706161995
+    },
+    {
+      "model": "gpt-6-astra",
+      "task": "idc",
+      "repeat": "repeat_00",
+      "source": "robust_design_lab/results/cross_model_2026-11-08/run04_gpt6_astra/runs/gpt-6-astra/idc/repeat_00/result.json",
+      "parameters": {
+        "a": 210.0,
+        "b": 150.0,
+        "D": 160.0,
+        "f_w": 16.0,
+        "f_gap": 36.0,
+        "f_len": 75.0
+      },
+      "metrics": {
+        "D": 0.007897647424802607,
+        "C_sigma_fF": 78.96510467350416,
+        "f01_GHz": 4.859437347008216,
+        "alpha_MHz": -245.30112895751765
+      },
+      "reduction": 54.70693076472046
+    },
+    {
+      "model": "gpt-6-astra",
+      "task": "idc",
+      "repeat": "repeat_01",
+      "source": "robust_design_lab/results/cross_model_2026-11-08/run04_gpt6_astra/runs/gpt-6-astra/idc/repeat_01/result.json",
+      "parameters": {
+        "a": 210.0,
+        "b": 155.0,
+        "D": 160.0,
+        "f_w": 16.0,
+        "f_gap": 36.0,
+        "f_len": 75.0
+      },
+      "metrics": {
+        "D": 0.00791182922939979,
+        "C_sigma_fF": 79.4886934272892,
+        "f01_GHz": 4.8442130071514855,
+        "alpha_MHz": -243.68534051170028
+      },
+      "reduction": 54.62559800536175
+    },
+    {
+      "model": "gpt-6-astra",
+      "task": "idc",
+      "repeat": "repeat_02",
+      "source": "robust_design_lab/results/cross_model_2026-11-08/run04_gpt6_astra/runs/gpt-6-astra/idc/repeat_02/result.json",
+      "parameters": {
+        "a": 210.0,
+        "b": 150.0,
+        "D": 150.0,
+        "f_w": 12.0,
+        "f_gap": 36.0,
+        "f_len": 75.0
+      },
+      "metrics": {
+        "D": 0.007787268377720617,
+        "C_sigma_fF": 77.72543021905432,
+        "f01_GHz": 4.8960726747890035,
+        "alpha_MHz": -249.21353629137622
+      },
+      "reduction": 55.33995545583392
+    },
+    {
+      "model": "gpt-6-astra",
+      "task": "idc",
+      "repeat": "repeat_03",
+      "source": "robust_design_lab/results/cross_model_2026-11-08/run04_gpt6_astra/runs/gpt-6-astra/idc/repeat_03/result.json",
+      "parameters": {
+        "a": 190.0,
+        "b": 150.0,
+        "D": 140.0,
+        "f_w": 14.0,
+        "f_gap": 36.0,
+        "f_len": 75.0
+      },
+      "metrics": {
+        "D": 0.008792312617651806,
+        "C_sigma_fF": 80.08462176358961,
+        "f01_GHz": 4.827060860339104,
+        "alpha_MHz": -241.8720210958875
+      },
+      "reduction": 49.5760189447203
+    },
+    {
+      "model": "gpt-6-astra",
+      "task": "idc",
+      "repeat": "repeat_04",
+      "source": "robust_design_lab/results/cross_model_2026-11-08/run04_gpt6_astra/runs/gpt-6-astra/idc/repeat_04/result.json",
+      "parameters": {
+        "a": 210.0,
+        "b": 150.0,
+        "D": 140.0,
+        "f_w": 16.0,
+        "f_gap": 36.0,
+        "f_len": 75.0
+      },
+      "metrics": {
+        "D": 0.009962504566430481,
+        "C_sigma_fF": 85.80876087202762,
+        "f01_GHz": 4.671208517408229,
+        "alpha_MHz": -225.73719895043408
+      },
+      "reduction": 42.86495904248315
+    },
+    {
+      "model": "gpt-6-astra",
+      "task": "pad",
+      "repeat": "repeat_00",
+      "source": "robust_design_lab/results/cross_model_2026-11-08/run04_gpt6_astra/runs/gpt-6-astra/pad/repeat_00/result.json",
+      "parameters": {
+        "w": 820.0,
+        "h": 190.0,
+        "gap": 40.0
+      },
+      "metrics": {
+        "D": 0.0028908730660245274,
+        "C_sigma_fF": 89.91975248265001,
+        "f01_GHz": 4.5682789452687755,
+        "alpha_MHz": -215.41684435126308
+      },
+      "reduction": 31.526179164538537
+    },
+    {
+      "model": "gpt-6-astra",
+      "task": "pad",
+      "repeat": "repeat_01",
+      "source": "robust_design_lab/results/cross_model_2026-11-08/run04_gpt6_astra/runs/gpt-6-astra/pad/repeat_01/result.json",
+      "parameters": {
+        "w": 744.0,
+        "h": 218.0,
+        "gap": 42.0
+      },
+      "metrics": {
+        "D": 0.002866108677740477,
+        "C_sigma_fF": 89.90409191619325,
+        "f01_GHz": 4.568658043831623,
+        "alpha_MHz": -215.45436822514876
+      },
+      "reduction": 32.11275361721548
+    },
+    {
+      "model": "gpt-6-astra",
+      "task": "pad",
+      "repeat": "repeat_02",
+      "source": "robust_design_lab/results/cross_model_2026-11-08/run04_gpt6_astra/runs/gpt-6-astra/pad/repeat_02/result.json",
+      "parameters": {
+        "w": 706.0,
+        "h": 234.0,
+        "gap": 45.0
+      },
+      "metrics": {
+        "D": 0.002840806230105015,
+        "C_sigma_fF": 89.68770671498018,
+        "f01_GHz": 4.5739059492517935,
+        "alpha_MHz": -215.97418458045811
+      },
+      "reduction": 32.71207265562344
+    },
+    {
+      "model": "gpt-6-astra",
+      "task": "pad",
+      "repeat": "repeat_03",
+      "source": "robust_design_lab/results/cross_model_2026-11-08/run04_gpt6_astra/runs/gpt-6-astra/pad/repeat_03/result.json",
+      "parameters": {
+        "w": 734.0,
+        "h": 236.0,
+        "gap": 45.0
+      },
+      "metrics": {
+        "D": 0.002801979340082135,
+        "C_sigma_fF": 92.3576894794663,
+        "f01_GHz": 4.510406134115329,
+        "alpha_MHz": -209.73055339334434
+      },
+      "reduction": 33.63173444993423
+    },
+    {
+      "model": "gpt-6-astra",
+      "task": "pad",
+      "repeat": "repeat_04",
+      "source": "robust_design_lab/results/cross_model_2026-11-08/run04_gpt6_astra/runs/gpt-6-astra/pad/repeat_04/result.json",
+      "parameters": {
+        "w": 814.0,
+        "h": 208.0,
+        "gap": 45.0
+      },
+      "metrics": {
+        "D": 0.002733771020313707,
+        "C_sigma_fF": 92.7038374664298,
+        "f01_GHz": 4.502368720198387,
+        "alpha_MHz": -208.94743792751328
+      },
+      "reduction": 35.24733090147056
+    }
+  ],
+  "trajectories": {
+    "qwen3-vl-plus": {
+      "source": "robust_design_lab/results/cross_model_2026-11-08/run02/runs/qwen3-vl-plus/pad/repeat_01/result.json",
+      "repeat": "repeat_01",
+      "snapshots": [
+        {
+          "parameters": {
+            "w": 734.0,
+            "h": 218.0,
+            "gap": 30.0
+          },
+          "D": 0.004221866153739433
+        },
+        {
+          "parameters": {
+            "w": 780.0,
+            "h": 200.0,
+            "gap": 30.0
+          },
+          "D": 0.00329597409835453
+        },
+        {
+          "parameters": {
+            "w": 780.0,
+            "h": 200.0,
+            "gap": 30.0
+          },
+          "D": 0.00329597409835453
+        },
+        {
+          "parameters": {
+            "w": 800.0,
+            "h": 190.0,
+            "gap": 30.0
+          },
+          "D": 0.0031615963682853354
+        }
+      ],
+      "history": [
+        0.004221866153739433,
+        0.004221866153739433,
+        0.00329597409835453,
+        0.00329597409835453,
+        0.00329597409835453,
+        0.00329597409835453,
+        0.00329597409835453,
+        0.00329597409835453,
+        0.00329597409835453,
+        0.0031615963682853354
+      ]
+    },
+    "kimi-k2.5": {
+      "source": "robust_design_lab/results/cross_model_2026-11-08/run02/runs/kimi-k2.5/pad/repeat_02/result.json",
+      "repeat": "repeat_02",
+      "snapshots": [
+        {
+          "parameters": {
+            "w": 734.0,
+            "h": 218.0,
+            "gap": 30.0
+          },
+          "D": 0.004221866153739433
+        },
+        {
+          "parameters": {
+            "w": 734.0,
+            "h": 218.0,
+            "gap": 30.0
+          },
+          "D": 0.004221866153739433
+        },
+        {
+          "parameters": {
+            "w": 734.0,
+            "h": 195.0,
+            "gap": 22.0
+          },
+          "D": 0.003952296258016952
+        },
+        {
+          "parameters": {
+            "w": 650.0,
+            "h": 195.0,
+            "gap": 35.0
+          },
+          "D": 0.0032876072747693957
+        }
+      ],
+      "history": [
+        0.004221866153739433,
+        0.004221866153739433,
+        0.004221866153739433,
+        0.004221866153739433,
+        0.004221866153739433,
+        0.004221866153739433,
+        0.003952296258016952,
+        0.003952296258016952,
+        0.0032876072747693957,
+        0.0032876072747693957
+      ]
+    },
+    "gpt-6-astra": {
+      "source": "robust_design_lab/results/cross_model_2026-11-08/run04_gpt6_astra/runs/gpt-6-astra/pad/repeat_02/result.json",
+      "repeat": "repeat_02",
+      "snapshots": [
+        {
+          "parameters": {
+            "w": 734.0,
+            "h": 218.0,
+            "gap": 30.0
+          },
+          "D": 0.004221866153739433
+        },
+        {
+          "parameters": {
+            "w": 734.0,
+            "h": 226.0,
+            "gap": 45.0
+          },
+          "D": 0.0031488012270337747
+        },
+        {
+          "parameters": {
+            "w": 706.0,
+            "h": 234.0,
+            "gap": 45.0
+          },
+          "D": 0.002840806230105015
+        },
+        {
+          "parameters": {
+            "w": 706.0,
+            "h": 234.0,
+            "gap": 45.0
+          },
+          "D": 0.002840806230105015
+        }
+      ],
+      "history": [
+        0.004221866153739433,
+        0.0035655069932664183,
+        0.0035655069932664183,
+        0.0031488012270337747,
+        0.0031488012270337747,
+        0.002840806230105015,
+        0.002840806230105015,
+        0.002840806230105015,
+        0.002840806230105015,
+        0.002840806230105015
+      ]
+    }
+  },
+  "idc_trajectory": {
+    "model": "gpt-6-astra",
+    "repeat": "repeat_01",
+    "source": "robust_design_lab/results/cross_model_2026-11-08/run04_gpt6_astra/runs/gpt-6-astra/idc/repeat_01/result.json",
+    "snapshots": [
+      {
+        "parameters": {
+          "a": 177.0,
+          "b": 140.0,
+          "D": 140.0,
+          "f_w": 16.0,
+          "f_gap": 32.0,
+          "f_len": 88.0
+        },
+        "D": 0.017436768048942453
+      },
+      {
+        "parameters": {
+          "a": 195.0,
+          "b": 140.0,
+          "D": 140.0,
+          "f_w": 16.0,
+          "f_gap": 32.0,
+          "f_len": 75.0
+        },
+        "D": 0.013534066463242993
+      },
+      {
+        "parameters": {
+          "a": 195.0,
+          "b": 155.0,
+          "D": 140.0,
+          "f_w": 16.0,
+          "f_gap": 36.0,
+          "f_len": 75.0
+        },
+        "D": 0.009567616860201397
+      },
+      {
+        "parameters": {
+          "a": 210.0,
+          "b": 155.0,
+          "D": 160.0,
+          "f_w": 16.0,
+          "f_gap": 36.0,
+          "f_len": 75.0
+        },
+        "D": 0.00791182922939979
+      }
+    ]
+  },
+  "historical": [
+    {
+      "model": "coordinate_descent",
+      "task": "A_dual_pad",
+      "repeat": 0,
+      "feasible": true,
+      "metrics": {
+        "D": 0.003067779673095504,
+        "C_sigma_fF": 89.5530068447844,
+        "f01_GHz": 4.577182055941704,
+        "alpha_MHz": -216.29903905105172
+      },
+      "reduction": 9.790427137292756
+    },
+    {
+      "model": "cma_es",
+      "task": "A_dual_pad",
+      "repeat": 0,
+      "feasible": false,
+      "metrics": {
+        "D": 0.003371808374864728,
+        "C_sigma_fF": 68.40948972511363,
+        "f01_GHz": 5.201296878285524,
+        "alpha_MHz": -283.151203180926
+      },
+      "reduction": 0.8503133588704137
+    },
+    {
+      "model": "nelder_mead",
+      "task": "A_dual_pad",
+      "repeat": 0,
+      "feasible": true,
+      "metrics": {
+        "D": 0.0032583646007969588,
+        "C_sigma_fF": 84.99592373843535,
+        "f01_GHz": 4.692409375076427,
+        "alpha_MHz": -227.89597986214787
+      },
+      "reduction": 4.186183432049662
+    },
+    {
+      "model": "sobol_best",
+      "task": "A_dual_pad",
+      "repeat": 0,
+      "feasible": false,
+      "metrics": {
+        "D": 0.002481639333429475,
+        "C_sigma_fF": 54.651296607775045,
+        "f01_GHz": 5.781644862363576,
+        "alpha_MHz": -354.4331155338662
+      },
+      "reduction": 27.026172631857982
+    },
+    {
+      "model": "bayesian_opt",
+      "task": "A_dual_pad",
+      "repeat": 0,
+      "feasible": true,
+      "metrics": {
+        "D": 0.0034006829621176676,
+        "C_sigma_fF": 82.6560462730894,
+        "f01_GHz": 4.755115428647374,
+        "alpha_MHz": -234.3473974143565
+      },
+      "reduction": 0.001241893432879504
+    },
+    {
+      "model": "vlm",
+      "task": "A_dual_pad",
+      "repeat": 0,
+      "feasible": true,
+      "metrics": {
+        "D": 0.001150326571907445,
+        "C_sigma_fF": 89.55301560116942,
+        "f01_GHz": 4.577181842740778,
+        "alpha_MHz": -216.29901790159457
+      },
+      "reduction": 66.1740803570536
+    },
+    {
+      "model": "coordinate_descent",
+      "task": "D_interdigit",
+      "repeat": 0,
+      "feasible": false,
+      "metrics": {
+        "D": 0.0009991545289824984,
+        "C_sigma_fF": 43.11991025800067,
+        "f01_GHz": 6.458779890281179,
+        "alpha_MHz": -449.2177559916205
+      },
+      "reduction": 49.694972532182
+    },
+    {
+      "model": "cma_es",
+      "task": "D_interdigit",
+      "repeat": 0,
+      "feasible": false,
+      "metrics": {
+        "D": 0.0010452038314339846,
+        "C_sigma_fF": 40.338591024897994,
+        "f01_GHz": 6.661988177382596,
+        "alpha_MHz": -480.19102384372644
+      },
+      "reduction": 47.37650090692207
+    },
+    {
+      "model": "nelder_mead",
+      "task": "D_interdigit",
+      "repeat": 0,
+      "feasible": false,
+      "metrics": {
+        "D": 0.0011926331158562565,
+        "C_sigma_fF": 37.776422300826376,
+        "f01_GHz": 6.867653705969327,
+        "alpha_MHz": -512.7597624361423
+      },
+      "reduction": 39.95379101841687
+    },
+    {
+      "model": "sobol_best",
+      "task": "D_interdigit",
+      "repeat": 0,
+      "feasible": false,
+      "metrics": {
+        "D": 0.0013100821622281352,
+        "C_sigma_fF": 55.010629070213696,
+        "f01_GHz": 5.763886605266858,
+        "alpha_MHz": -352.11793887933226
+      },
+      "reduction": 34.040514010281655
+    },
+    {
+      "model": "bayesian_opt",
+      "task": "D_interdigit",
+      "repeat": 0,
+      "feasible": false,
+      "metrics": {
+        "D": 0.0010623299379764995,
+        "C_sigma_fF": 45.23109445465778,
+        "f01_GHz": 6.316603764614471,
+        "alpha_MHz": -428.25029016436775
+      },
+      "reduction": 46.51424263250345
+    },
+    {
+      "model": "vlm",
+      "task": "D_interdigit",
+      "repeat": 0,
+      "feasible": false,
+      "metrics": {
+        "D": 0.0008753788628487611,
+        "C_sigma_fF": 48.87366649049598,
+        "f01_GHz": 6.092306837954336,
+        "alpha_MHz": -396.3326411867601
+      },
+      "reduction": 55.92677962917429
+    },
+    {
+      "model": "coordinate_descent",
+      "task": "A_dual_pad",
+      "repeat": 1,
+      "feasible": true,
+      "metrics": {
+        "D": 0.0011503023148911437,
+        "C_sigma_fF": 89.55301560116942,
+        "f01_GHz": 4.577181842740778,
+        "alpha_MHz": -216.29901790159457
+      },
+      "reduction": 66.17479364657
+    },
+    {
+      "model": "cma_es",
+      "task": "A_dual_pad",
+      "repeat": 1,
+      "feasible": true,
+      "metrics": {
+        "D": 0.0033350781913522535,
+        "C_sigma_fF": 88.362697951272,
+        "f01_GHz": 4.606446164291537,
+        "alpha_MHz": -219.21274218382194
+      },
+      "reduction": 1.9303825029774346
+    },
+    {
+      "model": "nelder_mead",
+      "task": "A_dual_pad",
+      "repeat": 1,
+      "feasible": true,
+      "metrics": {
+        "D": 0.0032712299652622933,
+        "C_sigma_fF": 83.31948271662121,
+        "f01_GHz": 4.737077282391613,
+        "alpha_MHz": -232.48139202375293
+      },
+      "reduction": 3.8078710508447244
+    },
+    {
+      "model": "sobol_best",
+      "task": "A_dual_pad",
+      "repeat": 1,
+      "feasible": false,
+      "metrics": {
+        "D": 0.0038321458711576824,
+        "C_sigma_fF": 52.980943448918325,
+        "f01_GHz": 5.8664472852425025,
+        "alpha_MHz": -365.60748193045976
+      },
+      "reduction": -12.686137539956155
+    },
+    {
+      "model": "bayesian_opt",
+      "task": "A_dual_pad",
+      "repeat": 1,
+      "feasible": true,
+      "metrics": {
+        "D": 0.0034006860156713522,
+        "C_sigma_fF": 82.65603537586726,
+        "f01_GHz": 4.7551157266523,
+        "alpha_MHz": -234.3474283102933
+      },
+      "reduction": 0.001152102182222503
+    },
+    {
+      "model": "vlm",
+      "task": "A_dual_pad",
+      "repeat": 1,
+      "feasible": true,
+      "metrics": {
+        "D": 0.001150326571907445,
+        "C_sigma_fF": 89.55301560116942,
+        "f01_GHz": 4.577181842740778,
+        "alpha_MHz": -216.29901790159457
+      },
+      "reduction": 66.1740803570536
+    },
+    {
+      "model": "coordinate_descent",
+      "task": "D_interdigit",
+      "repeat": 1,
+      "feasible": false,
+      "metrics": {
+        "D": 0.001163050222920021,
+        "C_sigma_fF": 39.06979107891513,
+        "f01_GHz": 6.761439211499985,
+        "alpha_MHz": -495.78533157584997
+      },
+      "reduction": 41.44321852794369
+    },
+    {
+      "model": "cma_es",
+      "task": "D_interdigit",
+      "repeat": 1,
+      "feasible": false,
+      "metrics": {
+        "D": 0.0006879550178682413,
+        "C_sigma_fF": 37.96267618782184,
+        "f01_GHz": 6.8520421364976585,
+        "alpha_MHz": -510.24404151130295
+      },
+      "reduction": 65.36311945087394
+    },
+    {
+      "model": "nelder_mead",
+      "task": "D_interdigit",
+      "repeat": 1,
+      "feasible": false,
+      "metrics": {
+        "D": 0.0011926331158562565,
+        "C_sigma_fF": 37.776422300826376,
+        "f01_GHz": 6.867653705969327,
+        "alpha_MHz": -512.7597624361423
+      },
+      "reduction": 39.95379101841687
+    },
+    {
+      "model": "sobol_best",
+      "task": "D_interdigit",
+      "repeat": 1,
+      "feasible": false,
+      "metrics": {
+        "D": 0.0014630710293717885,
+        "C_sigma_fF": 38.706143298304816,
+        "f01_GHz": 6.790792710677087,
+        "alpha_MHz": -500.4432804212624
+      },
+      "reduction": 26.33789250310671
+    },
+    {
+      "model": "bayesian_opt",
+      "task": "D_interdigit",
+      "repeat": 1,
+      "feasible": false,
+      "metrics": {
+        "D": 0.0009585113393267368,
+        "C_sigma_fF": 47.50929143607678,
+        "f01_GHz": 6.17343604082315,
+        "alpha_MHz": -407.71454886296397
+      },
+      "reduction": 51.74125938041849
+    },
+    {
+      "model": "vlm",
+      "task": "D_interdigit",
+      "repeat": 1,
+      "feasible": false,
+      "metrics": {
+        "D": 0.0007277586573226604,
+        "C_sigma_fF": 55.6521068679576,
+        "f01_GHz": 5.732594882781063,
+        "alpha_MHz": -348.05922749012353
+      },
+      "reduction": 63.35910193607294
+    },
+    {
+      "model": "coordinate_descent",
+      "task": "A_dual_pad",
+      "repeat": 2,
+      "feasible": true,
+      "metrics": {
+        "D": 0.003191880728889687,
+        "C_sigma_fF": 88.03860567230996,
+        "f01_GHz": 4.614513260418902,
+        "alpha_MHz": -220.01971949393874
+      },
+      "reduction": 6.141174443826669
+    },
+    {
+      "model": "cma_es",
+      "task": "A_dual_pad",
+      "repeat": 2,
+      "feasible": true,
+      "metrics": {
+        "D": 0.004010944978252064,
+        "C_sigma_fF": 74.00421877782709,
+        "f01_GHz": 5.011316922594864,
+        "alpha_MHz": -261.7449335261785
+      },
+      "reduction": -17.943813383065986
+    },
+    {
+      "model": "nelder_mead",
+      "task": "A_dual_pad",
+      "repeat": 2,
+      "feasible": true,
+      "metrics": {
+        "D": 0.003391143221371985,
+        "C_sigma_fF": 82.74906382277906,
+        "f01_GHz": 4.752573760839902,
+        "alpha_MHz": -234.08396941074406
+      },
+      "reduction": 0.28176267053960924
+    },
+    {
+      "model": "sobol_best",
+      "task": "A_dual_pad",
+      "repeat": 2,
+      "feasible": false,
+      "metrics": {
+        "D": 0.0034191428594606502,
+        "C_sigma_fF": 69.75855976729684,
+        "f01_GHz": 5.153481633431865,
+        "alpha_MHz": -277.6753044970401
+      },
+      "reduction": -0.5415804836120586
+    },
+    {
+      "model": "bayesian_opt",
+      "task": "A_dual_pad",
+      "repeat": 2,
+      "feasible": true,
+      "metrics": {
+        "D": 0.0034006829621176676,
+        "C_sigma_fF": 82.6560462730894,
+        "f01_GHz": 4.755115428647374,
+        "alpha_MHz": -234.3473974143565
+      },
+      "reduction": 0.001241893432879504
+    },
+    {
+      "model": "vlm",
+      "task": "A_dual_pad",
+      "repeat": 2,
+      "feasible": true,
+      "metrics": {
+        "D": 0.003067779673095504,
+        "C_sigma_fF": 89.5530068447844,
+        "f01_GHz": 4.577182055941704,
+        "alpha_MHz": -216.29903905105172
+      },
+      "reduction": 9.790427137292756
+    },
+    {
+      "model": "coordinate_descent",
+      "task": "D_interdigit",
+      "repeat": 2,
+      "feasible": false,
+      "metrics": {
+        "D": 0.0009991545289824984,
+        "C_sigma_fF": 43.11991025800067,
+        "f01_GHz": 6.458779890281179,
+        "alpha_MHz": -449.2177559916205
+      },
+      "reduction": 49.694972532182
+    },
+    {
+      "model": "cma_es",
+      "task": "D_interdigit",
+      "repeat": 2,
+      "feasible": false,
+      "metrics": {
+        "D": 0.0014693228480990455,
+        "C_sigma_fF": 37.6110834219993,
+        "f01_GHz": 6.881604020655654,
+        "alpha_MHz": -515.0138619332932
+      },
+      "reduction": 26.02312846643787
+    },
+    {
+      "model": "nelder_mead",
+      "task": "D_interdigit",
+      "repeat": 2,
+      "feasible": false,
+      "metrics": {
+        "D": 0.0011954925369055086,
+        "C_sigma_fF": 37.776422300826376,
+        "f01_GHz": 6.867653705969327,
+        "alpha_MHz": -512.7597624361423
+      },
+      "reduction": 39.8098260457803
+    },
+    {
+      "model": "sobol_best",
+      "task": "D_interdigit",
+      "repeat": 2,
+      "feasible": false,
+      "metrics": {
+        "D": 0.0013743093816017177,
+        "C_sigma_fF": 38.25500512560846,
+        "f01_GHz": 6.827757491219909,
+        "alpha_MHz": -506.3449674378008
+      },
+      "reduction": 30.806827987700213
+    },
+    {
+      "model": "bayesian_opt",
+      "task": "D_interdigit",
+      "repeat": 2,
+      "feasible": false,
+      "metrics": {
+        "D": 0.0012669678776127261,
+        "C_sigma_fF": 34.200257086414204,
+        "f01_GHz": 7.190313010493062,
+        "alpha_MHz": -566.3767168684178
+      },
+      "reduction": 36.21121454650618
+    },
+    {
+      "model": "vlm",
+      "task": "D_interdigit",
+      "repeat": 2,
+      "feasible": false,
+      "metrics": {
+        "D": 0.0008753788628487611,
+        "C_sigma_fF": 48.87366649049598,
+        "f01_GHz": 6.092306837954336,
+        "alpha_MHz": -396.3326411867601
+      },
+      "reduction": 55.92677962917429
+    },
+    {
+      "model": "coordinate_descent",
+      "task": "A_dual_pad",
+      "repeat": 3,
+      "feasible": true,
+      "metrics": {
+        "D": 0.003067704636466157,
+        "C_sigma_fF": 89.55299731198036,
+        "f01_GHz": 4.577182288046957,
+        "alpha_MHz": -216.29906207581266
+      },
+      "reduction": 9.792633626351211
+    },
+    {
+      "model": "cma_es",
+      "task": "A_dual_pad",
+      "repeat": 3,
+      "feasible": true,
+      "metrics": {
+        "D": 0.003432056675713558,
+        "C_sigma_fF": 73.25533283773669,
+        "f01_GHz": 5.03552571664622,
+        "alpha_MHz": -264.4207400922593
+      },
+      "reduction": -0.921317613504069
+    },
+    {
+      "model": "nelder_mead",
+      "task": "A_dual_pad",
+      "repeat": 3,
+      "feasible": true,
+      "metrics": {
+        "D": 0.0032582787054702966,
+        "C_sigma_fF": 84.99621820260808,
+        "f01_GHz": 4.692401641552947,
+        "alpha_MHz": -227.8951903305358
+      },
+      "reduction": 4.188709226453035
+    },
+    {
+      "model": "sobol_best",
+      "task": "A_dual_pad",
+      "repeat": 3,
+      "feasible": true,
+      "metrics": {
+        "D": 0.003389031958498311,
+        "C_sigma_fF": 88.75438160732931,
+        "f01_GHz": 4.596753698669805,
+        "alpha_MHz": -218.2453302458651
+      },
+      "reduction": 0.3438453956144727
+    },
+    {
+      "model": "bayesian_opt",
+      "task": "A_dual_pad",
+      "repeat": 3,
+      "feasible": true,
+      "metrics": {
+        "D": 0.0034007396811969854,
+        "C_sigma_fF": 82.65604188934593,
+        "f01_GHz": 4.755115548529034,
+        "alpha_MHz": -234.34740984319836
+      },
+      "reduction": -0.00042595904143905017
+    },
+    {
+      "model": "vlm",
+      "task": "A_dual_pad",
+      "repeat": 3,
+      "feasible": true,
+      "metrics": {
+        "D": 0.0011502973185012052,
+        "C_sigma_fF": 89.55302381833309,
+        "f01_GHz": 4.57718164266887,
+        "alpha_MHz": -216.2989980545324
+      },
+      "reduction": 66.174940567878
+    },
+    {
+      "model": "coordinate_descent",
+      "task": "D_interdigit",
+      "repeat": 3,
+      "feasible": false,
+      "metrics": {
+        "D": 0.0009991545289824984,
+        "C_sigma_fF": 43.11991025800067,
+        "f01_GHz": 6.458779890281179,
+        "alpha_MHz": -449.2177559916205
+      },
+      "reduction": 49.694972532182
+    },
+    {
+      "model": "cma_es",
+      "task": "D_interdigit",
+      "repeat": 3,
+      "feasible": false,
+      "metrics": {
+        "D": 0.001401980450619906,
+        "C_sigma_fF": 43.1558411215706,
+        "f01_GHz": 6.45627755876528,
+        "alpha_MHz": -448.8437444677053
+      },
+      "reduction": 29.413656214319573
+    },
+    {
+      "model": "nelder_mead",
+      "task": "D_interdigit",
+      "repeat": 3,
+      "feasible": false,
+      "metrics": {
+        "D": 0.0011926331158562565,
+        "C_sigma_fF": 37.776422300826376,
+        "f01_GHz": 6.867653705969327,
+        "alpha_MHz": -512.7597624361423
+      },
+      "reduction": 39.95379101841687
+    },
+    {
+      "model": "sobol_best",
+      "task": "D_interdigit",
+      "repeat": 3,
+      "feasible": false,
+      "metrics": {
+        "D": 0.0011358645483117767,
+        "C_sigma_fF": 39.150746382648,
+        "f01_GHz": 6.754957317977254,
+        "alpha_MHz": -494.7601543873553
+      },
+      "reduction": 42.811951860205696
+    },
+    {
+      "model": "bayesian_opt",
+      "task": "D_interdigit",
+      "repeat": 3,
+      "feasible": false,
+      "metrics": {
+        "D": 0.0013983113347424926,
+        "C_sigma_fF": 38.131230206400375,
+        "f01_GHz": 6.838007578169024,
+        "alpha_MHz": -507.98857576349064
+      },
+      "reduction": 29.59838737415713
+    },
+    {
+      "model": "vlm",
+      "task": "D_interdigit",
+      "repeat": 3,
+      "feasible": false,
+      "metrics": {
+        "D": 0.0008110351059998077,
+        "C_sigma_fF": 48.64230502566153,
+        "f01_GHz": 6.105834651551288,
+        "alpha_MHz": -398.2177512854344
+      },
+      "reduction": 59.16633303335638
+    },
+    {
+      "model": "coordinate_descent",
+      "task": "A_dual_pad",
+      "repeat": 4,
+      "feasible": true,
+      "metrics": {
+        "D": 0.0011502973185012052,
+        "C_sigma_fF": 89.55302381833309,
+        "f01_GHz": 4.57718164266887,
+        "alpha_MHz": -216.2989980545324
+      },
+      "reduction": 66.174940567878
+    },
+    {
+      "model": "cma_es",
+      "task": "A_dual_pad",
+      "repeat": 4,
+      "feasible": true,
+      "metrics": {
+        "D": 0.0038321427257568246,
+        "C_sigma_fF": 85.79363044380783,
+        "f01_GHz": 4.671600496497478,
+        "alpha_MHz": -225.7770096038309
+      },
+      "reduction": -12.686045047894101
+    },
+    {
+      "model": "nelder_mead",
+      "task": "A_dual_pad",
+      "repeat": 4,
+      "feasible": true,
+      "metrics": {
+        "D": 0.0032583829070663814,
+        "C_sigma_fF": 84.99623954921992,
+        "f01_GHz": 4.692401080927598,
+        "alpha_MHz": -227.8951330951782
+      },
+      "reduction": 4.185645127177318
+    },
+    {
+      "model": "sobol_best",
+      "task": "A_dual_pad",
+      "repeat": 4,
+      "feasible": false,
+      "metrics": {
+        "D": 0.0037059060535121167,
+        "C_sigma_fF": 61.61321873330244,
+        "f01_GHz": 5.464635142476109,
+        "alpha_MHz": -314.3843110762424
+      },
+      "reduction": -8.973993500426225
+    },
+    {
+      "model": "bayesian_opt",
+      "task": "A_dual_pad",
+      "repeat": 4,
+      "feasible": false,
+      "metrics": {
+        "D": 0.0033509594609135553,
+        "C_sigma_fF": 62.988615485777544,
+        "f01_GHz": 5.408057391518452,
+        "alpha_MHz": -307.51952833497035
+      },
+      "reduction": 1.4633859464102006
+    },
+    {
+      "model": "vlm",
+      "task": "A_dual_pad",
+      "repeat": 4,
+      "feasible": true,
+      "metrics": {
+        "D": 0.001150326571907445,
+        "C_sigma_fF": 89.55301560116942,
+        "f01_GHz": 4.577181842740778,
+        "alpha_MHz": -216.29901790159457
+      },
+      "reduction": 66.1740803570536
+    },
+    {
+      "model": "coordinate_descent",
+      "task": "D_interdigit",
+      "repeat": 4,
+      "feasible": false,
+      "metrics": {
+        "D": 0.0008339256326616294,
+        "C_sigma_fF": 42.78168496381428,
+        "f01_GHz": 6.482481459847646,
+        "alpha_MHz": -452.76920114396853
+      },
+      "reduction": 58.01385006993689
+    },
+    {
+      "model": "cma_es",
+      "task": "D_interdigit",
+      "repeat": 4,
+      "feasible": false,
+      "metrics": {
+        "D": 0.0009916410636314785,
+        "C_sigma_fF": 37.15752206246211,
+        "f01_GHz": 6.920323821236209,
+        "alpha_MHz": -521.3003518398672
+      },
+      "reduction": 50.07325744197113
+    },
+    {
+      "model": "nelder_mead",
+      "task": "D_interdigit",
+      "repeat": 4,
+      "feasible": false,
+      "metrics": {
+        "D": 0.0011926331158562565,
+        "C_sigma_fF": 37.776422300826376,
+        "f01_GHz": 6.867653705969327,
+        "alpha_MHz": -512.7597624361423
+      },
+      "reduction": 39.95379101841687
+    },
+    {
+      "model": "sobol_best",
+      "task": "D_interdigit",
+      "repeat": 4,
+      "feasible": false,
+      "metrics": {
+        "D": 0.001272978134368625,
+        "C_sigma_fF": 46.548355867104064,
+        "f01_GHz": 6.232602268889648,
+        "alpha_MHz": -416.13133189840875
+      },
+      "reduction": 35.90861257411454
+    },
+    {
+      "model": "bayesian_opt",
+      "task": "D_interdigit",
+      "repeat": 4,
+      "feasible": false,
+      "metrics": {
+        "D": 0.0011075631157930475,
+        "C_sigma_fF": 42.44361159942947,
+        "f01_GHz": 6.506440716206052,
+        "alpha_MHz": -456.37561448516084
+      },
+      "reduction": 44.2368609197514
+    },
+    {
+      "model": "vlm",
+      "task": "D_interdigit",
+      "repeat": 4,
+      "feasible": false,
+      "metrics": {
+        "D": 0.00039409190295017313,
+        "C_sigma_fF": 49.39969759344155,
+        "f01_GHz": 6.06188767705308,
+        "alpha_MHz": -392.1123057083404
+      },
+      "reduction": 80.15842051685243
+    }
+  ],
+  "structure_rows": {
+    "ring_01": {
+      "D": 0.0025839668727156303,
+      "nom_C": 91.6087923357965,
+      "f0": 4.527027392446819,
+      "drift": {
+        "ep": 0.0022952917343116567,
+        "em": -0.0025839668727156303
+      },
+      "breakdown": {
+        "nom": {
+          "C12": 35.97987,
+          "G": 53.628922335796496
+        },
+        "ep": {
+          "C12": 35.6955,
+          "G": 53.47319467481089
+        },
+        "em": {
+          "C12": 36.29005,
+          "G": 53.81666746871776
+        }
+      },
+      "breakdown_delta": {
+        "ep": {
+          "C12": -0.28436999999999557,
+          "G": -0.15572766098560464
+        },
+        "em": {
+          "C12": 0.31018000000000256,
+          "G": 0.1877451329212647
+        }
+      }
+    },
+    "champion_01": {
+      "D": 0.0025071192225059598,
+      "nom_C": 91.65902653372004,
+      "f0": 4.52584459542685,
+      "drift": {
+        "ep": 0.0022357825007461155,
+        "em": -0.0025071192225059598
+      },
+      "breakdown": {
+        "nom": {
+          "C12": 36.04723,
+          "G": 53.61179653372004
+        },
+        "ep": {
+          "C12": 35.76836,
+          "G": 53.46172400866648
+        },
+        "em": {
+          "C12": 36.3519,
+          "G": 53.790463407616954
+        }
+      },
+      "breakdown_delta": {
+        "ep": {
+          "C12": -0.27886999999999773,
+          "G": -0.1500725250535595
+        },
+        "em": {
+          "C12": 0.30467000000000155,
+          "G": 0.1786668738969155
+        }
+      }
+    },
+    "pad_01": {
+      "D": 0.004221933265406503,
+      "nom_C": 91.61144429497138,
+      "f0": 4.526964926805997,
+      "drift": {
+        "ep": 0.003348321388556553,
+        "em": -0.004221933265406503
+      },
+      "breakdown": {
+        "nom": {
+          "C12": 27.4517,
+          "G": 62.159744294971375
+        },
+        "ep": {
+          "C12": 27.07413,
+          "G": 61.89598133614973
+        },
+        "em": {
+          "C12": 27.95074,
+          "G": 62.47564985401674
+        }
+      },
+      "breakdown_delta": {
+        "ep": {
+          "C12": -0.37756999999999863,
+          "G": -0.26376295882164413
+        },
+        "em": {
+          "C12": 0.4990400000000008,
+          "G": 0.3159055590453619
+        }
+      }
+    },
+    "idc_01": {
+      "D": 0.01743704253328502,
+      "nom_C": 91.91054711951583,
+      "f0": 4.519936493489828,
+      "drift": {
+        "ep": 0.01196939489204157,
+        "em": -0.01743704253328502
+      },
+      "breakdown": {
+        "nom": {
+          "C12": 51.60403,
+          "G": 38.306517119515824
+        },
+        "ep": {
+          "C12": 49.14809,
+          "G": 38.48268753942619
+        },
+        "em": {
+          "C12": 54.57585,
+          "G": 38.75729499121468
+        }
+      },
+      "breakdown_delta": {
+        "ep": {
+          "C12": -2.4559399999999982,
+          "G": 0.1761704199103633
+        },
+        "em": {
+          "C12": 2.971820000000001,
+          "G": 0.45077787169885397
+        }
+      }
+    },
+    "ring_005": {
+      "D": 0.0025403651980800976,
+      "nom_C": 91.6550648995986,
+      "f0": 4.52593784052326,
+      "drift": {
+        "ep": 0.002203135476160482,
+        "em": -0.0025403651980800976
+      },
+      "breakdown": {
+        "nom": {
+          "C12": 36.04625,
+          "G": 53.6088148995986
+        },
+        "ep": {
+          "C12": 35.7708,
+          "G": 53.461589525804875
+        },
+        "em": {
+          "C12": 36.35758,
+          "G": 53.787227154236575
+        }
+      },
+      "breakdown_delta": {
+        "ep": {
+          "C12": -0.2754499999999993,
+          "G": -0.1472253737937237
+        },
+        "em": {
+          "C12": 0.3113299999999981,
+          "G": 0.17841225463797628
+        }
+      }
+    },
+    "champion_005": {
+      "D": 0.0024989154319676366,
+      "nom_C": 91.65902653372004,
+      "f0": 4.52584459542685,
+      "drift": {
+        "ep": 0.0022357825007461155,
+        "em": -0.0024989154319676366
+      },
+      "breakdown": {
+        "nom": {
+          "C12": 36.04723,
+          "G": 53.61179653372004
+        },
+        "ep": {
+          "C12": 35.76836,
+          "G": 53.46172400866648
+        },
+        "em": {
+          "C12": 36.35884,
+          "G": 53.781937790894105
+        }
+      },
+      "breakdown_delta": {
+        "ep": {
+          "C12": -0.27886999999999773,
+          "G": -0.1500725250535595
+        },
+        "em": {
+          "C12": 0.3116100000000017,
+          "G": 0.17014125717406614
+        }
+      }
+    },
+    "pad_005": {
+      "D": 0.0038711372757751212,
+      "nom_C": 91.74210983126703,
+      "f0": 4.5238904078388655,
+      "drift": {
+        "ep": 0.0027578204077444227,
+        "em": -0.0038711372757751212
+      },
+      "breakdown": {
+        "nom": {
+          "C12": 27.52783,
+          "G": 62.21427983126702
+        },
+        "ep": {
+          "C12": 27.23033,
+          "G": 61.98249747930777
+        },
+        "em": {
+          "C12": 27.98865,
+          "G": 62.501462242403534
+        }
+      },
+      "breakdown_delta": {
+        "ep": {
+          "C12": -0.297500000000003,
+          "G": -0.23178235195925367
+        },
+        "em": {
+          "C12": 0.46081999999999823,
+          "G": 0.2871824111365129
+        }
+      }
+    },
+    "notch_L1_005": {
+      "D": 0.0033924482364725917,
+      "nom_C": 91.81930053843703,
+      "f0": 4.522077118723744,
+      "drift": {
+        "ep": 0.0033924482364725917,
+        "em": -0.0033691898620658075
+      },
+      "breakdown": {
+        "nom": {
+          "C12": 27.58961,
+          "G": 62.22969053843704
+        },
+        "ep": {
+          "C12": 27.20894,
+          "G": 61.959168375128925
+        },
+        "em": {
+          "C12": 27.97463,
+          "G": 62.495883050653404
+        }
+      },
+      "breakdown_delta": {
+        "ep": {
+          "C12": -0.38067000000000206,
+          "G": -0.2705221633081152
+        },
+        "em": {
+          "C12": 0.3850200000000008,
+          "G": 0.26619251221636375
+        }
+      }
+    },
+    "notch_L1_01": {
+      "D": 0.003312727986790128,
+      "nom_C": 91.57697643800627,
+      "f0": 4.527777005459756,
+      "drift": {
+        "ep": 0.0029212836123180207,
+        "em": -0.003312727986790128
+      },
+      "breakdown": {
+        "nom": {
+          "C12": 27.44015,
+          "G": 62.13682643800627
+        },
+        "ep": {
+          "C12": 27.10409,
+          "G": 61.9133089153831
+        },
+        "em": {
+          "C12": 27.82688,
+          "G": 62.38871229147672
+        }
+      },
+      "breakdown_delta": {
+        "ep": {
+          "C12": -0.3360599999999998,
+          "G": -0.22351752262316893
+        },
+        "em": {
+          "C12": 0.38673,
+          "G": 0.2518858534704549
+        }
+      }
+    }
+  },
+  "held_out": [
+    {
+      "object": "champion_exact",
+      "scenario": "Us+0.25",
+      "C_fF": 91.36810463844445,
+      "f0_GHz": 4.52584459542685,
+      "f_GHz": 4.532707626064966,
+      "signed_log_drift": 0.0015152602277805566,
+      "D": 0.0015152602277805566,
+      "delta_f_MHz": 6.863030638116108,
+      "abs_delta_f_MHz": 6.863030638116108,
+      "saved_MHz": 6.858930986831604,
+      "MHz_error": -0.004099651284503736,
+      "passes": 13,
+      "project": "robust_design_lab/results/q3d_shape_sweep_2026-10-26/sweep_A_dual_pad_1794062743.aedt"
+    },
+    {
+      "object": "champion_exact",
+      "scenario": "Us-0.25",
+      "C_fF": 91.9098912532895,
+      "f0_GHz": 4.52584459542685,
+      "f_GHz": 4.5199518689664195,
+      "signed_log_drift": -0.0013028653291461,
+      "D": 0.0013028653291461,
+      "delta_f_MHz": -5.892726460430708,
+      "abs_delta_f_MHz": 5.892726460430708,
+      "saved_MHz": 5.898136867696117,
+      "MHz_error": 0.005410407265408423,
+      "passes": 16,
+      "project": "robust_design_lab/results/q3d_shape_sweep_2026-10-26/sweep_A_dual_pad_1794062845.aedt"
+    },
+    {
+      "object": "champion_exact",
+      "scenario": "IL+0.25",
+      "C_fF": 91.54531632569845,
+      "f0_GHz": 4.52584459542685,
+      "f_GHz": 4.528523323233808,
+      "signed_log_drift": 0.0005916984839085225,
+      "D": 0.0005916984839085225,
+      "delta_f_MHz": 2.678727806957326,
+      "abs_delta_f_MHz": 2.678727806957326,
+      "saved_MHz": 2.679601295914474,
+      "MHz_error": 0.0008734889571480053,
+      "passes": 16,
+      "project": "robust_design_lab/results/q3d_shape_sweep_2026-10-26/sweep_A_dual_pad_1794062998.aedt"
+    },
+    {
+      "object": "champion_exact",
+      "scenario": "IR+0.25",
+      "C_fF": 91.54552604842473,
+      "f0_GHz": 4.52584459542685,
+      "f_GHz": 4.528518378247899,
+      "signed_log_drift": 0.0005906065189885147,
+      "D": 0.0005906065189885147,
+      "delta_f_MHz": 2.673782821048576,
+      "abs_delta_f_MHz": 2.673782821048576,
+      "saved_MHz": 2.6746576181585633,
+      "MHz_error": 0.0008747971099873908,
+      "passes": 16,
+      "project": "robust_design_lab/results/q3d_shape_sweep_2026-10-26/sweep_A_dual_pad_1794063119.aedt"
+    },
+    {
+      "object": "pad_ref",
+      "scenario": "IL+0.25",
+      "C_fF": 91.45720666088876,
+      "f0_GHz": 4.526964926805997,
+      "f_GHz": 4.530602288454109,
+      "signed_log_drift": 0.0008031652997317924,
+      "D": 0.0008031652997317924,
+      "delta_f_MHz": 3.637361648111792,
+      "abs_delta_f_MHz": 3.637361648111792,
+      "saved_MHz": 3.6368781051336585,
+      "MHz_error": -0.0004835429781335776,
+      "passes": 14,
+      "project": "robust_design_lab/results/q3d_shape_sweep_2026-10-26/sweep_A_dual_pad_1794063240.aedt"
+    },
+    {
+      "object": "pad_ref",
+      "scenario": "IR+0.25",
+      "C_fF": 91.46232886960262,
+      "f0_GHz": 4.526964926805997,
+      "f_GHz": 4.530481349359291,
+      "signed_log_drift": 0.0007764711206117923,
+      "D": 0.0007764711206117923,
+      "delta_f_MHz": 3.5164225532939852,
+      "abs_delta_f_MHz": 3.5164225532939852,
+      "saved_MHz": 3.516048944485121,
+      "MHz_error": -0.00037360880886438963,
+      "passes": 14,
+      "project": "robust_design_lab/results/q3d_shape_sweep_2026-10-26/sweep_A_dual_pad_1794063329.aedt"
+    },
+    {
+      "object": "pad_ref",
+      "scenario": "U+0.25(sync,复用)",
+      "C_fF": 91.28498694114418,
+      "f0_GHz": 4.526964926805997,
+      "f_GHz": 4.534674251049395,
+      "signed_log_drift": 0.0017015301430770675,
+      "D": 0.0017015301430770675,
+      "delta_f_MHz": 7.709324243398541,
+      "abs_delta_f_MHz": 7.709324243398541,
+      "saved_MHz": 7.701377626962635,
+      "MHz_error": -0.007946616435906328,
+      "passes": 14,
+      "project": "robust_design_lab/results/q3d_shape_sweep_2026-10-26/sweep_A_dual_pad_1794032694.aedt"
+    },
+    {
+      "object": "pad_ref",
+      "scenario": "U-0.25(sync,复用)",
+      "C_fF": 91.95932078943198,
+      "f0_GHz": 4.526964926805997,
+      "f_GHz": 4.518793537971389,
+      "signed_log_drift": -0.0018066790284317592,
+      "D": 0.0018066790284317592,
+      "delta_f_MHz": -8.171388834607995,
+      "abs_delta_f_MHz": 8.171388834607995,
+      "saved_MHz": 8.176867287304246,
+      "MHz_error": 0.005478452696250358,
+      "passes": 11,
+      "project": "robust_design_lab/results/q3d_shape_sweep_2026-10-26/sweep_A_dual_pad_1794032793.aedt"
+    },
+    {
+      "object": "idc_ref",
+      "scenario": "IL+0.25",
+      "C_fF": 91.24687841452601,
+      "f0_GHz": 4.519936493489828,
+      "f_GHz": 4.535576795339057,
+      "signed_log_drift": 0.003454319352744549,
+      "D": 0.003454319352744549,
+      "delta_f_MHz": 15.6403018492286,
+      "abs_delta_f_MHz": 15.6403018492286,
+      "saved_MHz": 15.62107105094365,
+      "MHz_error": -0.019230798284949557,
+      "passes": 29,
+      "project": "robust_design_lab/results/q3d_shape_sweep_2026-10-26/sweep_A_dual_pad_1794063460.aedt"
+    },
+    {
+      "object": "idc_ref",
+      "scenario": "IR+0.25",
+      "C_fF": 91.24163753422809,
+      "f0_GHz": 4.519936493489828,
+      "f_GHz": 4.5357009606445216,
+      "signed_log_drift": 0.003481694835849181,
+      "D": 0.003481694835849181,
+      "delta_f_MHz": 15.764467154693484,
+      "abs_delta_f_MHz": 15.764467154693484,
+      "saved_MHz": 15.744652663480315,
+      "MHz_error": -0.019814491213169916,
+      "passes": 29,
+      "project": "robust_design_lab/results/q3d_shape_sweep_2026-10-26/sweep_A_dual_pad_1794065272.aedt"
+    },
+    {
+      "object": "idc_ref",
+      "scenario": "U+0.25(sync,复用)",
+      "C_fF": 91.00280372732033,
+      "f0_GHz": 4.519936493489828,
+      "f_GHz": 4.541370341044316,
+      "signed_log_drift": 0.004730860111427597,
+      "D": 0.004730860111427597,
+      "delta_f_MHz": 21.43384755448796,
+      "abs_delta_f_MHz": 21.43384755448796,
+      "saved_MHz": 21.380183101187665,
+      "MHz_error": -0.053664453300296344,
+      "passes": 21,
+      "project": "robust_design_lab/results/q3d_shape_sweep_2026-10-26/sweep_A_dual_pad_1794028550.aedt"
+    },
+    {
+      "object": "idc_ref",
+      "scenario": "U-0.25(sync,复用)",
+      "C_fF": 93.15266569718219,
+      "f0_GHz": 4.519936493489828,
+      "f_GHz": 4.491100082011719,
+      "signed_log_drift": -0.006400264758189732,
+      "D": 0.006400264758189732,
+      "delta_f_MHz": -28.836411478109447,
+      "abs_delta_f_MHz": 28.836411478109447,
+      "saved_MHz": 28.900614905537708,
+      "MHz_error": 0.0642034274282608,
+      "passes": 19,
+      "project": "robust_design_lab/results/q3d_shape_sweep_2026-10-26/sweep_A_dual_pad_1794028837.aedt"
+    }
+  ],
+  "selection": {
+    "seed_parameters": {
+      "r_out": 250.0,
+      "r_in": 115.0,
+      "gap": 28.0
+    },
+    "ring_parameters": {
+      "r_out": 253.9,
+      "r_in": 121.5,
+      "gap": 33.8
+    },
+    "action": {
+      "op": 0.0,
+      "seg": 27.0,
+      "mag": 0.3634,
+      "width": 0.3001
+    }
+  },
+  "limitations": [
+    "Historical classical protocol is separate from current cross-model protocol.",
+    "Historical IDC finals are all circuit-infeasible.",
+    "Full-device Purcell versus drift validation is pending; capacitor-only circuit parameters are shown.",
+    "All six model-task groups contain five completed repeats in the fixed complete snapshot."
+  ]
+}

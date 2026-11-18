@@ -1,0 +1,8 @@
+Environment: Python 3.11, PYTHONNOUSERSITE=1, PYTHONUTF8=1, QISKIT_METAL_HEADLESS=1; PYTHONPATH=root plus src.
+python tools/reproduce.py
+python tools/verify_release.py
+python -m pytest robust_design_lab/tests -q -ra
+The missing-dependency branch is skipped because scikit-optimize is installed. No dependency was installed or removed for testing.
+Ruff, Bandit and MyPy are not installed; they were not installed or claimed as run. Python syntax, offline numeric replay, complete regression suite, exact-secret scanning and archive verification are used here.
+
+Final full suite: 152 passed, 1 skipped, 24 subtests passed. Two dependency deprecation warnings are recorded.

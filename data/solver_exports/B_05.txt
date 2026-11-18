@@ -1,0 +1,18 @@
+Setup:LastAdaptive
+Problem Type:  C
+C Units:fF, G Units:mSie
+Reduce Matrix:  Original
+Frequency:  5GHz
+
+Capacitance Matrix
+	ground_main_plane	pad_left_Q1	pad_right_Q1	
+ground_main_plane	279.57281	-107.58568	-107.54208
+pad_left_Q1	-107.58568	152.84911	-36.35884
+pad_right_Q1	-107.54208	-36.35884	152.84390
+
+Conductance Matrix
+	ground_main_plane	pad_left_Q1	pad_right_Q1	
+ground_main_plane	 0.00000	 0.00000	 0.00000
+pad_left_Q1	 0.00000	 0.00000	 0.00000
+pad_right_Q1	 0.00000	 0.00000	 0.00000
+

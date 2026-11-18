@@ -1,0 +1,1124 @@
+{
+  "object": "annulus_cma_edit",
+  "kind": "edited",
+  "source": "pilot cma_es 终选重建: D=0.00209 待复验 (bulge R岛inner环段3 (mag=0.36 width=0.30))",
+  "kw": {},
+  "delta_um": 0.5,
+  "max_passes": 20,
+  "percent_error": 0.1,
+  "refine": true,
+  "scenarios": {
+    "nom": {
+      "nets": [
+        "ground_main_plane",
+        "pad_left_Q1",
+        "pad_right_Q1"
+      ],
+      "matrix_fF": [
+        [
+          279.04873,
+          -107.23799,
+          -107.2092
+        ],
+        [
+          -107.23799,
+          152.14769,
+          -36.04723
+        ],
+        [
+          -107.2092,
+          -36.04723,
+          152.13956
+        ]
+      ],
+      "C_sigma_fF": 91.65902653372004,
+      "solve_s": 369.3,
+      "project": "sweep_A_dual_pad_1793768467",
+      "project_path": "robust_design_lab/results/q3d_shape_sweep_2026-10-26/sweep_A_dual_pad_1793768467.aedt",
+      "capacitance_all_passes_fF": {
+        "1": [
+          [
+            293.85652,
+            -104.17173,
+            -104.43938
+          ],
+          [
+            -104.17173,
+            141.43711,
+            -31.10649
+          ],
+          [
+            -104.43938,
+            -31.10649,
+            141.40577
+          ]
+        ],
+        "2": [
+          [
+            293.50350000000003,
+            -105.97267,
+            -106.33677
+          ],
+          [
+            -105.97267,
+            145.54399000000004,
+            -32.92262
+          ],
+          [
+            -106.33677,
+            -32.92262,
+            145.47247000000002
+          ]
+        ],
+        "3": [
+          [
+            286.74201000000005,
+            -105.45774000000002,
+            -106.03886000000001
+          ],
+          [
+            -105.45774000000002,
+            147.24544000000003,
+            -34.69286
+          ],
+          [
+            -106.03886000000001,
+            -34.69286,
+            147.38039
+          ]
+        ],
+        "4": [
+          [
+            279.86863,
+            -104.92285,
+            -104.82433000000002
+          ],
+          [
+            -104.92285,
+            148.35439,
+            -35.18282000000001
+          ],
+          [
+            -104.82433000000002,
+            -35.18282000000001,
+            148.45280000000002
+          ]
+        ],
+        "5": [
+          [
+            280.02012,
+            -105.53605000000002,
+            -105.74699
+          ],
+          [
+            -105.53605000000002,
+            149.38823000000002,
+            -35.50625
+          ],
+          [
+            -105.74699,
+            -35.50625,
+            149.39321
+          ]
+        ],
+        "6": [
+          [
+            279.07058,
+            -105.68727,
+            -105.64108000000002
+          ],
+          [
+            -105.68727,
+            149.86817000000002,
+            -35.520920000000004
+          ],
+          [
+            -105.64108000000002,
+            -35.520920000000004,
+            149.99204
+          ]
+        ],
+        "7": [
+          [
+            279.39722,
+            -106.23464,
+            -106.34526000000001
+          ],
+          [
+            -106.23464,
+            150.58344000000002,
+            -35.51407
+          ],
+          [
+            -106.34526000000001,
+            -35.51407,
+            150.60539
+          ]
+        ],
+        "8": [
+          [
+            279.13763000000006,
+            -106.41149,
+            -106.38686000000001
+          ],
+          [
+            -106.41149,
+            151.00624,
+            -35.67470000000001
+          ],
+          [
+            -106.38686000000001,
+            -35.67470000000001,
+            150.98006
+          ]
+        ],
+        "9": [
+          [
+            279.80084000000005,
+            -106.80958,
+            -106.81312000000001
+          ],
+          [
+            -106.80958,
+            151.37469,
+            -35.77696
+          ],
+          [
+            -106.81312000000001,
+            -35.77696,
+            151.36190000000002
+          ]
+        ],
+        "10": [
+          [
+            279.44856,
+            -106.91145000000002,
+            -106.88961000000002
+          ],
+          [
+            -106.91145000000002,
+            151.63492,
+            -35.91603
+          ],
+          [
+            -106.88961000000002,
+            -35.91603,
+            151.64969000000002
+          ]
+        ],
+        "11": [
+          [
+            279.79236,
+            -107.16836000000002,
+            -107.13743000000001
+          ],
+          [
+            -107.16836000000002,
+            152.04338,
+            -35.95769000000001
+          ],
+          [
+            -107.13743000000001,
+            -35.95769000000001,
+            152.04125
+          ]
+        ],
+        "12": [
+          [
+            279.81485000000004,
+            -107.22288,
+            -107.22108
+          ],
+          [
+            -107.22288,
+            152.15186,
+            -35.994510000000005
+          ],
+          [
+            -107.22108,
+            -35.994510000000005,
+            152.13994
+          ]
+        ],
+        "13": [
+          [
+            279.32474,
+            -107.15083,
+            -107.12834000000001
+          ],
+          [
+            -107.15083,
+            151.87551,
+            -35.94780000000001
+          ],
+          [
+            -107.12834000000001,
+            -35.94780000000001,
+            151.87053
+          ]
+        ],
+        "14": [
+          [
+            278.96679,
+            -107.10971,
+            -107.11373
+          ],
+          [
+            -107.10971,
+            151.96591000000004,
+            -36.00086000000001
+          ],
+          [
+            -107.11373,
+            -36.00086000000001,
+            151.93589
+          ]
+        ],
+        "15": [
+          [
+            278.96628,
+            -107.20571000000001,
+            -107.16887
+          ],
+          [
+            -107.20571000000001,
+            152.08200000000002,
+            -36.03823
+          ],
+          [
+            -107.16887,
+            -36.03823,
+            152.07392000000002
+          ]
+        ],
+        "16": [
+          [
+            279.04873000000003,
+            -107.23799,
+            -107.20920000000001
+          ],
+          [
+            -107.23799,
+            152.14769,
+            -36.04723
+          ],
+          [
+            -107.20920000000001,
+            -36.04723,
+            152.13956
+          ]
+        ]
+      },
+      "passes_units": "fF",
+      "percent_error": 0.1,
+      "converged": true
+    },
+    "ep": {
+      "nets": [
+        "ground_main_plane",
+        "pad_left_Q1",
+        "pad_right_Q1"
+      ],
+      "matrix_fF": [
+        [
+          278.80012,
+          -106.93801,
+          -106.90889
+        ],
+        [
+          -106.93801,
+          151.46169,
+          -35.76836
+        ],
+        [
+          -106.90889,
+          -35.76836,
+          151.44803
+        ]
+      ],
+      "C_sigma_fF": 91.23008400866648,
+      "solve_s": 383.1,
+      "project": "sweep_A_dual_pad_1793768838",
+      "project_path": "robust_design_lab/results/q3d_shape_sweep_2026-10-26/sweep_A_dual_pad_1793768838.aedt",
+      "capacitance_all_passes_fF": {
+        "1": [
+          [
+            293.52923,
+            -103.84921000000001,
+            -104.48425
+          ],
+          [
+            -103.84921000000001,
+            141.20794000000004,
+            -31.226060000000004
+          ],
+          [
+            -104.48425,
+            -31.226060000000004,
+            141.8253
+          ]
+        ],
+        "2": [
+          [
+            292.64587,
+            -105.6877,
+            -106.18742
+          ],
+          [
+            -105.6877,
+            145.07936,
+            -32.89087
+          ],
+          [
+            -106.18742,
+            -32.89087,
+            145.13212000000001
+          ]
+        ],
+        "3": [
+          [
+            286.33706,
+            -105.08570000000002,
+            -105.73983
+          ],
+          [
+            -105.08570000000002,
+            146.51774000000003,
+            -34.46323
+          ],
+          [
+            -105.73983,
+            -34.46323,
+            146.72088
+          ]
+        ],
+        "4": [
+          [
+            279.62268000000006,
+            -104.58272,
+            -104.62864
+          ],
+          [
+            -104.58272,
+            147.66901000000001,
+            -35.0403
+          ],
+          [
+            -104.62864,
+            -35.0403,
+            147.89839
+          ]
+        ],
+        "5": [
+          [
+            279.5193,
+            -105.22839,
+            -105.51052
+          ],
+          [
+            -105.22839,
+            148.73533000000003,
+            -35.27014
+          ],
+          [
+            -105.51052,
+            -35.27014,
+            148.77537
+          ]
+        ],
+        "6": [
+          [
+            278.95907000000005,
+            -105.43526000000001,
+            -105.36582
+          ],
+          [
+            -105.43526000000001,
+            149.23246000000003,
+            -35.29795
+          ],
+          [
+            -105.36582,
+            -35.29795,
+            149.36143
+          ]
+        ],
+        "7": [
+          [
+            279.31523000000004,
+            -105.98070000000001,
+            -106.0053
+          ],
+          [
+            -105.98070000000001,
+            149.8699,
+            -35.24766
+          ],
+          [
+            -106.0053,
+            -35.24766,
+            149.84880000000004
+          ]
+        ],
+        "8": [
+          [
+            278.97828,
+            -106.11273,
+            -106.07651000000001
+          ],
+          [
+            -106.11273,
+            150.23771,
+            -35.38523
+          ],
+          [
+            -106.07651000000001,
+            -35.38523,
+            150.23575000000002
+          ]
+        ],
+        "9": [
+          [
+            279.65778,
+            -106.56187000000001,
+            -106.49970000000002
+          ],
+          [
+            -106.56187000000001,
+            150.68303000000003,
+            -35.50540000000001
+          ],
+          [
+            -106.49970000000002,
+            -35.50540000000001,
+            150.63774000000004
+          ]
+        ],
+        "10": [
+          [
+            279.27045,
+            -106.63916000000002,
+            -106.60680000000002
+          ],
+          [
+            -106.63916000000002,
+            150.92939,
+            -35.64274
+          ],
+          [
+            -106.60680000000002,
+            -35.64274,
+            150.94138
+          ]
+        ],
+        "11": [
+          [
+            279.54505,
+            -106.86500000000001,
+            -106.85337000000001
+          ],
+          [
+            -106.86500000000001,
+            151.33425,
+            -35.68762
+          ],
+          [
+            -106.85337000000001,
+            -35.68762,
+            151.34306
+          ]
+        ],
+        "12": [
+          [
+            279.64583000000005,
+            -106.92595000000001,
+            -106.92491
+          ],
+          [
+            -106.92595000000001,
+            151.43396000000004,
+            -35.71304
+          ],
+          [
+            -106.92491,
+            -35.71304,
+            151.39788
+          ]
+        ],
+        "13": [
+          [
+            279.07475,
+            -106.86851,
+            -106.82809000000002
+          ],
+          [
+            -106.86851,
+            151.19058000000004,
+            -35.66908
+          ],
+          [
+            -106.82809000000002,
+            -35.66908,
+            151.18387
+          ]
+        ],
+        "14": [
+          [
+            278.76966000000004,
+            -106.82256,
+            -106.81850000000001
+          ],
+          [
+            -106.82256,
+            151.28237000000001,
+            -35.724810000000005
+          ],
+          [
+            -106.81850000000001,
+            -35.724810000000005,
+            151.25181000000003
+          ]
+        ],
+        "15": [
+          [
+            278.729,
+            -106.91009000000001,
+            -106.88047000000002
+          ],
+          [
+            -106.91009000000001,
+            151.39562000000004,
+            -35.76229
+          ],
+          [
+            -106.88047000000002,
+            -35.76229,
+            151.38674
+          ]
+        ],
+        "16": [
+          [
+            278.80012,
+            -106.93801000000002,
+            -106.90889
+          ],
+          [
+            -106.93801000000002,
+            151.46169,
+            -35.76836000000001
+          ],
+          [
+            -106.90889,
+            -35.76836000000001,
+            151.44803
+          ]
+        ]
+      },
+      "passes_units": "fF",
+      "percent_error": 0.1,
+      "converged": true
+    },
+    "em": {
+      "nets": [
+        "ground_main_plane",
+        "pad_left_Q1",
+        "pad_right_Q1"
+      ],
+      "matrix_fF": [
+        [
+          279.65399,
+          -107.59944,
+          -107.56242
+        ],
+        [
+          -107.59944,
+          152.81924,
+          -36.3519
+        ],
+        [
+          -107.56242,
+          -36.3519,
+          152.83596
+        ]
+      ],
+      "C_sigma_fF": 92.14236340761695,
+      "solve_s": 373.5,
+      "project": "sweep_A_dual_pad_1793769222",
+      "project_path": "robust_design_lab/results/q3d_shape_sweep_2026-10-26/sweep_A_dual_pad_1793769222.aedt",
+      "capacitance_all_passes_fF": {
+        "1": [
+          [
+            294.39198,
+            -104.4479,
+            -104.73607
+          ],
+          [
+            -104.4479,
+            141.87895000000003,
+            -31.28798
+          ],
+          [
+            -104.73607,
+            -31.28798,
+            141.91255000000004
+          ]
+        ],
+        "2": [
+          [
+            294.01788000000005,
+            -106.28273,
+            -106.5925
+          ],
+          [
+            -106.28273,
+            146.08341,
+            -33.141270000000006
+          ],
+          [
+            -106.5925,
+            -33.141270000000006,
+            145.95871
+          ]
+        ],
+        "3": [
+          [
+            286.74995,
+            -105.74107,
+            -105.78197
+          ],
+          [
+            -105.74107,
+            147.72378000000003,
+            -34.90193
+          ],
+          [
+            -105.78197,
+            -34.90193,
+            147.33021000000002
+          ]
+        ],
+        "4": [
+          [
+            279.89603,
+            -105.1064,
+            -104.90717
+          ],
+          [
+            -105.1064,
+            148.87728000000004,
+            -35.40140000000001
+          ],
+          [
+            -104.90717,
+            -35.40140000000001,
+            148.78989
+          ]
+        ],
+        "5": [
+          [
+            280.44995,
+            -105.91545000000002,
+            -105.89156
+          ],
+          [
+            -105.91545000000002,
+            150.0838,
+            -35.72529000000001
+          ],
+          [
+            -105.89156,
+            -35.72529000000001,
+            149.88602
+          ]
+        ],
+        "6": [
+          [
+            279.65886,
+            -106.02896,
+            -105.81687000000001
+          ],
+          [
+            -106.02896,
+            150.48070000000004,
+            -35.789170000000006
+          ],
+          [
+            -105.81687000000001,
+            -35.789170000000006,
+            150.41392000000002
+          ]
+        ],
+        "7": [
+          [
+            280.14692,
+            -106.58134000000001,
+            -106.63795000000002
+          ],
+          [
+            -106.58134000000001,
+            151.14006,
+            -35.77268000000001
+          ],
+          [
+            -106.63795000000002,
+            -35.77268000000001,
+            151.13888
+          ]
+        ],
+        "8": [
+          [
+            279.77889000000005,
+            -106.71332,
+            -106.69448000000001
+          ],
+          [
+            -106.71332,
+            151.51121000000003,
+            -35.91273000000001
+          ],
+          [
+            -106.69448000000001,
+            -35.91273000000001,
+            151.53384
+          ]
+        ],
+        "9": [
+          [
+            280.39151000000004,
+            -107.09553,
+            -107.13229000000001
+          ],
+          [
+            -107.09553,
+            151.88076,
+            -36.03323
+          ],
+          [
+            -107.13229000000001,
+            -36.03323,
+            151.95831000000004
+          ]
+        ],
+        "10": [
+          [
+            280.1957300000001,
+            -107.25437000000001,
+            -107.23678000000001
+          ],
+          [
+            -107.25437000000001,
+            152.2605,
+            -36.20501000000001
+          ],
+          [
+            -107.23678000000001,
+            -36.20501000000001,
+            152.26076
+          ]
+        ],
+        "11": [
+          [
+            280.64893000000006,
+            -107.50829,
+            -107.52156000000001
+          ],
+          [
+            -107.50829,
+            152.62422,
+            -36.249080000000006
+          ],
+          [
+            -107.52156000000001,
+            -36.249080000000006,
+            152.62902
+          ]
+        ],
+        "12": [
+          [
+            280.5484,
+            -107.60474000000002,
+            -107.60698
+          ],
+          [
+            -107.60474000000002,
+            152.82519000000002,
+            -36.290870000000005
+          ],
+          [
+            -107.60698,
+            -36.290870000000005,
+            152.80123
+          ]
+        ],
+        "13": [
+          [
+            280.01131000000004,
+            -107.53663000000002,
+            -107.51187
+          ],
+          [
+            -107.53663000000002,
+            152.54847000000004,
+            -36.24772
+          ],
+          [
+            -107.51187,
+            -36.24772,
+            152.55015
+          ]
+        ],
+        "14": [
+          [
+            279.58362000000005,
+            -107.47424000000001,
+            -107.46441
+          ],
+          [
+            -107.47424000000001,
+            152.62809000000001,
+            -36.29793
+          ],
+          [
+            -107.46441,
+            -36.29793,
+            152.61795
+          ]
+        ],
+        "15": [
+          [
+            279.58525000000003,
+            -107.55685000000001,
+            -107.52354
+          ],
+          [
+            -107.55685000000001,
+            152.74025,
+            -36.34438000000001
+          ],
+          [
+            -107.52354,
+            -36.34438000000001,
+            152.76581
+          ]
+        ],
+        "16": [
+          [
+            279.65399,
+            -107.59944000000002,
+            -107.56242000000002
+          ],
+          [
+            -107.59944000000002,
+            152.81924,
+            -36.3519
+          ],
+          [
+            -107.56242000000002,
+            -36.3519,
+            152.83596
+          ]
+        ]
+      },
+      "passes_units": "fF",
+      "percent_error": 0.1,
+      "converged": true
+    }
+  },
+  "C_sigma_fF": 91.65902653372004,
+  "f01_GHz": 4.52584459542685,
+  "EJ_over_EC": 62.87354712643605,
+  "alpha_MHz": -211.21760433357576,
+  "D": 0.0025071192225059598,
+  "d_ep": 0.0022357825007461155,
+  "d_em": 0.0025071192225059598,
+  "wall_s": 1129.3,
+  "provenance": {
+    "python": "[REDACTED: external machine path]/python.exe",
+    "python_version": "3.11.17 | packaged by Anaconda, Inc. | (main, Oct  1 2026, 20:16:54) [MSC v.1942 64 bit (AMD64)]",
+    "python_no_user_site": "1",
+    "frozen_config": "6e4170071b3dc3ac",
+    "source_sha256": {
+      "__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "analysis/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "configs/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "configs/frozen.py": "cba4ddc6eb55bcdd0857218ae19f58a1c5d304878f2ba8e8a097d5fab9514113",
+      "evaluator/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "evaluator/ansys_calibration.py": "6b5eb1886338b9b6b30e35c60e89440409624516e3068b08ea3b24268f524a44",
+      "evaluator/ansys_native.py": "507a298bbe36ca6f21e7d21855e8378833c1a43845ee9039e31397f3843d9457",
+      "evaluator/corrected.py": "50d401df647036273fc857849189ec31c9ea76412e5ac26d23678e01e563fa02",
+      "evaluator/fast.py": "ffebbc836c1e801f04f28076d9f3e4ebcdcf9d3cfaa88622bd8f7efdc07fec02",
+      "evaluator/fields.py": "f4e7949a758f736e4d9ff67351affcaf911b84740d4507dbe148e64dbe6d78ec",
+      "evaluator/finite_film.py": "2e80d1e4146e0ab4855be34cb4ac1920f58191e0d436735f2dc5c0ef0a7f14a0",
+      "evaluator/lom.py": "b9c20ce5028abff5b4ea0087bf5cf58fc4307c534ff02530d6afa728847afca5",
+      "evaluator/mesh_transport.py": "010b701220fb230e27568560ae768adbb77e3439ec90773848858e2e49ee5846",
+      "evaluator/metal_reference.py": "c783e316bf67a337c1ffc0fac81cbf3e1ea91f747be8725760f907bd2705e352",
+      "evaluator/participation.py": "282f244f0c63dff8b7d7fbed7f3c3d75831ebf3c6a0086d3e1b018fe9a8e16da",
+      "experiments/alignment_report.py": "f1c9ad543e59cb20afe9ba3c32a6522e69f2f9b6cee7619a47f7b78ac190d65e",
+      "experiments/calibration.py": "4b58e5c6ce6e0f295e035d0750d76c39df2eb431b8c31978c746e6c715952a77",
+      "experiments/field_audit.py": "0a9e206511381f8646c015a2ab3ffe59abec2977ad35e45c42d02c11e6377b4a",
+      "experiments/finite_alignment.py": "4c31a28c9feebfb0cb87d3041cf0e579574e1c90f1f6338fae021fe877c67f62",
+      "experiments/finite_diagnostics.py": "7ce370dedd77f62bd27b197794bb02e5a93d6abdb8c904ee6ee4abd2e9ab3e50",
+      "experiments/full_suite_schedule.py": "69c6dc838b3f4bc1e7a5de7dfbed5938bf05b216d23c047e1f9dca6a32b84026",
+      "experiments/g1_step1_hfss_side_probe.py": "1e17c6cb68d5f8c4a7df6a64af077fcb8c4b474d1f9b2708c8a8d8c84610dfc3",
+      "experiments/g1_step1_side_audit.py": "741f52bf3a029a3efb698df79aeb3d4bff44c89369129f98d6560d37b33002ae",
+      "experiments/g1_step2_local_edge.py": "6295c088a1462032ec86edb1227552821b23eb65467dbb60366b098f529fc779",
+      "experiments/g1_step3_fast_rectangle.py": "4e17097612eaeafc54f99884e06485433f7f4d9d75c48abbd2891f1af29a7902",
+      "experiments/g1_step3b_hfss_sheets.py": "e7d372073edd6758ea0c5c2a68d894ce831a62893cca8933bd1c1bd8d1b9d35f",
+      "experiments/g1_step4_matrix.py": "8b662fba3ed16154b3e7fcde740c1525ea5f997fc6189377db645ebaea918dfd",
+      "experiments/g2_cost_test.py": "8a96662b4e88003b8ab6393622c9e686d88e67d1dca8ee1a2869e33c6dce985c",
+      "experiments/hfss_interfaces.py": "df14eafe490e751ae7837ebb1dabd4bb63da5fa99c76e11cc9dcc62f4ccc5b29",
+      "experiments/mainline_compare.py": "7aedb123e5c19e262e598e8d3efac266d4fe847c0d8681a4b9a7510dd8ebc263",
+      "experiments/mainline_qualification.py": "ec8e4084032b38ee6a3d0a7924145343037417ae9cf8904be9f26f7f9b273719",
+      "experiments/novel_explore.py": "a34da42d28e46d57ec05ef471f647e206504b30e15fac19c22ab53534575a12c",
+      "experiments/novel_vlm_explore.py": "6e611a81a9e63dfcdaaaf5db855be5bcba22e9d830dc7883d59ac369235a29f4",
+      "experiments/phase0_env_lock.py": "9bfb8f1a077e8fd67dc8e88fcb142728e2be0a774c71e50cb9f3edfdb958dae6",
+      "experiments/phase0_smoke.py": "6c715e226e9e4852794c76fb32a78f3d6d462ef37079939b598d61d0d10612c7",
+      "experiments/phaseA_g0_geometry.py": "ce2abc97af52ac8f30250dfd443d3162271fe9c23ba96621b8addd2f3ae2069a",
+      "experiments/phaseA_g1_physics.py": "28c0b7222f514a639f10765fe85a325d004368400d4255f6ecc27e0051dfb9fd",
+      "experiments/phaseB_library_scan.py": "7731c0b5024b146b5ed3d8c10c347558d6dc12e849f822e1f90459cdea85b6b2",
+      "experiments/phaseB_library_scan2.py": "1b629d9a1e7c7d3c295188964928674ab069cb4d805eb59af3014efd8c930937",
+      "experiments/q3d_shape_sweep.py": "fe7d60f27b53590fb9238c6c89858a1ea5ec1c16313ef763f0b94fe3261e1712",
+      "experiments/quality_shapes_gallery.py": "7efa297852cad83b01e1829628fe587eb6c844add95e99606b62b7ba3f461662",
+      "experiments/quality_t1_check.py": "8da330f701075dfeb70622fa657638d620135cf277c232bae34bc230247cdd8d",
+      "experiments/quality_transmon_check.py": "a96bfb5b68e005805361107ea199ec167ca28ec79dd88969e95a04f71a9b9c09",
+      "experiments/reachability.py": "d44f67e3398c01f2d10d99e244aadd7932d60363780b2718eaaf1015423d2111",
+      "experiments/region_edit_pilot.py": "7d8668c77469329ee332bab51f93a00e404761a207c4e8b2cb45302bf85e2bba",
+      "experiments/render_shape_library.py": "c17656039f693e5c357cd01ef10dcaaac3257cc1e15641c925750908287f6493",
+      "experiments/rendering.py": "ba2608ad67b1ce0a81be0806854905cd27cad3d7441fa030310ca594df816af7",
+      "experiments/step2_q3d_baseline.py": "d74f7379cba0f0e6e45634caa0601f2e990f9c31e060c58e6fd0c1388dbd0f0c",
+      "experiments/step2a_window_v2.py": "55725ab90d947836bfb2d43c2d14f59a5bd032ce2eab58b55127611df84f193e",
+      "experiments/step2b_separated_sensitivity.py": "57e9af1f42df9252d806d3f99023284944b3b30c656153db83bb8ee42944a0d2",
+      "experiments/step2c_band_decomposition.py": "ad618f780311978e1229747ee618a8ef36310e8753f1408ca69efdfa97c30b7b",
+      "experiments/step2c_hfss_ellipse.py": "3ebe5ee93c5a5193520e3660903cde85bf73f910e768647cfe3ea09c1b24386c",
+      "experiments/step3_image_checks.py": "c78f7587d8e08c9832291b745588cc68fbbac43f2baaa2a457972a5499643f75",
+      "experiments/step3_repost_g1.py": "86b51ecac73983974f3409243ee6af15a9ca9267fae4c11ea679fc06d2018f8d",
+      "experiments/step3b_window_rank.py": "e6eb4d02db0469aea41c73975f94feded25330037ac04d9d7a472a2cf1d15fa3",
+      "experiments/step4_cost_v2.py": "5a9b5af5c3554fb2d10c1afd14a84b7f73b64f6f9fb7a6da140ba75adc29c92a",
+      "experiments/step4_visual_v3.py": "b2ff7134921f57615fa9825af0762a181267f3377feedebe9d754d6409526a65",
+      "experiments/strong_baseline_run.py": "e36ea8cd957b02b508560f5d45e1b6f8fc3ea3e09540bc5d5c6d1a64a734c926",
+      "experiments/transport_summary.py": "88f374724ef3167f4e85f395f14e35027589f219b251bcb0d5676737841a5b8e",
+      "experiments/unified_t1_recheck.py": "2e59c6cdecae7faab32107335e90edc7f3ffebf111e926cc70ee7d6379e2fee3",
+      "experiments/verify_candidates.py": "3717799d28cdaea13483caf5ce69f6ebf8e030169ae9f51b04c1993740317142",
+      "experiments/visual_paired.py": "7c1c9714db9c15dfa9fcfca20d5398fc47a612b60f069af365a136182bdded2e",
+      "experiments/visual_precheck.py": "841c013cf8a8a8e958b8ba988baccf39e586e1ea3bc572a42c7ba011bd7e57c1",
+      "experiments/vlm_arm_run.py": "65df87fda9bb641819640bbdfb13c35aacecc9f7f72bf0fe145c75ef04aecf0a",
+      "experiments/vlm_base_d_measure.py": "fcc61dbd29f7eec99035cc76d17c7e1f629cc05caf99005d2528f3b8f9f9fd65",
+      "experiments/vlm_shape_exploration.py": "d56513a229ab9637fec0f5341e4f9ad560ebea34b899dc237236d54de557c7d4",
+      "geometry/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "geometry/boundary_edit.py": "35a9ae52ac5f025930841f3fa3cabc681d2dccebcbd4829e57a58f2727aaeaeb",
+      "geometry/checks.py": "83cee86763c008c5d7c8b62debc9ec8d8041755526b31391f91ef3efe7cb2146",
+      "geometry/clean.py": "6ebad9b5b0e8e209bdac2adfc8048d02e0f7237227347163aa99b86eb76be969",
+      "geometry/correct_idc.py": "9da70fdee2e6937c426981493725d1af2446bd24fefbb5aee21d4e3e3d6ce839",
+      "geometry/four_shape_families.py": "42ab2025f56bfcf787b99a1b34c0f7aee62e2a6dc996b7fa4edd6d54256654d6",
+      "geometry/free_pocket.py": "c5be6bd3ab1764cd00f0f8bfb08843f331d3b53589d935cd70a1d77c486efb73",
+      "geometry/library.py": "5d16dd7566e4dd7039d7c03faa3eb4ff60d24b858dd710fbbe11c6a251520a5a",
+      "geometry/novel_structures.py": "63a33f4dc437b860956c13b126f60654d3d4dda89eff5cea5e5c70368c036273",
+      "geometry/operations.py": "3b66fb7d6fe04726d9dbefa28a0eac2fcb9e0f4415564b199ec13f6e9b15dd5a",
+      "geometry/record.py": "bde1d68d79ba34c9d097d475a4346b41d3bbf62a40ddb7dad55d58049d932fca",
+      "geometry/two_pad.py": "51716b46cb3545acac4f380f5a58ad51e1699b261ea5ec6dfc4fac53498a5a9c",
+      "objectives/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "objectives/drift.py": "0e45c16391fde37b870060cfd3bfbf6f3093990dcc0a965e488e0a25c602c66d",
+      "perturbation/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "perturbation/channels.py": "856879733aaf2ee82cc36d2565d5deca53162640ae8b8da06beb8104d497106b",
+      "perturbation/scenarios.py": "1d12fdda27a4f46262b8d5c6c110d777c1d7210b424ee8e911bd70437c2fe421",
+      "results/calibration_v2/ansys/native_probe_script.py": "919b6d8ceae2654b2f0e9a9db10d52c73527a0ce321a1b6d898faf4c9a6f07c0",
+      "results/corrections_followup_review_2026-10-25/replay.py": "b058f54e91d74ee39c3e379c66461d679b88ca6d924e37721f4d4131496b2e60",
+      "results/corrections_v4_review_2026-10-25/replay.py": "10dde44b9d199dcbe9d90ea305d34637fa475591a08a7205cd65d70bd0226deb",
+      "results/new_structures_review_2026-11-02/inputs/baselines.py": "f5abd7ee82079f04940ab677b027c554e1dac42a874c7720de6b3aa8c814bac3",
+      "results/new_structures_review_2026-11-02/inputs/compare.py": "a2154473069f90488b8e7400400d307e378097a2c0f3591a9940d8207ae5785c",
+      "results/new_structures_review_2026-11-02/inputs/geometry.py": "7a2bdcc0cdf9ac54bd5ab38385a0e37a6152062e9101916aeaee4492d9135909",
+      "results/new_structures_review_2026-11-02/inputs/lom.py": "3c769c395079422c30f371782cb1cf027408952e6e6beaa5d44667c96b6b9cf1",
+      "results/new_structures_review_2026-11-02/inputs/q3d.py": "b90a73bbf854d754806dc87f4035b649a83af8b462294975b459184616a856ab",
+      "results/new_structures_review_2026-11-02/inputs/qualifier.py": "ec8e4084032b38ee6a3d0a7924145343037417ae9cf8904be9f26f7f9b273719",
+      "results/new_structures_review_2026-11-02/inputs/t1_driver.py": "2e59c6cdecae7faab32107335e90edc7f3ffebf111e926cc70ee7d6379e2fee3",
+      "results/new_structures_review_2026-11-02/inputs/t1_mesh.py": "2e80d1e4146e0ab4855be34cb4ac1920f58191e0d436735f2dc5c0ef0a7f14a0",
+      "results/new_structures_review_2026-11-02/replay.py": "5f7944c03ab7fd021ec466355c0e7f9c0011363a9cde1c5735ab77d344bf41c6",
+      "results/region_edit_review_2026-11-04/replay.py": "3b0b92788e7317404637ef4a5458a589f49acfa9d7785adb77752f8009f7584a",
+      "results/region_edit_review_2026-11-04/sources/robust_design_lab/experiments/q3d_shape_sweep.py": "111b46cc0af52006f0885a4508af1fc5a724cd4d82d000501d520f73342b3216",
+      "results/region_edit_review_2026-11-04/sources/robust_design_lab/experiments/region_edit_pilot.py": "70cb287f9281805c9404ef02475033c2edd32b191fbc6d7137ea93ef5e373098",
+      "results/region_edit_review_2026-11-04/sources/robust_design_lab/experiments/verify_candidates.py": "8753a7bee6885648d87fbb343737121d29940e076bc04b86ab476cccf404cca0",
+      "results/region_edit_review_2026-11-04/sources/robust_design_lab/geometry/boundary_edit.py": "0e67fe866a36c2cbf2772c1874144990dc3ba5630006e149b0eb13e7db3e0e5d",
+      "results/region_edit_review_2026-11-04/sources/robust_design_lab/geometry/novel_structures.py": "63a33f4dc437b860956c13b126f60654d3d4dda89eff5cea5e5c70368c036273",
+      "results/region_edit_review_2026-11-04/sources/robust_design_lab/search/common_protocol.py": "85ef80b12e5001fa79a4c53afd9b03efa9a31de3cd67089d0a60eeb233187844",
+      "results/region_edit_review_2026-11-04/sources/src/qiskit_metal/renderers/renderer_ansys/q3d_renderer.py": "cfbbb1ade9c923bf146f03511e94285e9cea5b93c09cd7a5b447c08d27ecef35",
+      "results/separated_sensitivity_review_2026-10-26/inputs/01_g1_step3_fast_rectangle.py": "4e17097612eaeafc54f99884e06485433f7f4d9d75c48abbd2891f1af29a7902",
+      "results/separated_sensitivity_review_2026-10-26/inputs/02_step4_visual_v3.py": "77bbf19101343ed9f641e80f832a5f547b42a84282a2fe09142743309cb984bb",
+      "results/separated_sensitivity_review_2026-10-26/inputs/03_corrected.py": "50d401df647036273fc857849189ec31c9ea76412e5ac26d23678e01e563fa02",
+      "results/separated_sensitivity_review_2026-10-26/inputs/04_step2b_separated_sensitivity.py": "57e9af1f42df9252d806d3f99023284944b3b30c656153db83bb8ee42944a0d2",
+      "results/separated_sensitivity_review_2026-10-26/inputs/05_g1_step2_local_edge.py": "6295c088a1462032ec86edb1227552821b23eb65467dbb60366b098f529fc779",
+      "results/separated_sensitivity_review_2026-10-26/inputs/06_frozen.py": "cba4ddc6eb55bcdd0857218ae19f58a1c5d304878f2ba8e8a097d5fab9514113",
+      "results/separated_sensitivity_review_2026-10-26/inputs/07_test_corrected_v4_guards.py": "ac576debe2ac49fa3f20753eec547abc92393bacf814d568f029ca21ca0e99b7",
+      "results/separated_sensitivity_review_2026-10-26/replay.py": "40dbc0b89a28d733547a271dfd19d02df17896ff88ac5237f30721e4a48c1df6",
+      "runtime/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "runtime/records.py": "163edf61d767477dfeb12b4397d8307e33d1315bc899c2b97a59f478735180f5",
+      "search/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "search/common_protocol.py": "a73f301a0873388fa9ffb5b3f508b6084da8f16508ef68bae578fd2b09d46a5f",
+      "search/pilot.py": "174ddfb6586fb6b6055af49b710a9c14d6a96dcc13e3ea1394216c85f9834157",
+      "search/strong_baselines.py": "f5abd7ee82079f04940ab677b027c554e1dac42a874c7720de6b3aa8c814bac3",
+      "tests/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tests/test_alignment_report.py": "99a636be662937572050b13947569864ac3ed698b9216aedb4d021951e297acf",
+      "tests/test_aliyun_credentials.py": "9f8fc2417fa5d3bad122a5256285834bca392a26944711a7e60db9e58e5e8f64",
+      "tests/test_ansys_calibration.py": "d5f52a6c208717f8296e12aaccf2f8856ed46aa11bb414f7d74850acea306a54",
+      "tests/test_boundary_edit.py": "20e2955aa6a1ff7a27f4ceee3ad5019eb0f4cf16d26136a1223bedfc9ba296c2",
+      "tests/test_common_protocol.py": "02160843b40b92a8fc3ecea63063c300af4f3ff9c2fd65c33772418d460fde5a",
+      "tests/test_corrected_v4_guards.py": "ac576debe2ac49fa3f20753eec547abc92393bacf814d568f029ca21ca0e99b7",
+      "tests/test_coupling_definitions.py": "c7ab3ce40e2a71b047cfcfae4b15dd1601708179bc36cf98905f7c59097c5487",
+      "tests/test_fields_and_credentials.py": "48eb264b472d7537d6356ff34207cdd917e134e529d42806ef10bbaed4fe0fd7",
+      "tests/test_finite_film.py": "f7bf78bae628806859feb49efaf8988811773f427b969683637146c54cbc693d",
+      "tests/test_hfss_interfaces.py": "315050795985690911f2cdc4033f2c63a018d557bedb9963d04bd031f9d8b018",
+      "tests/test_mesh_transport.py": "5f88b714f7559475fd4b1ccfd3d24297809e0d484c25448d31f6f091904eed94",
+      "tests/test_novel_hole_export.py": "2c51e8afd6e39de69b043db6611cc71f2390cb90a6fa6461451a51854a5ce278",
+      "tests/test_physics_and_drift.py": "0232add5fda6465d036b946e47fa230bdf203fe08176da7f17a8d3f41f984235",
+      "tests/test_search_contract.py": "8f4b335bd2e23a0d40d8b66438b8a7be3d6b58e6f265dec0444d830ec8247cb7",
+      "tests/test_strong_baselines.py": "385cc5bcba98dccbff062cbca0e9efb17f74871ae2b545b65ad71aca72dfc2f9",
+      "tests/test_transport_summary.py": "b17a22249a2206a030a66b2da32a5c54981a213c7765d93364e765a2384aa670",
+      "vlm/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "vlm/aliyun.py": "f74be7fdc74815eb859c40ddabfe608910afa48dc5bed4234adf2a2620f52979",
+      "vlm/experiment.py": "c6fbca90faf7fea449f35378fdc439ef26224bf5f7ccfcd23e208d7547979f43"
+    },
+    "command": [
+      "[REDACTED: external machine path]/python.exe",
+      "robust_design_lab/experiments/verify_candidates.py",
+      "--refine2"
+    ],
+    "omp_threads": null,
+    "mkl_threads": null
+  },
+  "breakdown": {
+    "nom": {
+      "C12_fF": 36.04723,
+      "ground_series_fF": 53.61179653372003,
+      "Cj_fF": 2.0,
+      "C_sigma_fF": 91.65902653372004,
+      "extra_nets": [
+        "ground_main_plane"
+      ]
+    },
+    "ep": {
+      "C12_fF": 35.76836,
+      "ground_series_fF": 53.46172400866648,
+      "Cj_fF": 2.0,
+      "C_sigma_fF": 91.23008400866648,
+      "extra_nets": [
+        "ground_main_plane"
+      ]
+    },
+    "em": {
+      "C12_fF": 36.3519,
+      "ground_series_fF": 53.790463407616954,
+      "Cj_fF": 2.0,
+      "C_sigma_fF": 92.14236340761695,
+      "extra_nets": [
+        "ground_main_plane"
+      ]
+    }
+  },
+  "breakdown_delta": {
+    "dC12_ep": -0.27886999999999773,
+    "dC12_em": 0.30467000000000155,
+    "dG_ep": -0.1500725250535524,
+    "dG_em": 0.1786668738969226,
+    "dC_ep": -0.42894252505355723,
+    "dC_em": 0.48333687389691704
+  }
+}

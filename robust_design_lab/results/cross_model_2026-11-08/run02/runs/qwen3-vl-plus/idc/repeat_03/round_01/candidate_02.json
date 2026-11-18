@@ -1,0 +1,25 @@
+{
+  "round": 1,
+  "index": 2,
+  "input_identity": "9045da3bcdbbfb96b75bfd1190baa2cac202df3c047301d06e26cc385d1ff5c8",
+  "candidate": {
+    "a": 177.0,
+    "b": 132.0,
+    "D": 130.0,
+    "f_w": 16.0,
+    "f_gap": 32.0,
+    "f_len": 88.0
+  },
+  "raw": {
+    "changes": {
+      "D": 130.0,
+      "f_w": 16.0
+    },
+    "reason": "减小D（两岛中心距）增强电容耦合刚度，增大f_w（指叉宽度）提升指叉面积占比，二者共同提高CΣ对±0.5μm均匀刻蚀的相对不敏感度；历史中D=130+f_w=16组合虽曾致D略升，但结合当前a/b未变，预计通过更强耦合抑制边缘扰动，实际D可降至<0.014。"
+  },
+  "metrics": null,
+  "feasible": false,
+  "duplicate": false,
+  "error": "ValueError: Rejected scene em: convergence/save status",
+  "wall_s": 0.05763850000221282
+}

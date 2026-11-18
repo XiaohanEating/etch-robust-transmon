@@ -1,0 +1,24 @@
+{
+  "prepared_at": "2026-11-18T16:22:43.706726+08:00",
+  "frozen_source_count": 374,
+  "archived_native_projects": 990,
+  "project_archive_bytes": 55495987,
+  "original_source_manifest": "robust_design_lab/results/cross_model_2026-11-08/run04_gpt6_astra/manifest.json",
+  "source_transformations": [
+    "One historical scheduler uses sys.executable instead of the workstation-specific interpreter path."
+  ],
+  "data_transformations": [
+    "JSON formatting normalized; scientific numbers and candidate/model text retained.",
+    "Repository paths made relative; external machine paths and service endpoint/request identity removed.",
+    "No credential files or paper files copied.",
+    "Opaque provider reasoning payloads are removed; visible candidate explanations, outputs and usage remain."
+  ],
+  "no_new_field_solves": true,
+  "no_new_model_requests": true,
+  "missing_referenced_projects": [],
+  "project_archives": [
+    "data/native_projects_01.zip",
+    "data/native_projects_02.zip"
+  ],
+  "regression_result": "152 passed, 1 skipped (installed-library branch), 24 subtests passed"
+}

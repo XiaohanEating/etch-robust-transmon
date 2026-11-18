@@ -1,0 +1,225 @@
+{
+  "status": "nominal_pilot_complete_no_loaded_drift_claim",
+  "objects": [
+    {
+      "object": "pad",
+      "label": "简单双岛",
+      "source": "robust_design_lab/results/purcell_qualification_2026-11-08/run01/pad/nom.json",
+      "source_sha256": "007a3d719028a9c4d07f282ff400b49c591483674d5277e56ce67cd7bf7bf089",
+      "batch_sha256": "9f86204a8bc382a946d2b6bb1669bbfc8b2954b6b6e242f2be88738577379276",
+      "converged": true,
+      "passes": 19,
+      "elapsed_s": 217.62029419999453,
+      "lom": {
+        "f01_GHz": 4.46627126383678,
+        "C_sigma_fF": 93.78292957277195,
+        "EC_MHz": 206.54321836083855,
+        "EJ_GHz": 13.268051282322011,
+        "EJ_over_EC": 64.23861982794439,
+        "alpha_MHz": -232.5397694672799,
+        "g_MHz": [
+          -88.77211387366407
+        ],
+        "chi_MHz": [
+          -0.5513621434970133
+        ],
+        "T1_Purcell_us": 305.19923530948796,
+        "T1_modes_us": [
+          305.19923530948796
+        ],
+        "official_stdout": "[1, 2] [3]\nPredicted Values\n\nTransmon Properties\nf_Q 4.466271 [GHz]\nEC 206.543218 [MHz]\nEJ 13.268051 [GHz]\nalpha -232.539769 [MHz]\ndispersion 0.786797 [KHz]\nLq 12.310000 [nH]\nCq 93.782930 [fF]\nT1 305.199235 [us]\n\n**Coupling Properties**\n\ntCqbus1 -7.897102 [fF]\ngbus1_in_MHz -88.772114 [MHz]\nχ_bus1 -0.551362 [MHz]\n1/T1bus1 521.478840 [Hz]\nT1bus1 305.199235 [us]\nBus-Bus Couplings\n",
+        "circuit": {
+          "Lj_nH": 12.31,
+          "Cj_fF": 2.0,
+          "readout_GHz": 7.0,
+          "bus_GHz": [],
+          "readout_Q": 10000.0,
+          "bus_Q": 100000.0,
+          "resonator_impedance_ohm": 50.0
+        },
+        "node_order": [
+          "ground_main_plane",
+          "pad_left_Q1",
+          "pad_right_Q1",
+          "readout_Q1"
+        ],
+        "matrix_units": "fF"
+      },
+      "lifetime_margins": [
+        {
+          "target_other_loss_us": 100.0,
+          "purcell_to_target": 3.05199235309488,
+          "combined_us": 75.32078264569753,
+          "relative_reduction": 0.24679217354302457
+        },
+        {
+          "target_other_loss_us": 300.0,
+          "purcell_to_target": 1.01733078436496,
+          "combined_us": 151.28864223700543,
+          "relative_reduction": 0.4957045258766486
+        },
+        {
+          "target_other_loss_us": 1000.0,
+          "purcell_to_target": 0.30519923530948795,
+          "combined_us": 233.83344630685394,
+          "relative_reduction": 0.7661665536931461
+        }
+      ],
+      "meets_suggested_3ms": false,
+      "required_Q_for_3ms_with_fixed_f_and_g": 98296.44549921114,
+      "max_abs_g_MHz_for_3ms_with_fixed_f_and_Q": 28.314419018075046
+    },
+    {
+      "object": "annulus_edited",
+      "label": "环形内缘编辑",
+      "source": "robust_design_lab/results/purcell_qualification_2026-11-08/run02/annulus_edited/nom.json",
+      "source_sha256": "4e6f565813e32ef4fc016fb32783d39dd8f0032b4b7cb4595b4c9368f8e108c9",
+      "batch_sha256": "96312f3c4c72eeb50e8220a83e0ab2d83e7ab0096643560206e07fbe47fc0406",
+      "converged": true,
+      "passes": 14,
+      "elapsed_s": 153.2283821000019,
+      "lom": {
+        "f01_GHz": 4.464870852357434,
+        "C_sigma_fF": 93.8449467539161,
+        "EC_MHz": 206.40672482943114,
+        "EJ_GHz": 13.268051282322011,
+        "EJ_over_EC": 64.28109982020385,
+        "alpha_MHz": -232.37500903950473,
+        "g_MHz": [
+          -89.60904348848203
+        ],
+        "chi_MHz": [
+          -0.5608844201998355
+        ],
+        "T1_Purcell_us": 299.97089961648953,
+        "T1_modes_us": [
+          299.97089961648953
+        ],
+        "official_stdout": "[1, 2] [3]\nPredicted Values\n\nTransmon Properties\nf_Q 4.464871 [GHz]\nEC 206.406725 [MHz]\nEJ 13.268051 [GHz]\nalpha -232.375009 [MHz]\ndispersion 0.781093 [KHz]\nLq 12.310000 [nH]\nCq 93.844947 [fF]\nT1 299.970900 [us]\n\n**Coupling Properties**\n\ntCqbus1 -7.977659 [fF]\ngbus1_in_MHz -89.609043 [MHz]\nχ_bus1 -0.560884 [MHz]\n1/T1bus1 530.567943 [Hz]\nT1bus1 299.970900 [us]\nBus-Bus Couplings\n",
+        "circuit": {
+          "Lj_nH": 12.31,
+          "Cj_fF": 2.0,
+          "readout_GHz": 7.0,
+          "bus_GHz": [],
+          "readout_Q": 10000.0,
+          "bus_Q": 100000.0,
+          "resonator_impedance_ohm": 50.0
+        },
+        "node_order": [
+          "ground_main_plane",
+          "pad_left_Q1",
+          "pad_right_Q1",
+          "readout_Q1"
+        ],
+        "matrix_units": "fF"
+      },
+      "lifetime_margins": [
+        {
+          "target_other_loss_us": 100.0,
+          "purcell_to_target": 2.9997089961648955,
+          "combined_us": 74.99818109370342,
+          "relative_reduction": 0.2500181890629658
+        },
+        {
+          "target_other_loss_us": 300.0,
+          "purcell_to_target": 0.9999029987216318,
+          "combined_us": 149.99272455125848,
+          "relative_reduction": 0.5000242514958051
+        },
+        {
+          "target_other_loss_us": 1000.0,
+          "purcell_to_target": 0.29997089961648954,
+          "combined_us": 230.7520112219322,
+          "relative_reduction": 0.7692479887780678
+        }
+      ],
+      "meets_suggested_3ms": false,
+      "required_Q_for_3ms_with_fixed_f_and_g": 100009.7010688529,
+      "max_abs_g_MHz_for_3ms_with_fixed_f_and_Q": 28.335493247745273
+    },
+    {
+      "object": "idc",
+      "label": "交指",
+      "source": "robust_design_lab/results/purcell_qualification_2026-11-08/run02/idc/nom.json",
+      "source_sha256": "d57c851037ab2727fc5769b0d3eccbb2fcabd9406db3c5561819d7e3a00ad630",
+      "batch_sha256": "96312f3c4c72eeb50e8220a83e0ab2d83e7ab0096643560206e07fbe47fc0406",
+      "converged": true,
+      "passes": 20,
+      "elapsed_s": 295.38279430000694,
+      "lom": {
+        "f01_GHz": 4.470581579838976,
+        "C_sigma_fF": 93.59241799925344,
+        "EC_MHz": 206.9636463652717,
+        "EJ_GHz": 13.268051282322011,
+        "EJ_over_EC": 64.10812485833927,
+        "alpha_MHz": -233.0473490482411,
+        "g_MHz": [
+          -70.79268418238259
+        ],
+        "chi_MHz": [
+          -0.35241917518496213
+        ],
+        "T1_Purcell_us": 477.7157089692631,
+        "T1_modes_us": [
+          477.71570896926306
+        ],
+        "official_stdout": "[1, 2] [3]\nPredicted Values\n\nTransmon Properties\nf_Q 4.470582 [GHz]\nEC 206.963646 [MHz]\nEJ 13.268051 [GHz]\nalpha -233.047349 [MHz]\ndispersion 0.804594 [KHz]\nLq 12.310000 [nH]\nCq 93.592418 [fF]\nT1 477.715709 [us]\n\n**Coupling Properties**\n\ntCqbus1 -6.282222 [fF]\ngbus1_in_MHz -70.792684 [MHz]\nχ_bus1 -0.352419 [MHz]\n1/T1bus1 333.158278 [Hz]\nT1bus1 477.715709 [us]\nBus-Bus Couplings\n",
+        "circuit": {
+          "Lj_nH": 12.31,
+          "Cj_fF": 2.0,
+          "readout_GHz": 7.0,
+          "bus_GHz": [],
+          "readout_Q": 10000.0,
+          "bus_Q": 100000.0,
+          "resonator_impedance_ohm": 50.0
+        },
+        "node_order": [
+          "ground_main_plane",
+          "pad_left_Q1",
+          "pad_right_Q1",
+          "readout_Q1"
+        ],
+        "matrix_units": "fF"
+      },
+      "lifetime_margins": [
+        {
+          "target_other_loss_us": 100.0,
+          "purcell_to_target": 4.777157089692631,
+          "combined_us": 82.69044818282404,
+          "relative_reduction": 0.1730955181717595
+        },
+        {
+          "target_other_loss_us": 300.0,
+          "purcell_to_target": 1.5923856965642105,
+          "combined_us": 184.2764792300769,
+          "relative_reduction": 0.38574506923307705
+        },
+        {
+          "target_other_loss_us": 1000.0,
+          "purcell_to_target": 0.47771570896926313,
+          "combined_us": 323.27984744946616,
+          "relative_reduction": 0.6767201525505337
+        }
+      ],
+      "meets_suggested_3ms": false,
+      "required_Q_for_3ms_with_fixed_f_and_g": 62798.85596546343,
+      "max_abs_g_MHz_for_3ms_with_fixed_f_and_Q": 28.249613695447405
+    }
+  ],
+  "performed_field_scenarios": 3,
+  "unrun_etch_scenarios": 6,
+  "stop_reason": "All nominal T1_Purcell values lack suggested tenfold margin over 100-300us references; settle common readout first.",
+  "official_default_readout": {
+    "f_GHz": 7,
+    "Q": 10000,
+    "Z_ohm": 50,
+    "filter": false,
+    "quarter_wave_correction": false
+  },
+  "suggested_criterion": {
+    "other_loss_target_us": 300,
+    "minimum_ratio": 10,
+    "minimum_Purcell_us": 3000,
+    "user_fixed_threshold": false
+  }
+}

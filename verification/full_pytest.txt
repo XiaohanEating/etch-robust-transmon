@@ -1,0 +1,14 @@
+................................................................ [ 41%]
+........................................................ [ 78%]
+..........................s......                                        [100%]
+============================== warnings summary ===============================
+robust_design_lab/tests/test_purcell_qualification.py::test_loaded_geometry_export_and_etch[pad]
+  DeprecationWarning: defusedxml.cElementTree is deprecated, import from defusedxml.ElementTree instead.
+
+robust_design_lab/tests/test_purcell_qualification.py::test_loaded_geometry_export_and_etch[pad]
+  DeprecationWarning: the imp module is deprecated in favour of importlib and slated for removal in Python 3.12; see the module's documentation for alternative uses
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ===========================
+SKIPPED [1] robust_design_lab\tests\test_strong_baselines.py:112: skopt 已安装，无法测试缺包分支
+152 passed, 1 skipped, 2 warnings, 24 subtests passed in 12.02s

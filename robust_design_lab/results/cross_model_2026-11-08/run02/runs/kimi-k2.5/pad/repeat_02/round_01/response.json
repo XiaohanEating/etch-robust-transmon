@@ -1,0 +1,23 @@
+{
+  "context": "3e8e81f1df297a0ed88b68ce665c9ed62412debacdb00aee0a07121937768591",
+  "response": {
+    "content": "```json\n[\n  {\"changes\":{\"gap\":25.0,\"h\":240.0},\"reason\":\"减小gap增强电容岛间耦合，同时增加h补偿总电容，使CΣ保持在目标范围内。更小的gap使边缘场更集中，刻蚀导致的边缘位置变化对电容贡献的相对影响减弱，从而降低D。\"},\n  {\"changes\":{\"w\":780.0,\"gap\":35.0},\"reason\":\"增大w提供更多电容面积，同时适当增大gap减弱边缘场占比。更大的几何尺寸使±0.5μm刻蚀误差在相对比例上变小，且gap增大后边缘电容对总电容的贡献比例下降，整体刻蚀敏感度降低。\"},\n  {\"changes\":{\"h\":195.0,\"gap\":22.0},\"reason\":\"减小h降低侧壁贡献，同时显著减小gap至接近下限。窄gap结构使电容主要由结区附近强耦合主导，边缘区域电容占比压缩，刻蚀引起的边缘位移对总电容影响被抑制，有望改善D。\"}\n]\n```",
+    "model": "kimi-k2.5",
+    "usage": {
+      "prompt_tokens": 689,
+      "total_tokens": 903,
+      "completion_tokens": 214,
+      "prompt_tokens_details": {
+        "cached_tokens": 256,
+        "image_tokens": 178,
+        "text_tokens": 511
+      },
+      "completion_tokens_details": {
+        "text_tokens": 214
+      }
+    },
+    "request_id": "[REDACTED: service metadata]",
+    "finish_reason": "stop"
+  },
+  "wall_s": 6.439492399978917
+}

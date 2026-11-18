@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "provenance_files_checked": 1850,
+  "python_files_parsed": 396,
+  "actual_model_input_images_checked": 90,
+  "native_projects_checked": 990,
+  "physical_device_measurement_files": 0,
+  "paper_files_published": 0,
+  "secrets_detected": 0
+}

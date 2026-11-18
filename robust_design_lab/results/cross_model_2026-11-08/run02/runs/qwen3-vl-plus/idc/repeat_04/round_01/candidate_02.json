@@ -1,0 +1,25 @@
+{
+  "round": 1,
+  "index": 2,
+  "input_identity": "ff51d7048f67120495ee7397f1a6cd1f60d9c479a81bd8ffc072cbf4f98069e1",
+  "candidate": {
+    "a": 177.0,
+    "b": 132.0,
+    "D": 130.0,
+    "f_w": 14.0,
+    "f_gap": 32.0,
+    "f_len": 92.0
+  },
+  "raw": {
+    "changes": {
+      "D": 130.0,
+      "f_len": 92.0
+    },
+    "reason": "减小D（两岛中心距）增强电容耦合，延长f_len补偿因D减小导致的CΣ下降；关键在于：更紧凑结构使刻蚀误差在横向（x方向）引起的相对几何变化率降低，尤其对边缘场主导的电容分量更稳定；历史中D=130+f_len=92失败因收敛问题，本次仅改D与f_len、其余参数复用当前可行点，避免地口袋失配；预期CΣ≈85–90fF，f01≈4.6–4.7GHz"
+  },
+  "metrics": null,
+  "feasible": false,
+  "duplicate": false,
+  "error": "ValueError: Rejected scene em: convergence/save status",
+  "wall_s": 5270.120359500012
+}

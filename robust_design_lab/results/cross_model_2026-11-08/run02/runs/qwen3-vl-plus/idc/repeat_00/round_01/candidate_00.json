@@ -1,0 +1,25 @@
+{
+  "round": 1,
+  "index": 0,
+  "input_identity": "0a5cd733769a80006e4ef9894f5730cb5f42a86786cd91b09e985a48b488dbbc",
+  "candidate": {
+    "a": 165.0,
+    "b": 132.0,
+    "D": 140.0,
+    "f_w": 14.0,
+    "f_gap": 34.0,
+    "f_len": 88.0
+  },
+  "raw": {
+    "changes": {
+      "a": 165.0,
+      "f_gap": 34.0
+    },
+    "reason": "减小a（电容岛横向尺寸）可降低边缘场对刻蚀误差的敏感性；增大f_gap（叉指间隙）削弱边缘场耦合，二者协同抑制因均匀刻蚀±0.5μm导致的CΣ相对变化率，从而降低|ln(f)|漂移D。当前CΣ=86.6fF，a↓→C↓但f_gap↑→C↑部分补偿，保持CΣ≈85–90fF、f01≈4.6GHz可行；历史中a=177,b=132,f_gap=32时D=0.0145，a=185,f_gap=34时D反升至0.0154，说明需同步调小a以抵消f_gap增大的不利影响。"
+  },
+  "metrics": null,
+  "feasible": false,
+  "duplicate": false,
+  "error": "ValueError: Rejected scene em: convergence/save status",
+  "wall_s": 3710.4190263999626
+}

@@ -1,0 +1,17 @@
+{
+  "round": 2,
+  "index": 2,
+  "input_identity": "5c1560605c6bb6f348417f44d18f352d323957e976c76d8e9583d8dbd160d4ce",
+  "error": "invalid_proposal",
+  "detail": "Nonfinite or out-of-range value",
+  "raw": {
+    "changes": {
+      "w": 640.0,
+      "h": 240.0
+    },
+    "reason": "减小w削弱横向电容主导项，增大h补偿纵向电容贡献，保持CΣ≈86fF不变（当前86.3fF），但改变电容分布形态：更窄更长的岛使刻蚀误差在w方向影响减弱（∂C/∂w减小），而h方向变化对CΣ导数较小；结合图像结构，此修改使两岛几何更接近‘高宽比均衡’，降低刻蚀不对称性引起的频漂；历史中类似组合（如w=690/h=230）D升高，但本组合反向调整可优化响应，预估D≈0.00305。"
+  },
+  "metrics": null,
+  "feasible": false,
+  "duplicate": false
+}

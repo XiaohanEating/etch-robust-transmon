@@ -1,0 +1,2 @@
+setuptools.prepare_metadata_for_build_wheel: passed
+Distribution quantum-metal 0.9.0; metadata prepared without installing dependencies or modifying the active environment.

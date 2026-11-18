@@ -1,0 +1,186 @@
+{
+  "id": "resp_0b7e9104377e6822016af2fe0c26c887d0a358ca762657238c",
+  "object": "response",
+  "model": "gpt-6-astra",
+  "usage": {
+    "total_tokens": 23454,
+    "input_tokens": 6355,
+    "input_tokens_details": {
+      "cached_tokens": 4285,
+      "cache_write_tokens": 0
+    },
+    "output_tokens": 17099,
+    "output_tokens_details": {
+      "reasoning_tokens": 12118
+    }
+  },
+  "created_at": 1794309644,
+  "completed_at": 1794309890,
+  "status": "completed",
+  "background": false,
+  "frequency_penalty": 0.0,
+  "presence_penalty": 0.0,
+  "moderation": null,
+  "access_programs": null,
+  "previous_response_id": null,
+  "instructions": null,
+  "output": [
+    {
+      "type": "reasoning",
+      "id": "rs_0b7e9104377e6822016af2fe1dd51487d08dc4adecbea93fd8",
+      "summary": [],
+      "content": [],
+      "encrypted_content": "[REDACTED: opaque provider reasoning metadata]"
+    },
+    {
+      "type": "reasoning",
+      "id": "rs_0b7e9104377e6822016af2fe2ff90087d0a40628ca34784a0a",
+      "summary": [],
+      "content": [],
+      "encrypted_content": "[REDACTED: opaque provider reasoning metadata]"
+    },
+    {
+      "type": "reasoning",
+      "id": "rs_0b7e9104377e6822016af2fe43986887d090f846c7bc2a55ff",
+      "summary": [],
+      "content": [],
+      "encrypted_content": "[REDACTED: opaque provider reasoning metadata]"
+    },
+    {
+      "type": "reasoning",
+      "id": "rs_0b7e9104377e6822016af2fe55c3a087d08b26937f067cabd5",
+      "summary": [],
+      "content": [],
+      "encrypted_content": "[REDACTED: opaque provider reasoning metadata]"
+    },
+    {
+      "type": "reasoning",
+      "id": "rs_0b7e9104377e6822016af2fe64a40887d0bb376f912dcf8144",
+      "summary": [],
+      "content": [],
+      "encrypted_content": "[REDACTED: opaque provider reasoning metadata]"
+    },
+    {
+      "type": "reasoning",
+      "id": "rs_0b7e9104377e6822016af2fe769d9487d0907c046f63325188",
+      "summary": [],
+      "content": [],
+      "encrypted_content": "[REDACTED: opaque provider reasoning metadata]"
+    },
+    {
+      "type": "reasoning",
+      "id": "rs_0b7e9104377e6822016af2fe891c2c87d084850bc9d6d33014",
+      "summary": [],
+      "content": [],
+      "encrypted_content": "[REDACTED: opaque provider reasoning metadata]"
+    },
+    {
+      "type": "reasoning",
+      "id": "rs_0b7e9104377e6822016af2fe9af40c87d09583f73f16fd141d",
+      "summary": [],
+      "content": [],
+      "encrypted_content": "[REDACTED: opaque provider reasoning metadata]"
+    },
+    {
+      "type": "reasoning",
+      "id": "rs_0b7e9104377e6822016af2feae73c887d0842c907ea528a1a2",
+      "summary": [],
+      "content": [],
+      "encrypted_content": "[REDACTED: opaque provider reasoning metadata]"
+    },
+    {
+      "type": "reasoning",
+      "id": "rs_0b7e9104377e6822016af2fec1321087d08da56480c548bd6d",
+      "summary": [],
+      "content": [],
+      "encrypted_content": "[REDACTED: opaque provider reasoning metadata]"
+    },
+    {
+      "type": "reasoning",
+      "id": "rs_0b7e9104377e6822016af2fed3979487d090924d32edf1dc6c",
+      "summary": [],
+      "content": [],
+      "encrypted_content": "[REDACTED: opaque provider reasoning metadata]"
+    },
+    {
+      "type": "reasoning",
+      "id": "rs_0b7e9104377e6822016af2fee6509c87d0bf3ed1c01b187774",
+      "summary": [],
+      "content": [],
+      "encrypted_content": "[REDACTED: opaque provider reasoning metadata]"
+    },
+    {
+      "type": "reasoning",
+      "id": "rs_0b7e9104377e6822016af2fef95d6887d0a062d41aeb55f49c",
+      "summary": [],
+      "content": [],
+      "encrypted_content": "[REDACTED: opaque provider reasoning metadata]"
+    },
+    {
+      "type": "message",
+      "id": "msg_0b7e9104377e6822016af2fef99dec87d0a67b0f40ec80411b",
+      "role": "assistant",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "text": "[\n  {\n    \"changes\": {\n      \"gap\": 40.0\n    },\n    \"reason\": \"将红色结两侧电容岛的内侧间隙由30增至40，降低±0.5刻蚀相对于间隙的比例，减弱面对边缘电场及同步地口袋边界的电容响应，从而降低频漂D。\"\n  },\n  {\n    \"changes\": {\n      \"h\": 250.0,\n      \"gap\": 45.0\n    },\n    \"reason\": \"增大两岛在红色结处的垂直面对高度，同时把内侧间隙增至45；增大的面对面积补偿增隙造成的名义电容下降，而更大的特征尺寸和间隙降低边界刻蚀引起的相对电容变化。\"\n  },\n  {\n    \"changes\": {\n      \"w\": 800.0,\n      \"gap\": 45.0\n    },\n    \"reason\": \"沿两电容岛的水平方向延长蓝色岛，分散外侧边缘和地口袋边界的刻蚀影响；用45的结间隙抑制内侧边缘场对刻蚀的敏感性，并平衡延长电极对名义CΣ的增加。\"\n  }\n]",
+          "annotations": [],
+          "logprobs": []
+        }
+      ],
+      "phase": "final_answer"
+    }
+  ],
+  "error": null,
+  "incomplete_details": null,
+  "tools": [],
+  "tool_choice": "auto",
+  "parallel_tool_calls": true,
+  "prompt_cache_key": "dbfcaec5-7ac5-4c06-8f00-e53b991096d2",
+  "prompt_cache_retention": "24h",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_p": 0.98,
+  "top_logprobs": 0,
+  "temperature": 1.0,
+  "reasoning": {
+    "effort": "xhigh",
+    "context": "all_turns",
+    "summary": null,
+    "mode": "standard"
+  },
+  "user": null,
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "input_tokens_details": {
+        "text_tokens": 0,
+        "image_tokens": 0
+      },
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      }
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "safety_identifier": "user-3zXfROkPmzXUcz3WijqC19kC",
+  "store": false,
+  "metadata": {},
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "service_tier": "default",
+  "truncation": "disabled",
+  "image": {
+    "context_compression": "disabled"
+  }
+}

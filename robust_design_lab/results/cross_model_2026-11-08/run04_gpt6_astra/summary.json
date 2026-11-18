@@ -1,0 +1,112 @@
+[
+  {
+    "model": "gpt-6-astra",
+    "task": "idc",
+    "repeat": "repeat_00",
+    "D": 0.007897647424802607,
+    "complete": true,
+    "valid_new": 9,
+    "n_invalid": 0,
+    "n_failed_solves": 0,
+    "result": "robust_design_lab/results/cross_model_2026-11-08/run04_gpt6_astra/runs/gpt-6-astra/idc/repeat_00/result.json"
+  },
+  {
+    "model": "gpt-6-astra",
+    "task": "idc",
+    "repeat": "repeat_01",
+    "D": 0.00791182922939979,
+    "complete": true,
+    "valid_new": 9,
+    "n_invalid": 0,
+    "n_failed_solves": 0,
+    "result": "robust_design_lab/results/cross_model_2026-11-08/run04_gpt6_astra/runs/gpt-6-astra/idc/repeat_01/result.json"
+  },
+  {
+    "model": "gpt-6-astra",
+    "task": "idc",
+    "repeat": "repeat_02",
+    "D": 0.007787268377720617,
+    "complete": true,
+    "valid_new": 9,
+    "n_invalid": 0,
+    "n_failed_solves": 0,
+    "result": "robust_design_lab/results/cross_model_2026-11-08/run04_gpt6_astra/runs/gpt-6-astra/idc/repeat_02/result.json"
+  },
+  {
+    "model": "gpt-6-astra",
+    "task": "idc",
+    "repeat": "repeat_03",
+    "D": 0.008792312617651806,
+    "complete": true,
+    "valid_new": 9,
+    "n_invalid": 0,
+    "n_failed_solves": 0,
+    "result": "robust_design_lab/results/cross_model_2026-11-08/run04_gpt6_astra/runs/gpt-6-astra/idc/repeat_03/result.json"
+  },
+  {
+    "model": "gpt-6-astra",
+    "task": "idc",
+    "repeat": "repeat_04",
+    "D": 0.009962504566430481,
+    "complete": true,
+    "valid_new": 9,
+    "n_invalid": 0,
+    "n_failed_solves": 0,
+    "result": "robust_design_lab/results/cross_model_2026-11-08/run04_gpt6_astra/runs/gpt-6-astra/idc/repeat_04/result.json"
+  },
+  {
+    "model": "gpt-6-astra",
+    "task": "pad",
+    "repeat": "repeat_00",
+    "D": 0.0028908730660245274,
+    "complete": true,
+    "valid_new": 9,
+    "n_invalid": 0,
+    "n_failed_solves": 0,
+    "result": "robust_design_lab/results/cross_model_2026-11-08/run04_gpt6_astra/runs/gpt-6-astra/pad/repeat_00/result.json"
+  },
+  {
+    "model": "gpt-6-astra",
+    "task": "pad",
+    "repeat": "repeat_01",
+    "D": 0.002866108677740477,
+    "complete": true,
+    "valid_new": 6,
+    "n_invalid": 3,
+    "n_failed_solves": 0,
+    "result": "robust_design_lab/results/cross_model_2026-11-08/run04_gpt6_astra/runs/gpt-6-astra/pad/repeat_01/result.json"
+  },
+  {
+    "model": "gpt-6-astra",
+    "task": "pad",
+    "repeat": "repeat_02",
+    "D": 0.002840806230105015,
+    "complete": true,
+    "valid_new": 9,
+    "n_invalid": 0,
+    "n_failed_solves": 0,
+    "result": "robust_design_lab/results/cross_model_2026-11-08/run04_gpt6_astra/runs/gpt-6-astra/pad/repeat_02/result.json"
+  },
+  {
+    "model": "gpt-6-astra",
+    "task": "pad",
+    "repeat": "repeat_03",
+    "D": 0.002801979340082135,
+    "complete": true,
+    "valid_new": 9,
+    "n_invalid": 0,
+    "n_failed_solves": 0,
+    "result": "robust_design_lab/results/cross_model_2026-11-08/run04_gpt6_astra/runs/gpt-6-astra/pad/repeat_03/result.json"
+  },
+  {
+    "model": "gpt-6-astra",
+    "task": "pad",
+    "repeat": "repeat_04",
+    "D": 0.002733771020313707,
+    "complete": true,
+    "valid_new": 9,
+    "n_invalid": 0,
+    "n_failed_solves": 0,
+    "result": "robust_design_lab/results/cross_model_2026-11-08/run04_gpt6_astra/runs/gpt-6-astra/pad/repeat_04/result.json"
+  }
+]

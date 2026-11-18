@@ -1,0 +1,25 @@
+{
+  "round": 0,
+  "index": 2,
+  "input_identity": "2483d99f43816bd154108f6f9ff1dccea83f13b65777e7aef4ffbdc15a79821e",
+  "candidate": {
+    "a": 177.0,
+    "b": 140.0,
+    "D": 135.0,
+    "f_w": 16.0,
+    "f_gap": 32.0,
+    "f_len": 85.0
+  },
+  "raw": {
+    "changes": {
+      "D": 135.0,
+      "f_len": 85.0
+    },
+    "reason": "缩小D（两岛中心距）增强电容耦合强度，同时缩短f_len（叉指总长）减少刻蚀误差累积长度；二者共同提升结构刚性，使CΣ随刻蚀的非线性变化减弱。当前CΣ=92.1 fF、f01=4.53 GHz仍合规，且历史经验表明该配置下频漂D可降至0.015以下。"
+  },
+  "metrics": null,
+  "feasible": false,
+  "duplicate": false,
+  "error": "ValueError: Rejected scene nom: convergence/save status",
+  "wall_s": 2704.2046306000557
+}

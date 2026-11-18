@@ -1,0 +1,45 @@
+{
+  "archived_rationale": "环形垫对：外缘匀曲率，内缘为额外工作边",
+  "first_model_response_found": false,
+  "seed_parameters": {
+    "r_out": 250.0,
+    "r_in": 115.0,
+    "gap": 28.0
+  },
+  "vlm_final_parameters": {
+    "r_out": 250.0,
+    "r_in": 122.0,
+    "gap": 28.0
+  },
+  "calibrated_parameters": {
+    "r_out": 253.9,
+    "r_in": 121.5,
+    "gap": 33.8
+  },
+  "calibration_method": "CMA-ES",
+  "edit_method": "CMA-ES",
+  "edit": {
+    "op": 0.0,
+    "seg": 27.0,
+    "mag": 0.3634,
+    "width": 0.3001
+  },
+  "seed_same_precision_D": null,
+  "ring_vs_idc_reduction": 0.8518116321742533,
+  "edit_gain_01": 0.029740183986533553,
+  "edit_gain_005": 0.016316459595568045,
+  "net_capacitance_changes": {
+    "ring_01": {
+      "ep": -0.4400976609856002,
+      "em": 0.4979251329212673
+    },
+    "champion_01": {
+      "ep": -0.42894252505355723,
+      "em": 0.48333687389691704
+    },
+    "idc_01": {
+      "ep": -2.279769580089635,
+      "em": 3.422597871698855
+    }
+  }
+}

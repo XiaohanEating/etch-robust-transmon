@@ -1,0 +1,32 @@
+[build-system]
+requires = ['setuptools>=77']
+build-backend = 'setuptools.build_meta'
+
+[project]
+name = 'quantum-metal'
+version = '0.9.0'
+description = 'Recorded Metal implementation and etch-robust transmon artifact'
+readme = 'README.md'
+requires-python = '>=3.11,<3.12'
+license = 'Apache-2.0'
+authors = [{name = 'IBM and contributors'}]
+dependencies = ['addict>=2.4', 'gdstk>=0.9', 'geopandas>=1.0', 'matplotlib>=3.8.4', 'numpy>=1.24.2', 'pandas>=2.2.2', 'pint>=0.24.4', 'pygments>=2.14', 'qutip>=5.1', 'scipy>=1.13', 'shapely>=2.0.4', 'scqubits>=4.1', 'pyyaml>=6.0.1']
+
+[project.optional-dependencies]
+research = ['cma', 'scikit-optimize', 'pytest', 'pyEPR-quantum>=1.0.2', 'pyaedt>=0.21,<0.24', 'zhipuai', 'scikit-fem', 'gmsh']
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ['src', '.']
+include = ['qiskit_metal*', 'robust_design_lab*', 'scripts.cross_model*', 'scripts.cross_model_gpt*']
+exclude = ['robust_design_lab.results*', 'robust_design_lab.tests*']
+namespaces = true
+
+[tool.setuptools.package-data]
+qiskit_metal = ['**/*.png', '**/*.PNG', '**/*.svg', '**/*.ui', '**/*.qss', '**/*.scss', '**/*.qrc', '**/*.txt', '**/*.csv']
+
+[tool.pytest.ini_options]
+testpaths = ['robust_design_lab/tests']
+pythonpath = ['.', 'src']

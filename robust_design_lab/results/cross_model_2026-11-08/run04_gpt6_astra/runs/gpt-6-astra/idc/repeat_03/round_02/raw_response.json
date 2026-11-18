@@ -1,0 +1,226 @@
+{
+  "id": "resp_05a5f74ea7fecfa4016af5ae00995887d1b4efd133ee946468",
+  "object": "response",
+  "model": "gpt-6-astra",
+  "usage": {
+    "total_tokens": 10937,
+    "input_tokens": 1402,
+    "input_tokens_details": {
+      "cache_write_tokens": 1399,
+      "cached_tokens": 0
+    },
+    "output_tokens": 9535,
+    "output_tokens_details": {
+      "reasoning_tokens": 9176
+    }
+  },
+  "created_at": 1794485760,
+  "status": "completed",
+  "access_programs": {
+    "cyber": "standard"
+  },
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1794486001,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "image": {
+    "context_compression": "disabled"
+  },
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": 16384,
+  "max_tool_calls": null,
+  "moderation": null,
+  "output": [
+    {
+      "id": "rs_05a5f74ea7fecfa4016af5ae026fcc87d1ab1607930ce4e709",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "[REDACTED: opaque provider reasoning metadata]",
+      "summary": []
+    },
+    {
+      "id": "rs_05a5f74ea7fecfa4016af5ae0ea89087d1804c8edf6b2ee75e",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "[REDACTED: opaque provider reasoning metadata]",
+      "summary": []
+    },
+    {
+      "id": "rs_05a5f74ea7fecfa4016af5ae1c0c3087d1ac3f9ca911032bad",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "[REDACTED: opaque provider reasoning metadata]",
+      "summary": []
+    },
+    {
+      "id": "rs_05a5f74ea7fecfa4016af5ae294aac87d185b70f49f2f9104b",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "[REDACTED: opaque provider reasoning metadata]",
+      "summary": []
+    },
+    {
+      "id": "rs_05a5f74ea7fecfa4016af5ae36e8c487d1bce7a34c8090ff4f",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "[REDACTED: opaque provider reasoning metadata]",
+      "summary": []
+    },
+    {
+      "id": "rs_05a5f74ea7fecfa4016af5ae46125887d1a63c606897a3a733",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "[REDACTED: opaque provider reasoning metadata]",
+      "summary": []
+    },
+    {
+      "id": "rs_05a5f74ea7fecfa4016af5ae52179487d1b848b82352ebe474",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "[REDACTED: opaque provider reasoning metadata]",
+      "summary": []
+    },
+    {
+      "id": "rs_05a5f74ea7fecfa4016af5ae5f05c487d19333efa24cad6ad4",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "[REDACTED: opaque provider reasoning metadata]",
+      "summary": []
+    },
+    {
+      "id": "rs_05a5f74ea7fecfa4016af5ae6c81f887d1bc8d5e9d36d9f8b5",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "[REDACTED: opaque provider reasoning metadata]",
+      "summary": []
+    },
+    {
+      "id": "rs_05a5f74ea7fecfa4016af5ae7586f087d1ac5f14c385572284",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "[REDACTED: opaque provider reasoning metadata]",
+      "summary": []
+    },
+    {
+      "id": "rs_05a5f74ea7fecfa4016af5ae80f96487d1b1ed598fa4221275",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "[REDACTED: opaque provider reasoning metadata]",
+      "summary": []
+    },
+    {
+      "id": "rs_05a5f74ea7fecfa4016af5ae8eb69087d1ac43bc09739d96e9",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "[REDACTED: opaque provider reasoning metadata]",
+      "summary": []
+    },
+    {
+      "id": "rs_05a5f74ea7fecfa4016af5ae9c51a087d1b5d4474fb1554522",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "[REDACTED: opaque provider reasoning metadata]",
+      "summary": []
+    },
+    {
+      "id": "rs_05a5f74ea7fecfa4016af5aea9947487d19c6f16d05156efec",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "[REDACTED: opaque provider reasoning metadata]",
+      "summary": []
+    },
+    {
+      "id": "rs_05a5f74ea7fecfa4016af5aeb99fe887d1b63aaba9191c727d",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "[REDACTED: opaque provider reasoning metadata]",
+      "summary": []
+    },
+    {
+      "id": "rs_05a5f74ea7fecfa4016af5aec8655887d1aa9ff405916bb47d",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "[REDACTED: opaque provider reasoning metadata]",
+      "summary": []
+    },
+    {
+      "id": "rs_05a5f74ea7fecfa4016af5aed5a30887d1866b7b2361c3f772",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "[REDACTED: opaque provider reasoning metadata]",
+      "summary": []
+    },
+    {
+      "id": "rs_05a5f74ea7fecfa4016af5aee2f16c87d19bf01995a1b6a7ec",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "[REDACTED: opaque provider reasoning metadata]",
+      "summary": []
+    },
+    {
+      "id": "msg_05a5f74ea7fecfa4016af5aeec30f487d1915fc87f4c6d90b5",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "[\n  {\n    \"changes\": {\n      \"f_w\": 14.0,\n      \"f_gap\": 36.0\n    },\n    \"reason\": \"针对中央交错叉指，略缩指宽并增大指距，扩大异岛金属净空、削弱窄缝电场参与。历史同a、b、D、f_gap下，14宽组合虽指更长仍比16宽组合漂移小，但存在长度混杂；本案保持f_len=75，检验相对刻蚀响应而非仅看电容下降。\"\n  },\n  {\n    \"changes\": {\n      \"b\": 155.0\n    },\n    \"reason\": \"增大两侧椭圆岛的短轴参数，使内侧指根轮廓更平缓、缩短叉指外露的细长部分，同时增加主体电容，预期降低高敏边缘对总电容变化的贡献。保持75的短指，不延长历史高漂移组合中的叉指。\"\n  },\n  {\n    \"changes\": {\n      \"D\": 148.0,\n      \"a\": 200.0\n    },\n    \"reason\": \"增大两岛间距参数D，减少中央75长叉指的有效交叠；同时增大椭圆主体a，补偿部分互容损失，避免把降低名义电容当作优化目标。需将地口袋与金属同步刻蚀，复核±0.5两端最大绝对对数频漂及名义CΣ、f01约束。\"\n  }\n]"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "xhigh",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": false,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "user": null,
+  "metadata": {}
+}

@@ -1,0 +1,23 @@
+{
+  "context": "3e8e81f1df297a0ed88b68ce665c9ed62412debacdb00aee0a07121937768591",
+  "response": {
+    "content": "```json\n[\n  {\n    \"changes\": {\n      \"gap\": 35.0\n    },\n    \"reason\": \"适度增大gap至35μm，使结区电场分布更舒展，降低间隙处刻蚀误差对电容的敏感度。gap增大同时会减小CΣ，需配合后续验证f01下限，但当前CΣ=91.6fF有裕量可调整。\"\n  },\n  {\n    \"changes\": {\n      \"h\": 240.0\n    },\n    \"reason\": \"将电容岛高度h从218μm增至240μm，增加面积的同时使边缘场占比相对降低，主体平板电容占比提升。平板电容对刻蚀误差的敏感度低于边缘场，预期可降低D。\"\n  },\n  {\n    \"changes\": {\n      \"w\": 780.0,\n      \"gap\": 25.0\n    },\n    \"reason\": \"增大w至780μm以扩展电容面积，同时略微缩小gap至25μm以补偿CΣ增量、维持f01在范围内。更宽的平板区域使刻蚀±0.5μm的相对影响减弱，且gap仍高于下限20μm。\"\n  }\n]\n```",
+    "model": "kimi-k2.5",
+    "usage": {
+      "prompt_tokens": 689,
+      "total_tokens": 936,
+      "completion_tokens": 247,
+      "prompt_tokens_details": {
+        "cached_tokens": 256,
+        "image_tokens": 178,
+        "text_tokens": 511
+      },
+      "completion_tokens_details": {
+        "text_tokens": 247
+      }
+    },
+    "request_id": "[REDACTED: service metadata]",
+    "finish_reason": "stop"
+  },
+  "wall_s": 6.6318307999754325
+}

@@ -1,0 +1,30 @@
+{
+  "object": "idc_ref",
+  "scenes": {
+    "IL+0.25": {
+      "C": 91.24687841452601,
+      "drift_vs_unetched_nominal": 0.003454319352744549,
+      "MHz": 15.62107105094365
+    },
+    "IR+0.25": {
+      "C": 91.24163753422809,
+      "drift_vs_unetched_nominal": 0.003481694835849181,
+      "MHz": 15.744652663480315
+    },
+    "U+0.25(sync,复用)": {
+      "C": 91.00280372732033,
+      "drift_vs_unetched_nominal": 0.004730860111427597,
+      "MHz": 21.380183101187665,
+      "reused": true
+    },
+    "U-0.25(sync,复用)": {
+      "C": 93.15266569718219,
+      "drift_vs_unetched_nominal": 0.006400264758189732,
+      "MHz": 28.900614905537708,
+      "reused": true
+    }
+  },
+  "champion_action": null,
+  "champion_D01": null,
+  "D_unseen_vs_nominal": 0.006400264758189732
+}

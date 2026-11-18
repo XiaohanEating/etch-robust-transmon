@@ -1,0 +1,24 @@
+{
+  "physical_device_measurements": {
+    "count": 0,
+    "status": "No fabrication or laboratory device measurement dataset was found in the reviewed release inputs."
+  },
+  "electromagnetic_simulations": {
+    "solver": "Ansys Electronics Desktop Q3D 2022 R1",
+    "units": {
+      "capacitance": "fF",
+      "frequency": "GHz",
+      "shift": "MHz",
+      "length": "um"
+    },
+    "cross_model_searches": 30,
+    "candidate_attempts": 270,
+    "final_scenarios": 90,
+    "native_projects": 990
+  },
+  "analytic_predictions": {
+    "frequency": "First-order transmon formula with recorded circuit constants",
+    "lifetime": "Official lumped-model Purcell prediction; nominal readout pilot only"
+  },
+  "caveat": "Names containing measured or measurements in historical files refer to computed solver observations, not fabricated-device measurements."
+}

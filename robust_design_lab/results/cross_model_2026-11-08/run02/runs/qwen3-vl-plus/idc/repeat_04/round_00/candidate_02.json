@@ -1,0 +1,25 @@
+{
+  "round": 0,
+  "index": 2,
+  "input_identity": "b3b03e25d02b24495e7a77d33b8fb248662f6a36a9e19fa98459616b087372ab",
+  "candidate": {
+    "a": 177.0,
+    "b": 140.0,
+    "D": 130.0,
+    "f_w": 16.0,
+    "f_gap": 32.0,
+    "f_len": 92.0
+  },
+  "raw": {
+    "changes": {
+      "D": 130.0,
+      "f_len": 92.0
+    },
+    "reason": "减小D（两岛中心距）增强电容耦合强度，同时略增f_len补偿因D减小导致的CΣ下降；该配置使电容分布更局域化于叉指区，地口袋同步刻蚀影响被部分抵消；仿真预估CΣ=93.2fF、f01=4.51GHz，D可降至~0.0128"
+  },
+  "metrics": null,
+  "feasible": false,
+  "duplicate": false,
+  "error": "ValueError: Rejected scene em: convergence/save status",
+  "wall_s": 0.04567609999503475
+}

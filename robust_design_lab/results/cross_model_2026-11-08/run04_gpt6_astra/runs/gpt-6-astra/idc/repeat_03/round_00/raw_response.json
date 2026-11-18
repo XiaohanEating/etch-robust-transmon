@@ -1,0 +1,260 @@
+{
+  "id": "resp_00ccfd0119806834016af3032c837c81969d92b593676a240a",
+  "object": "response",
+  "model": "gpt-6-astra",
+  "usage": {
+    "total_tokens": 8059,
+    "input_tokens": 759,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 7300,
+    "output_tokens_details": {
+      "reasoning_tokens": 6915
+    }
+  },
+  "created_at": 1794310956,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "completed_at": 1794311138,
+  "content_filters": [
+    {
+      "blocked": false,
+      "source_type": "prompt",
+      "content_filter_raw": [],
+      "content_filter_results": {
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "jailbreak": {
+          "detected": false,
+          "filtered": false
+        }
+      },
+      "content_filter_offsets": {
+        "start_offset": 0,
+        "end_offset": 1592,
+        "check_offset": 0
+      }
+    },
+    {
+      "blocked": false,
+      "source_type": "completion",
+      "content_filter_raw": [],
+      "content_filter_results": {
+        "protected_material_text": {
+          "detected": false,
+          "filtered": false
+        },
+        "protected_material_code": {
+          "detected": false,
+          "filtered": false
+        },
+        "hate": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "sexual": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "violence": {
+          "filtered": false,
+          "severity": "safe"
+        },
+        "self_harm": {
+          "filtered": false,
+          "severity": "safe"
+        }
+      },
+      "content_filter_offsets": {
+        "start_offset": 0,
+        "end_offset": 23784,
+        "check_offset": 0
+      }
+    }
+  ],
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": 16384,
+  "max_tool_calls": null,
+  "moderation": null,
+  "output": [
+    {
+      "id": "rs_00ccfd0119806834016af3032e58088196a9181627ec89666d",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "[REDACTED: opaque provider reasoning metadata]",
+      "summary": []
+    },
+    {
+      "id": "rs_00ccfd0119806834016af3033f07bc81968d163f8a67656af4",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "[REDACTED: opaque provider reasoning metadata]",
+      "summary": []
+    },
+    {
+      "id": "rs_00ccfd0119806834016af3034a05588196862fc7039ef3d29d",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "[REDACTED: opaque provider reasoning metadata]",
+      "summary": []
+    },
+    {
+      "id": "rs_00ccfd0119806834016af30358e71081969463a2e32c5495f9",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "[REDACTED: opaque provider reasoning metadata]",
+      "summary": []
+    },
+    {
+      "id": "rs_00ccfd0119806834016af30364c6688196b4731243d561f509",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "[REDACTED: opaque provider reasoning metadata]",
+      "summary": []
+    },
+    {
+      "id": "rs_00ccfd0119806834016af3037180dc81969e7c9c93526a3773",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "[REDACTED: opaque provider reasoning metadata]",
+      "summary": []
+    },
+    {
+      "id": "rs_00ccfd0119806834016af3037d8a9c819698c29ba4f99f676a",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "[REDACTED: opaque provider reasoning metadata]",
+      "summary": []
+    },
+    {
+      "id": "rs_00ccfd0119806834016af3038afebc81968834bee4d8f7eaca",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "[REDACTED: opaque provider reasoning metadata]",
+      "summary": []
+    },
+    {
+      "id": "rs_00ccfd0119806834016af303981e048196aab50b5975a4cdb9",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "[REDACTED: opaque provider reasoning metadata]",
+      "summary": []
+    },
+    {
+      "id": "rs_00ccfd0119806834016af303a57df881969c8dea0ef7d25d1d",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "[REDACTED: opaque provider reasoning metadata]",
+      "summary": []
+    },
+    {
+      "id": "rs_00ccfd0119806834016af303b22f808196bd755aa80f604e3f",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "[REDACTED: opaque provider reasoning metadata]",
+      "summary": []
+    },
+    {
+      "id": "rs_00ccfd0119806834016af303bea370819695fd2ac0591ecbdb",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "[REDACTED: opaque provider reasoning metadata]",
+      "summary": []
+    },
+    {
+      "id": "rs_00ccfd0119806834016af303cc7c4c81969020da57b278a782",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "[REDACTED: opaque provider reasoning metadata]",
+      "summary": []
+    },
+    {
+      "id": "rs_00ccfd0119806834016af303d854e4819689833d3774d159c0",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "[REDACTED: opaque provider reasoning metadata]",
+      "summary": []
+    },
+    {
+      "id": "msg_00ccfd0119806834016af303dd01088196aac5fbd1d3781a8e",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "[\n  {\n    \"changes\": {\"f_w\": 14.0, \"f_gap\": 36.0},\n    \"reason\": \"针对图中两岛中央交错指的狭窄对向缝隙，增大间距并小幅收窄指条，预期降低双边退蚀引起的相对缝宽变化及边缘场集中。指宽不取下限，以兼顾窄指自身的刻蚀敏感性；需复算名义电容和频率，而非仅凭电容下降判断改善。\"\n  },\n  {\n    \"changes\": {\"f_gap\": 36.0, \"f_len\": 82.0},\n    \"reason\": \"扩大中央交指间距，同时将两侧指条伸入长度各缩短6，减少高敏感窄缝重叠区的储能占比；保持原指宽，避免额外放大相对线宽损失。缩指幅度适中，争取保留名义电容下限裕量，需比较正负刻蚀两端的最大绝对对数频漂。\"\n  },\n  {\n    \"changes\": {\"b\": 150.0, \"f_len\": 80.0},\n    \"reason\": \"增大左右蓝色椭圆岛的纵向b尺寸，并缩短中央交指，以宽岛电容补偿部分交指电容，将储能从窄缝边缘转向较大尺度结构。避免单独扩岛增加电容、使当前接近下限的频率越界；须按地口袋同步刻蚀模型复核名义窗口及双端频漂。\"\n  }\n]"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "xhigh",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": false,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "user": null,
+  "metadata": {}
+}
